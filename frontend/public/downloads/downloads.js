@@ -4,73 +4,89 @@
 
 export const downloads = [
   {
-    category: "Construction",
+    category: "General Construction",
     items: [
       {
-        title: "Construction Drawings",
-        description: "Full set of architectural drawings for the retrofit project.",
-        file: "construction-drawings.pdf",
+        title: "Boundary Survey",
+        description: "boundary survey, 11x17, 1 p.",
+        file: "boundary-survey-updated.pdf",
       },
       {
-        title: "Foundation Waterproofing Spec",
-        description: "Specification for perimeter excavation and waterproofing system.",
-        file: "foundation-waterproofing-spec.pdf",
+        title: "General Construction Drawings",
+        description: "architecturals and one structural, 11x17, 16 pp.",
+        file: "architectural-structural.pdf",
       },
       {
-        title: "Party Wall Assembly",
-        description: "Details for the insulated double wall construction between units.",
-        file: "party-wall-assembly.pdf",
+        title: "Kitchen Drawings",
+        description: "kitchen drawings, 11x17, 2 pp.",
+        file: "kitchens.pdf",
+      },
+      {
+        title: "Kitchen Cabinets - IKEA",
+        description: "IKEA designs, Unit 1",
+        file: "kitchen-cabinets-unit-1.pdf",
+      },
+      {
+        title: "Kitchen Cabinets - IKEA",
+        description: "IKEA designs, Unit 2",
+        file: "kitchen-cabinets-unit-2.pdf",
       },
     ],
   },
   {
-    category: "Energy & Mechanical",
+    category: "HVAC, Electric and Plumbing",
     items: [
       {
-        title: "Air Leakage Test Report",
+        title: "HVAC Drawings",
+        description: "Heating, ventilation and Air-conditioning, 11x17, 7 pp.",
+        file: "hvac.pdf",
+      },
+      {
+        title: "Electric Drawings",
+        description: "Electric, including an original 2004, 11x17, 4 pp.",
+        file: "electric.pdf",
+      },
+      {
+        title: "Plumbing Drawings",
+        description: "Plumbing, 11x17, 3 pp.",
+        file: "plumbing.pdf",
+      },
+
+    ],
+  },
+  {
+    category: "Air Leakage, Radon Testing",
+    items: [
+      {
+        title: "Air Leakage Test Reports",
         description: "Blower door test results — pre- and post-retrofit.",
-        file: "air-leakage-test.pdf",
+        file: "air-leakage-tests.pdf",
       },
       {
-        title: "Heat Pump Equipment Schedule",
-        description: "Model numbers, specifications and locations for all heat pump equipment.",
-        file: "heat-pump-schedule.pdf",
+        title: "Radon Testing",
+        description: "Radon test Unit 1",
+        file: "radon-test-unit-1.pdf",
       },
-      {
-        title: "ERV Specifications",
-        description: "Energy recovery ventilator model and installation details for each unit.",
-        file: "erv-specs.pdf",
+      { title: "Radon Testing",
+        description: "Radon test Unit 2",
+        file: "radon-test-unit-2.pdf",
       },
     ],
-  },
-  {
-    category: "Site & Permits",
-    items: [
-      {
-        title: "Building Permit",
-        description: "Issued building permit for the renovation.",
-        file: "building-permit.pdf",
-      },
-      {
-        title: "Site Plan",
-        description: "Site grading and drainage plan including parking area.",
-        file: "site-plan.pdf",
-      },
-    ],
-  },
-  {
-    category: "Legal & Financial",
-    items: [
-      {
-        title: "Lease Agreement — Unit 1",
-        description: "Standard lease for Unit 1.",
-        file: "lease-unit1.pdf",
-      },
-      {
-        title: "Lease Agreement — Unit 2",
-        description: "Standard lease for Unit 2.",
-        file: "lease-unit2.pdf",
-      },
-    ],
-  },
+  }
+
+  // {
+  //   category: "Legal & Financial",
+  //   items: [
+  //     {
+  //       title: "Lease Agreement — Unit 1",
+  //       description: "Standard lease for Unit 1.",
+  //       file: "lease-unit1.pdf",
+  //     },
+  //     {
+  //       title: "Lease Agreement — Unit 2",
+  //       description: "Standard lease for Unit 2.",
+  //       file: "lease-unit2.pdf",
+  //     },
+  //   ],
+  // },
 ];
