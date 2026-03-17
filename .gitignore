@@ -1,0 +1,18 @@
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.vite
+
+# Backend (for when it's started)
+backend/node_modules/
+backend/dist/
+backend/.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.log
