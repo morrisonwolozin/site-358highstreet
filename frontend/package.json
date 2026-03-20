@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
     "client": "vite",
     "server": "nodemon ../server/index.js",
-    "dev": "npm run client",
-    "build": "react-scripts build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -35,3 +35,4 @@
     "vite": "^7.1.2"
   }
 }
+

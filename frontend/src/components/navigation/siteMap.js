@@ -96,6 +96,7 @@ export const siteMap = [
         children: [
           {label: "ERV",path: "/construction/hvac/erv",type:"gallery"},
           {label: "Heat Pumps",path: "/construction/hvac/heat-pumps",type:"gallery"},
+          {label: "Range Hood Exhaust",path: "/construction/hvac/kitchen-range-hood",type:"gallery"},
           
         ]
        }
@@ -104,6 +105,7 @@ export const siteMap = [
 
 
   // {
+  //construction/hvac/kitchen-range-hood
   //   label: "Occupied",
   //   path: "/occupied",
   //   type: "section",
