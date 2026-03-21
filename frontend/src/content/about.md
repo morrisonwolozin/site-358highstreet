@@ -1,18 +1,21 @@
-# About Page
+# Project Participants
 
-| Company                     | Contact         | Role                                         | Location       | Site                                |
-| --------------------------- | --------------- | -------------------------------------------- | -------------- | ----------------------------------- |
-| October Engineering LLC     | Robert Morrison | HVAC Design, Ventilation installation, Owner | Palermo, ME    | https://www.octoberengineering.com/ |
-| Maines Design               | Mike Maines     | Design Consultant                            | Palermo, ME    | https://www.mottramandmaines.com/   |
-| GoodDeeds                   | Clark Staples   | Surveying                                    | Belfast, ME    | https://www.wemapit.com/            |
-| Maine Blower Door Testing   | Svea Tullberg   | Air Leakage Testing                          | Belfast, ME    | https://maineblowerdoortest.com/    |
-| Northridge Construction LLC | Mike Martin     | General Contractor                           | Union, ME      | https://northridgeconstruction.me   |
-| Maple Knoll Builders        | Gary Ensworth   | Carpentry                                    | Appleton, ME   |                                     |
-| Kenny and Gray LLC          | David Gray      | Electrical                                   | Swanville, ME  |                                     |
-| Dave's Heat Pumps           | Mike Ketchen    | Heat Pumps Installation                      | Winthrop, ME   | https://davesheatpumps.com          |
-| October Engineering LLC     | Robert Morrison | Ventilation Systems                          | Palermo, ME    |                                     |
-| MacDonald Concrete          |                 | Foundations                                  | Appleton, ME   |                                     |
-| Larrabee Plumbing           | Forest Larrabee | Plumbing                                     | Knox, ME       |                                     |
-| Niess Tile                  | Jeff Niess      | Bathroom Tile                                | Appleton, ME   |                                     |
-| N.E. Spray Foam             |                 | Spray Foam Insulation                        | Carmel, ME     |                                     |
-| Manson Wall                 | Donny Manson    | Drywall                                      | Washington, ME |                                     |
+## The following companies constructed this project:
+
+| Company                     | Contact          | Role                                         | Location       | Site                                                               |
+| --------------------------- | ---------------- | -------------------------------------------- | -------------- | ------------------------------------------------------------------ |
+| October Engineering LLC     | Robert Morrison  | HVAC Design, Ventilation installation, Owner | Palermo, ME    | https://www.octoberengineering.com/                                |
+| Maines Design               | Mike Maines      | Design Consultant                            | Palermo, ME    | https://www.mottramandmaines.com/                                  |
+| GoodDeeds                   | Clark Staples    | Surveying                                    | Belfast, ME    | https://www.wemapit.com/                                           |
+| Maine Blower Door Testing   | Svea Tullberg    | Air Leakage Testing                          | Belfast, ME    | https://maineblowerdoortest.com/                                   |
+| Northridge Construction LLC | Mike Martin      | General Contractor                           | Union, ME      | https://northridgeconstruction.me                                  |
+| Dube Construction LLC       | Tim Dube         | Excavation, Site Drainage, Walkways          | Washington, ME | https://www.facebook.com/p/Dubes-Construction-LLC-100071722756198/ |
+| Maple Knoll Builders LLC    | Gary Ensworth    | Carpentry, Exterior insulation               | Appleton, ME   | https://www.facebook.com/p/Maple-Knoll-Builders-100066675111494/   |
+| Kenney and Gray LLC         | Kevin Gray       | Electrical                                   | Swanville, ME  |                                                                    |
+| Dave's Heat Pumps           | Mike Ketchen     | Heat Pump Systems Installation               | Winthrop, ME   | https://davesheatpumps.com                                         |
+| MacDonald Concrete          | Evan MacDonald   | Foundations                                  | Appleton, ME   |                                                                    |
+| Larrabee Plumbing           | Forrest Larrabee | Plumbing                                     | Knox, ME       |                                                                    |
+| Niess Tile                  | Jeff Niess       | Bathroom Tile                                | Appleton, ME   |                                                                    |
+| N.E. Spray Foam             | Shawn Sewall     | Spray Foam Insulation                        | Newburgh, ME   | http://www.foamnewengland.com/                                     |
+| Manson Wall                 | Donny Manson     | Drywall                                      | Washington, ME |                                                                    |
+| Rainwater Solutions         | Chris Maguire    | Roof gutters                                 | Orland, ME     | https://rwsgutters.com/                                            |
