@@ -15,7 +15,7 @@ export default function HeaderBanner() {
       className="
         w-full text-2xl sm:text-3xl font-bold text-white text-center
         bg-gradient-to-r from-green-700 via-green-600 to-green-500
-        py-2 select-none
+        py-4 select-none
         transition-all duration-300 ease-out
         hover:scale-[1.02] hover:brightness-110 hover:shadow-lg active:scale-[0.99]
         opacity-0 animate-[fadeIn_0.4s_ease-out_forwards]

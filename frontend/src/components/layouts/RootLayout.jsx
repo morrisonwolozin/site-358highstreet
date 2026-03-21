@@ -7,7 +7,7 @@ import Footer from "../Footer";
 
 export default function RootLayout() {
   return (
-    <div className="min-h-screen flex flex-col bg-white text-gray-900">
+    <div className="h-screen flex flex-col bg-white text-gray-900">
       <HeaderBanner />
 
       <div className="flex flex-1 min-h-0">

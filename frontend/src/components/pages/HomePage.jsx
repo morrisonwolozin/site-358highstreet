@@ -32,7 +32,7 @@ export default function HomePage(){
       {/* Introduction / Mission */}
     <section
         className="max-w-5xl mx-auto text-gray-700 leading-relaxed text-base sm:text-lg md:text-xl columns-1    md:columns-2 gap-8 space-y-2" >
-        <p> <strong>358 High Street</strong> is a deep energy retrofit (DER)— a duplex residence built in 2001 which was renovated in 2025 to include a high-performance thermal envelope, new HVAC, new finishes and added space.</p>
+        <p> <strong>358 High Street</strong> is a deep energy retrofit (DER)— a duplex residence built in 2004 which was renovated in 2025 to include a high-performance thermal envelope, new HVAC, new finishes and added space.</p>
         <div className="text-center">
             <button 
                 className="inline-block mt-4 px-6 py-3 bg-green-600 text-white text-lg rounded-lg hover:bg-green-700 transition"
