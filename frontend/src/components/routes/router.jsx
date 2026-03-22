@@ -12,6 +12,7 @@ import GalleryRoute from "./GalleryRoute";
 import IssuesPage from "../pages/IssuesPage";
 import AboutPage from "../pages/AboutPage";
 import DownloadsPage from "../pages/DownloadsPage";
+import EnergyPage from "../pages/EnergyPage"
 
 export const router = createBrowserRouter([
   {
@@ -25,6 +26,7 @@ export const router = createBrowserRouter([
       { path: "issues", element: <IssuesPage /> },
       { path: "about", element: <AboutPage /> },
       { path: "downloads", element: <DownloadsPage /> },
+      { path: "energy-performance", element: <EnergyPage /> },
 
       // ✅ ONE route handles all galleries (any URL that isn't above)
       { path: "*", element: <GalleryRoute /> },

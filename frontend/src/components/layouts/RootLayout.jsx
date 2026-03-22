@@ -17,7 +17,7 @@ export default function RootLayout() {
           </div>
         </aside>
 
-        <main className="flex-1 min-w-0 bg-white">
+        <main className="flex-1 min-w-0 overflow-y-auto bg-white">
           <div className="mx-auto max-w-7xl px-4 py-4 sm:px-6 sm:py-6 lg:px-8 lg:py-8">
             <Outlet />
           </div>

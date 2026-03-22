@@ -48,15 +48,13 @@ export const siteMap = [
     path: "/",
     type: "page",
   },
-  { label: "Building Issues and Challenges", 
+  { label: "Project Challenges", 
     path: "/issues", 
     type: "page",
     summary: "Pre-construction conditions that shaped the retrofit project"
    },
    
-  { label: "Downloads", path: "/downloads", type: "page" },
-
-  { label: "About", path: "/about", type: "page" },
+  { label: "Energy Performance", path: "energy-performance", type: "page" },
 
   {
     label: "Pre-retrofit",
@@ -66,7 +64,6 @@ export const siteMap = [
     intro: "358 High Street is a duplex residence was built in 2004 in the back yard of what's now 360 High Street. There were numerous issues with its siting and construction. It failed to comply with zoning setbacks, site drainage was unreliable, its owners ultimately defaulted and mortgage company assumed ownership, a consent agreement was reached with the Town of Belfast to correct permitting and zoning deficiencies.",
     children: [
       { label: "Historical", path: "/pre-retrofit/historical", type: "gallery" },
-      { label: "Energy Performance", path: "/pre-retrofit/performance", type: "page" },
     ],
   },
   {
@@ -94,15 +91,15 @@ export const siteMap = [
         path: "/construction/hvac", 
         type: "section",
         children: [
-          {label: "ERV",path: "/construction/hvac/erv",type:"gallery"},
-          {label: "Heat Pumps",path: "/construction/hvac/heat-pumps",type:"gallery"},
-          {label: "Range Hood Exhaust",path: "/construction/hvac/kitchen-range-hood",type:"gallery"},
-          
+          {label: "HVAC Demolition",path: "/construction/hvac/mechanical-demolition",type:"gallery"},
+          {label: "Ventilation",path: "/construction/hvac/erv",type:"gallery"},
+          {label: "Heating and Cooling",path: "/construction/hvac/heat-pumps",type:"gallery"},
+          {label: "Range Hood Exhaust",path: "/construction/hvac/kitchen-range-hood",type:"gallery"}
         ]
        }
     ],
   },
-
+//construction/hvac/mechanical-demolition
 
   // {
   //construction/hvac/kitchen-range-hood
@@ -114,6 +111,10 @@ export const siteMap = [
   //     { label: "Performance", path: "/occupied/performance", type: "gallery" },
   //   ],
   // },
+  { label: "About", path: "/about", type: "page",summary:"summary",intro:"intro" },
+
+  { label: "Downloads", path: "/downloads", type: "page" },
+
   {
     label: "Restricted",
     path: "/restricted",

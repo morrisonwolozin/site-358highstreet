@@ -45,41 +45,21 @@ function DownloadCategory({ category, items }) {
 }
 
 export default function DownloadsPage() {
-  // Split categories into two columns — left gets the first half, right the second
-  const mid = Math.ceil(downloads.length / 2);
-  const leftCol = downloads.slice(0, mid);
-  const rightCol = downloads.slice(mid);
-
   return (
-    <div className="max-w-6xl mx-auto space-y-6">
+    <div className="max-w-3xl mx-auto space-y-8">
       <div>
         <h1 className="text-3xl font-semibold text-gray-900 mb-2">Downloads</h1>
         <p className="text-gray-600 text-sm">
           Project documents available for download. Files open in a new tab.
         </p>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-        {/* Left column */}
-        <div className="space-y-8">
-          {leftCol.map((section) => (
-            <DownloadCategory
-              key={section.category}
-              category={section.category}
-              items={section.items}
-            />
-          ))}
-        </div>
-        {/* Right column */}
-        <div className="space-y-8">
-          {rightCol.map((section) => (
-            <DownloadCategory
-              key={section.category}
-              category={section.category}
-              items={section.items}
-            />
-          ))}
-        </div>
-      </div>
+      {downloads.map((section) => (
+        <DownloadCategory
+          key={section.category}
+          category={section.category}
+          items={section.items}
+        />
+      ))}
     </div>
   );
 }

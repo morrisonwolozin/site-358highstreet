@@ -8,7 +8,7 @@
 export default function Footer() {
   return (
     <footer
-      className="bg-gradient-to-r from-green-600 via-green-400 to-green-600 text-black">
+      className="bg-gradient-to-r from-green-400 via-green-500 to-green-400 text-white">
 
       <div className="flex flex-col sm:flex-row py-3 justify-center text-base">
          © {new Date().getFullYear()} Robert Morrison · All Rights Reserved

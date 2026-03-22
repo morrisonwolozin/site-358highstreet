@@ -4,7 +4,7 @@ import remarkGfm from "remark-gfm";
 
 export default function MarkdownPage({ content }) {
   return (
-    <article className="max-w-4xl mx-auto">
+    <article className="max-w-7xl mx-auto">
       <ReactMarkdown
         remarkPlugins={[remarkGfm]}
         components={{
