@@ -1,7 +1,7 @@
-//03/08/2026
 // src/navigation/SidebarNav.jsx
 import { NavLink } from "react-router-dom";
 import { siteMap } from "./siteMap";
+import { useSiteConfig } from "../../config/SiteConfigContext";
 
 function linkClass({ isActive }, level = 0) {
   return [
@@ -13,11 +13,22 @@ function linkClass({ isActive }, level = 0) {
   ].join(" ");
 }
 
+const RENTAL_PATHS = ["/rental", "/rental/photos"];
+
+function isRentalNode(node) {
+  return RENTAL_PATHS.some(
+    (p) => node.path === p || node.path?.startsWith("/rental/photos/")
+  );
+}
+
+function filterNodes(nodes, rentalAvailable) {
+  if (rentalAvailable) return nodes;
+  return nodes.filter((node) => !isRentalNode(node));
+}
+
 function TreeNode({ node, level = 0 }) {
   const hasChildren = Array.isArray(node.children) && node.children.length > 0;
 
-  // console.log("level", level, "label", node.label, "children", node.children);
-  
   return (
     <div className="space-y-1">
       {node.path ? (
@@ -39,7 +50,6 @@ function TreeNode({ node, level = 0 }) {
           {node.label}
         </div>
       )}
-
       {hasChildren && (
         <div className="ml-3 border-l border-gray-200 pl-3 space-y-1">
           {node.children.map((child) => (
@@ -56,17 +66,16 @@ function TreeNode({ node, level = 0 }) {
 }
 
 export default function SidebarNav() {
+  const { rentalAvailable } = useSiteConfig();
+  const visibleNodes = filterNodes(siteMap, rentalAvailable);
+
   return (
     <nav className="h-full p-4 sm:p-5 space-y-4">
       <div className="text-xs font-semibold uppercase tracking-wide text-gray-500">
         Navigation
       </div>
-
-      {siteMap.map((node) => (
-        <TreeNode
-          key={node.path || node.label}
-          node={node}
-        />
+      {visibleNodes.map((node) => (
+        <TreeNode key={node.path || node.label} node={node} />
       ))}
     </nav>
   );
