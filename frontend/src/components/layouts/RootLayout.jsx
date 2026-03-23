@@ -1,17 +1,24 @@
-// 03-06-2026
-// component name: RootLayout.jsx
+// src/layouts/RootLayout.jsx
+import { useState } from "react";
+import { Outlet } from "react-router-dom";
 import HeaderBanner from "../HeaderBanner";
 import SidebarNav from "../navigation/SidebarNav";
-import { Outlet } from "react-router-dom";
-import Footer from "../Footer";
+import MobileMenu from "../navigation/MobileMenu";
+import Footer from "..//Footer";
 
 export default function RootLayout() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <div className="h-screen flex flex-col bg-white text-gray-900">
-      <HeaderBanner />
+      <HeaderBanner onMenuOpen={() => setMenuOpen(true)} />
+
+      {/* Mobile drawer */}
+      <MobileMenu isOpen={menuOpen} onClose={() => setMenuOpen(false)} />
 
       <div className="flex flex-1 min-h-0">
-        <aside className="w-72 shrink-0 bg-gray-50 border-r border-gray-200 shadow-inner">
+        {/* Sidebar — hidden on mobile, visible md and up */}
+        <aside className="hidden md:block w-72 shrink-0 bg-gray-50 border-r border-gray-200 shadow-inner">
           <div className="h-full overflow-y-auto">
             <SidebarNav />
           </div>
