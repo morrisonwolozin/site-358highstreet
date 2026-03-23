@@ -42,8 +42,7 @@ export default function HomePage() {
       <section className="max-w-5xl mx-auto text-gray-700 leading-relaxed text-base sm:text-lg md:text-xl columns-1 md:columns-2 gap-8 space-y-2">
         <p>
           <strong>358 High Street</strong> is a deep energy retrofit (DER) — a duplex residence
-          built in 2004 and renovated in 2025 to include a high-performance thermal envelope,
-          new HVAC, new finishes, and added space.
+          built in 2004 and renovated in 2025 to include a high-performance thermal envelope and new HVAC. There's one year of measured performance data, select the button below.
         </p>
         <div className="text-center">
           {rentalAvailable ? (
@@ -58,22 +57,21 @@ export default function HomePage() {
               className="inline-block mt-4 px-6 py-3 bg-green-600 text-white text-lg rounded-lg hover:bg-green-700 transition"
               onClick={() => navigateTo("energy-performance")}
             >
-              Energy performance ...
+              Energy Performance
             </button>
           )}
         </div>
 
         <p>
-          Its <strong>renovation details</strong> describe the construction — from pre-retrofit
-          conditions to renovation construction assemblies, and the measured performance data
-          and ongoing maintenance.
+          Its <strong>construction photo galleries and descriptive pages</strong> selected from the menu at left describe the project — from pre-retrofit
+          to renovated assemblies. New space, finishes, sound isolation and appliances were added. Select the button below for an example.
         </p>
         <div className="text-center">
           <button
             className="inline-block mt-4 px-6 py-3 bg-green-600 text-white text-lg rounded-lg hover:bg-green-700 transition"
             onClick={() => navigateTo("construction/party-walls")}
           >
-            Construction photos, ex. duplex party walls
+            Duplex party walls
           </button>
         </div>
       </section>
