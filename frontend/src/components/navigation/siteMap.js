@@ -94,6 +94,9 @@ export const siteMap = [
       { label: "Historical", path: "/pre-retrofit/historical", type: "gallery" },
     ],
   },
+
+  { label: "Project Cost", path: "/project-cost", type: "page",
+  summary: "Final costs for the 2025 deep energy retrofit" },
   {
     label: "Construction",
     path: "/construction",
