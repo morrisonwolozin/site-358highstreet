@@ -1,10 +1,13 @@
 ## Design Narrative
 
-The design scope included addressing the building and apartment deficiencies and the "deep energy retrofit" approach. These are detailed in the Challenge narrative.
+The design scope sought to correct the building and apartment deficiencies, add new spaces and provide a "deep energy retrofit". Completely separate functions and utilities were crucial goals. 
 
-The architectural lacks included a front entry and transition space, laundry spaces, a second bathroom, poor interior lighting, lack of site lighting and conditioned storage. 
+Archtecurally, creating a front entry, adding a second bathroom and laundry alcoves for each apartment were the main design goals. 
 
-The operating deficiencies included crawlspace flooding due to bulk water intrusion, poor indoor air quality, excessive noise transmission between apartments, unequal distribution of site utilities. 
+The original building was based on a "catalog" modular layout with a shared entry vesitbule and laundry space. Strangely, the building was sited 10 feet from the lot's south boundary - without a variance. At that time there was no driving access to either side of the building. It was located in the back yard of 360 High Street, without a boundry between   again, without a variance. The current driveway was added as a City of Belfast requirement as part of a consent agreement after the original owners defaulted, and a mortgage company assumed control. So, the driveway accessed the building's rear, the building's north side. However, there was space on this side for an addition which could serve as an entry, mudroom and laundry alcove. and, adding the new entry and laundry alcoves freed in the original building for a new half bath for each apartment. 
 
-The HVAC issues included excessive relative humidity and poor winter indoor air quality, the boiler plant's combustion products venting at grade, unprotected fuel oil storage in the crawl space, lack of central air conditioning.
+The site drainage needed to be reimagined to stop water intrusion into the crawlspace. The elevation of existing north side culvert and drainage ditch were lowered. A ditch was created on the lot's west side to capture the drainage from the adjacent lot's slope and discharging to the main ditch.  Doing so created positive slope from new perimeter footing drains. A second perimeter collection system from roof gutters was created to discharge to the main drainage ditch. Meanwhile the outlet of a floor drain in the crawl space was discovered and rerouted to the ditch. On the south side, an existing swale was enhanced.
 
+The envelope thermal retrofit needed to answer the question: how "deep" should the retrofit (DER) be? The classic Rvalue receipe is "5, 10, 20, 40 ,60", referring to the R values of windows, below grade floor, below grade wall, above grade wall and roof, respectively. There was no original building crawlspace floor, below grade wall nor roof insulation. For this project, it made sense to incorporate the crawl space and attic within the insulated boundary to provide space for mechanical equipment. A "lite" DER for this project, was 5, 5, 19, 27 and 54. Also, "chain saw" removal of soffits to allow for continuous air barrier and insulation for the above grade walls and roof. 
+
+Once there's a well-insulated and tight envelope, heating and cooling loads are small and HVAC equipment capacity similarly low. A single zone, ducted heat pump for each apartment was the obvious choice and received the maximum Efficiency Maine incentive. 
