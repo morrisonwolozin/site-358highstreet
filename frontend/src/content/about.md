@@ -24,3 +24,4 @@ The retrofit was designed and built by a team of Maine-based contractors and con
 | Maine Raised Gardens        | Steve Rodrique        | Raised Garden Beds                           | Northport, ME  | [maineraisedgardens.com](https://www.maineraisedgardens.com/)                      |
 | GoodDeeds                   | Clark Staples, P.E.   | Surveying                                    | Belfast, ME    | [wemapit.com](https://www.wemapit.com/)                                            |
 | Maine Blower Door Testing   | Svea Tullberg         | Air Leakage Testing                          | Belfast, ME    | [maineblowerdoortest.com](https://maineblowerdoortest.com/)                        |
+| Breakwater Inspections      | John Howard           | Radon Testing                                | Rockland, ME   | [breakwaterinspections.com](https://breakwaterinspections.com/)                    |
