@@ -1,13 +1,45 @@
+# Building Design
+
 ## Design Narrative
 
-The design scope sought to correct the building and apartment deficiencies, add new spaces and provide a "deep energy retrofit". Complete separation of all functions and utilities was also an important goal.
+The design scope addressed the building's physical and functional deficiencies, added new spaces, and delivered a deep energy retrofit. The scope's goals were to deliever a superior tenant experience by a complete separation of all apartment functions and utilities,  relatively low utility operating expenses and good indoor air quality with transparent ongoing monitoring.  
 
-Archtecurally, creating a front entry, adding a second bathroom and laundry alcoves for each apartment were the main design goals.
+### Architectural Goals
 
-The original building was based on a "catalog" modular layout with a shared entry vesitbule and laundry space. Strangely, the building was sited 10 feet from the lot's south boundary - without a variance. At that time there was no driveway access to either side of the building. The building had been located in the back yard of 360 High Street without a lot division. A City of Belfast consent agreement added the driveway and its easement and created the lot division - with a six foot setback between 358 High Street's east side and the 360 High Street lot. The consent agreement was developed after the original owners defaulted, and a mortgage company assumed control. However, the driveway accessed the building's rear, the building's north side, not its intended front. However, for this project's new entry there was sufficient space on tthe building's north side for an addition to serve as an entry, mudroom with laundry alcove. Adding the new entry with laundry alcoves allowed the shared the original building's vestibule and shared laundry space to be allocated for a new half bath for each apartment.
+The primary architectural objectives were to create a dedicated front entry, add a second bathroom, and provide a laundry alcove for each apartment — transforming a shared floor plan into two fully independent dwelling units.
 
-The site drainage needed to be reimagined to stop water intrusion into the crawlspace. The elevation of existing north side culvert and drainage ditch were lowered. A ditch was created on the lot's west side to capture the drainage from the adjacent lot's slope and discharging to the main ditch. Doing so created positive slope from new perimeter footing drains. A second perimeter collection system from roof gutters was created to discharge to the main drainage ditch. Meanwhile the outlet of a floor drain in the crawl space was discovered and rerouted to the ditch. On the south side, an existing swale was enhanced.
+The original building was based on a catalog modular layout (see Historical) with a shared entry vestibule and shared laundry space. This project reclaimed that shared space: by adding new entry additions to the building's north side, the original vestibule and laundry area became available to provide a new half bath for each apartment.
 
-The envelope thermal retrofit needed to answer the question: how "deep" should the retrofit (DER) be? The classic Rvalue receipe is "5, 10, 20, 40 ,60", referring to the R values of windows, below grade floor, below grade wall, above grade wall and roof, respectively. There was no original building crawlspace floor, below grade wall nor roof insulation. For this project, it made sense to incorporate the crawl space and attic within the insulated boundary to provide space for mechanical equipment. A "lite" DER for this project, was 5, 5, 19, 27 and 54; this inforation is summarized in the table below. Also, "chain saw" removal of soffits to allow for continuous air barrier and insulation for the above grade walls and roof.
+The party wall separating the occupied spaces of two units was fully rebuilt — replacing the original partition with an insulated double-wall assembly designed for superior sound attenuation, estimated to be at least STC 65. A fire and sound separation wall between the units was constructed in the crawl space. The original attic included a separation wall, which was altered to fit the zig-zag footprint of the new interior bathrooms.
 
-Once there's a well-insulated and tight envelope, heating and cooling loads are small - as listed below - and HVAC equipment capacity follows. Low load buildings are especially suited for air-source heat pumps as the sole source of heating. A single zone, ducted heat pump for each apartment was the obvious choice and received the maximum Efficiency Maine incentive.
+### Site History and Zoning
+
+The building presents an unusual planning history. It was sited ten feet from the lot's south boundary without a variance, and originally located in the back yard of 360 High Street without a formal lot division. There was no driveway access to either side of the building at the time of construction.
+
+After the original owners defaulted and a mortgage company assumed control, a City of Belfast consent agreement was negotiated. The agreement created the lot division, established a six-foot setback between 358 High Street's east side and the 360 High Street lot, and added a driveway with an associated easement. The driveway, however, accessed the building's north side — its functional rear — rather than the intended front. For this project, the reimagined north side had sufficient space for a new entry addition including mudroom with laundry alcove.
+
+### Site Drainage
+
+The site drainage was reimagined to eliminate water intrusion into the crawl space. Several measures were taken:
+
+- The elevation of the existing north-side culvert and drainage ditch was lowered to establish positive drainage from new perimeter footing drains;
+- A new ditch was cut along the lot's west side to capture runoff from the adjacent sloped lot, discharging to the main ditch;
+- A separate perimeter collection system for roof gutter discharge was routed to the main ditch;
+- A floor drain in the crawl space was discovered, its outlet located, and rerouted to the ditch;
+- An existing swale on the south side was enhanced.
+
+### Thermal Envelope
+
+The envelope retrofit required a clear answer to the question: how deep should this deep energy retrofit be? The classic R-value targets (Building Science Corp. within the NGrid MA DER Program, 2011-2012) for a high-performance building — sometimes expressed as 5 / 10 / 20 / 40 / 60 for windows, below-grade floor, below-grade wall, above-grade wall, and roof, respectively — provided a useful benchmark.
+
+The original building had no crawl space floor, below-grade wall, or roof insulation. For this project, it made sense to bring both the crawl space and attic within the insulated boundary, providing conditioned space for mechanical equipment. The result was a "lite" DER, achieving values of approximately 5 / 6.5 / 19 / 27 / 54 — a meaningful improvement over baseline without pursuing full Passive House levels. These values are summarized in the table below.
+
+A key construction technique was the removal of existing soffits, the "chain saw retrofit", allowing a continuous air barrier and insulation layer to run uninterrupted across both the above-grade walls and roof assembly.
+
+### HVAC and Ventilation
+
+A well-insulated, air-tight envelope dramatically reduces heating and cooling loads — as confirmed by the load calculation and measureed performance listed. Reduced loads make air-source heat pumps a particularly cost-effective design choice, since their installed cost per capacity ($/MBH) is high compared to legacy fossil fuel combustion equipment.
+
+A single-zone ducted heat pump for each apartment was the natural choice: simple, efficient, and eligible for the maximum Efficiency Maine incentive. Each unit is fully independent, with its own heating, cooling, domestic hot water and air exchange systems.
+
+Tightening the envelope also required a fundamental shift in ventilation strategy. The original building relied on air infiltration for fresh air — an unreliable and uncontrollable approach. Each apartment was equipped with an energy recovery ventilator (ERV), providing continuous, controlled fresh air while recovering heat from the exhaust stream. Kitchen range hoods with true exhaust complete the ventilation system, replacing the original recirculating hoods.
