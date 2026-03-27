@@ -18,7 +18,7 @@ The retrofit was designed and built by a team of Maine-based contractors and con
 | Dave's Heat Pumps           | Mike Ketchen          | Heat Pump Systems Installation               | Winthrop, ME   | [davesheatpumps.com](https://davesheatpumps.com)                                   |
 | Kenney and Gray LLC         | Kevin Gray            | Electrical                                   | Swanville, ME  | —                                                                                  |
 | Larrabee Plumbing           | Forrest Larrabee      | Plumbing                                     | Knox, ME       | —                                                                                  |
-| Niess Tile                  | Jeff Niess            | Bathroom Tile                                | Appleton, ME   | —                                                                                  |
+| Niess Tile                  | Jeff Niess            | Bathroom Tile                                | Dixmont, ME    | —                                                                                  |
 | Manson Wall                 | Donny Manson          | Drywall                                      | Washington, ME | —                                                                                  |
 | Rainwater Solutions         | Chris Maguire         | Roof Gutters                                 | Orland, ME     | [rwsgutters.com](https://rwsgutters.com/)                                          |
 | Maine Raised Gardens        | Steve Rodrique        | Raised Garden Beds                           | Northport, ME  | [maineraisedgardens.com](https://www.maineraisedgardens.com/)                      |
