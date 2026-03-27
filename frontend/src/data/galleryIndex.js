@@ -2,10 +2,9 @@
 //
 
 export const galleryIndex = {
-  "pre-retrofit":[
-    {id: "img001",imageUrl: "/images/img-00-pre-retrofit.webp", title: "Pre-retrofit", shortAnnotation: "As-purchased drone view", fullAnnotation: "The building was constructed in the 'back yard' of what's currently 360 High Street in a non-permitted lot division. Later, a privacy fence enclosed Unit 2 and its marijuana grow shed, which was added by owners circa 2019. "}
-  ],
-  "pre-retrofit/historical":[
+
+  "historical":[
+    {id: "img001",imageUrl: "/images/img-00-pre-retrofit.webp", title: "Pre-retrofit", shortAnnotation: "As-purchased drone view", fullAnnotation: "The building was constructed in the 'back yard' of what's currently 360 High Street in a non-permitted lot division. Later, a privacy fence enclosed Unit 2 and its marijuana grow shed, which was added by owners circa 2019. "},
     {id: "img002",imageUrl: "/images/img-01-pre-retrofit.webp", title: "Original north elevation", shortAnnotation: "Original north elevation", fullAnnotation: "Original north elevation with the Apartment 2 privacy fence removed. The rear of the the building faces its parking area and entry, because it was pushed to the south, probably on account of persistant surface water. Unit 1 tenants typically entered through the sliding glass door. Unit 2 tenants entered through the rear entry, the intended front of the builing. The entry space included entry doors to each unit and a shared laundry room."},
     {id: "img003",imageUrl: "/images/img-02-pre-retrofit.webp", title: "Modular home 'warranty'", shortAnnotation: "As-purchased modular home 'warranty'", fullAnnotation: "The building was constructed from four modules. It appears to be the Muncy Builders 'Ranch - Westfield - Plan 118 (muncyhomes.com/floorplan/ranch-westfield-plan-118). The common area on its south side was added at the time of construction. A portion of each living room utilized for the common laundry area. The space shown on the Muncy plan as basement stairs was not constructed and incorporated into Bedroom 1"}, 
     {id: "img004",imageUrl: "/images/img-03-pre-retrofit.webp", title: "Building's 'data plate'", shortAnnotation: "As-purchased home 'nameplate'", fullAnnotation: "The data plate lists each apartment's modular characteristics: electric service panel of 200 A (single phase, 3-wire, not '3 PHASE'), 2x6 walls with cavity fiberglass insulation, ceiling insulatws with 9 in. of fiberglass faced batts. There were attic accesses from each apartment from its Bedroom 2. The windows were double pane with aluminum frames."},

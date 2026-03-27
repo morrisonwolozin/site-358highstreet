@@ -84,15 +84,15 @@ export const siteMap = [
     summary: "Whole-building energy use before and after the deep energy retrofit",
   },
   {
-    label: "Pre-retrofit",
-    path: "/pre-retrofit",
-    type: "section",
+    label: "Historical",
+    path: "/historical",
+    type: "gallery",
     summary: "The building was purchased in late 2024.",
     intro:
-      "358 High Street is a duplex residence built in 2004 in the backyard of 360 High Street. There were numerous issues with its siting and construction. It failed to comply with zoning setbacks, site drainage was unreliable, its owners ultimately defaulted and the mortgage company assumed ownership. A consent agreement was reached with the Town of Belfast to correct permitting and zoning deficiencies.",
-    children: [
-      { label: "Historical", path: "/pre-retrofit/historical", type: "gallery" },
-    ],
+      "358 High Street is a duplex residence which was built behind 360 High Street in 2004. There were numerous issues with its siting and construction. It failed to comply with zoning setbacks, site drainage was unreliable, its owners ultimately defaulted and a mortgage company assumed ownership. A consent agreement was reached with the Town of Belfast to correct permitting and zoning deficiencies in 2013.",
+    // children: [
+    //   { label: "Historical", path: "/pre-retrofit/historical", type: "gallery" },
+    // ],
   },
 
   { label: "Project Cost", path: "/project-cost", type: "page",
