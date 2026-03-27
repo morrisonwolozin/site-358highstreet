@@ -30,9 +30,9 @@ The project's goal was to create energy-efficient and healthy dwelling apartment
 16. On site unconditioned storage space;
 17. Gardening raised beds.
 
-The following pre-construction conditions defined the scope of the retrofit.
+The following pre-construction conditions defined the building improvement scope of the retrofit.
 
-## Challenges
+## Pre-construction Conditions
 
 ### 1. Crawl space flooding
 
@@ -40,15 +40,15 @@ Poor site water management and unmanaged roof runoff caused the crawl space to f
 
 ### 2. Aging oil-fired boiler plant
 
-The boiler was functioning but at end of economic life. Its crawl space location beneath apartment 1 made maintenance difficult. The induced draft fan discharge was insufficiently elevated (noted in the sales inspection), and operational noise was excessive. Fuel oil tubing ran along the crawl space floor — a leak would go unnoticed until significant, and in combination with flooding, posed a site contamination risk.
+The boiler was functioning but at end of its life. Its location in the crawl space beneath Apartment 1 made maintenance difficult and required an induced draft fan. The fan discharge was insufficiently elevated (noted in the sales inspection), and operational noise was excessive. The fuel oil tank was located in the crawl space and its tubing ran along the crawl space floor — a leak would have been unnoticed until significant. Had there been a leak in combination with a crawl space water intrusion and exit via the floor drain, the site would have been contaminated.
 
-### 3. Uneven electric consumption allocation
+### 3. Uneven electric consumption allocation between apartment units
 
-With two tenant services and no landlord meter, shared loads — clothes dryer, boiler, washing machine — were assigned to one apartment's service, making equal cost-sharing impossible.
+With two tenant services and no landlord meter, shared loads — the electric clothes dryer, boiler plant, the washing machine — were assigned to one apartment or the other's electric service.
 
-### 4. Incomplete lighting
+### 4. Insufficent interior lighting
 
-Bedrooms and living rooms had no built-in lighting; switched receptacles were provided which requiring plug-in fixtures.
+Bedrooms and living rooms had no built-in lighting; the kitchen had one light fixture. For general lighting, there were switched receptacles requiring plug-in light fixtures.
 
 ### 5. No site lighting
 
