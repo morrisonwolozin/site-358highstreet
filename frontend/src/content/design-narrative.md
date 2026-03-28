@@ -2,7 +2,7 @@
 
 ## Design Narrative
 
-The design scope addressed the building's physical and functional deficiencies, added new spaces, and delivered a deep energy retrofit. The scope's goals were to deliever a superior tenant experience by a complete separation of all apartment functions and utilities, relatively low utility operating expenses and good indoor air quality with transparent ongoing monitoring.
+The design scope addressed the building's physical and functional deficiencies, added new spaces, and delivered a deep energy retrofit. The scope's goals were to offer a superior tenant experience through complete separation of all functions and utilities, relatively low utility operating expenses and good indoor air quality with transparent ongoing monitoring.
 
 ### Architectural Goals
 
@@ -32,14 +32,23 @@ The site drainage was reimagined to eliminate water intrusion into the crawl spa
 
 The envelope retrofit required a clear answer to the question: how deep should this deep energy retrofit (DER) be? The classic R-value targets (Building Science Corp. within the NGrid MA DER Program, 2011-2012) for a high-performance building — sometimes expressed as 5 / 10 / 20 / 40 / 60 for windows, below-grade floor, below-grade wall, above-grade wall, and roof, respectively — provided a useful benchmark.
 
-The original building had no crawl space floor, below-grade wall, or roof insulation. For this project, it made sense to bring both the crawl space and attic within the insulated boundary, providing conditioned space for mechanical equipment. The result was a "lite" DER, achieving values of approximately 5 / 6.5 / 19 / 27 / 54 — a significant improvement over baseline without pursuing a full a DER. These values are summarized in the table below.
+The original building had no crawl space floor, below-grade wall, or roof insulation. For this project, it made sense to bring both the crawl space and attic within the insulated boundary, providing conditioned space for mechanical equipment. The result was a "lite" DER, achieving values of approximately 5 / 6.5 / 19 / 27 / 54 — a significant improvement over baseline. These values are summarized in the table below.
 
 A key construction technique was the removal of existing soffits, the "chain saw retrofit", allowing a continuous air barrier and insulation layer to run uninterrupted across both the above-grade walls and roof assembly.
 
 ### HVAC and Ventilation
 
-A well-insulated, air-tight envelope dramatically reduces heating and cooling loads — as confirmed by the load calculation and measureed performance listed. Reduced loads make air-source heat pumps a particularly cost-effective design choice, since their installed cost per capacity ($/MBH) is high (~2x) and thermal efficiency better (~3x) compared to a legacy fuel oil or natural gas furnace.
+A well-insulated, air-tight envelope dramatically reduces heating and cooling loads — as confirmed by the load calculation and measured performance listed. Reduced loads make air-source heat pumps a particularly cost-effective design choice, since their installed cost per capacity ($/MBH) is high (~2x) and thermal efficiency better (~3x) compared to a legacy fuel oil or natural gas furnace.
 
 A single-zone ducted heat pump for each apartment was the natural choice: simple, efficient, and eligible for the maximum Efficiency Maine incentive. Each unit is fully independent, with its own heating, cooling, domestic hot water and air exchange systems.
 
-Tightening the envelope also required a fundamental shift in ventilation strategy. The original building relied on air infiltration for fresh air — an unreliable and uncontrollable approach. Each apartment was equipped with an energy recovery ventilator (ERV), providing continuous, controlled fresh air while recovering heat from the exhaust stream. Kitchen range hoods with true exhaust complete the ventilation system, replacing the original recirculating hoods. The kitchen range hood design included retrofitting an off-the-shelf canopy hood removing its fan and installing an outdoor fan. See Drawing HVAC Drawing H-7 in the [Downloads](/downloads) for details.
+Tightening the envelope also required mechanical ventilation. The original building relied on air infiltration for fresh air — an unreliable and uncontrollable approach. Each apartment was equipped with an energy recovery ventilator (ERV), providing continuous, controlled fresh air while recovering heat from the exhaust stream. Kitchen range hoods with true exhaust complete the ventilation system, replacing the original recirculating hoods. The kitchen range hood design included retrofitting an off-the-shelf canopy hood removing its fan and installing an outdoor fan. See Drawing HVAC Drawing H-7 in the [Downloads](/downloads) for details.
+
+The project received the following [Efficiency Maine](https://www.efficiencymaine.com) incentives, partially offsetting equipment and installation costs:
+
+| Measure | Incentive |
+|---|---|
+| Heat pump heating & cooling systems | $8,000 |
+| Insulation | $4,000 |
+| Heat pump domestic hot water heaters | $2,100 |
+| **Total** | **$14,100** |
