@@ -2,10 +2,9 @@
 //
 
 export const galleryIndex = {
-  "pre-retrofit":[
-    {id: "img001",imageUrl: "/images/img-00-pre-retrofit.webp", title: "Pre-retrofit", shortAnnotation: "As-purchased drone view", fullAnnotation: "The building was constructed in the 'back yard' of what's currently 360 High Street in a non-permitted lot division. Later, a privacy fence enclosed Unit 2 and its marijuana grow shed, which was added by owners circa 2019. "}
-  ],
-  "pre-retrofit/historical":[
+
+  "historical":[
+    {id: "img001",imageUrl: "/images/img-00-pre-retrofit.webp", title: "Pre-retrofit", shortAnnotation: "As-purchased drone view", fullAnnotation: "The building was constructed in the 'back yard' of what's currently 360 High Street in a non-permitted lot division. Later, a privacy fence enclosed Unit 2 and its marijuana grow shed, which was added by owners circa 2019. "},
     {id: "img002",imageUrl: "/images/img-01-pre-retrofit.webp", title: "Original north elevation", shortAnnotation: "Original north elevation", fullAnnotation: "Original north elevation with the Apartment 2 privacy fence removed. The rear of the the building faces its parking area and entry, because it was pushed to the south, probably on account of persistant surface water. Unit 1 tenants typically entered through the sliding glass door. Unit 2 tenants entered through the rear entry, the intended front of the builing. The entry space included entry doors to each unit and a shared laundry room."},
     {id: "img003",imageUrl: "/images/img-02-pre-retrofit.webp", title: "Modular home 'warranty'", shortAnnotation: "As-purchased modular home 'warranty'", fullAnnotation: "The building was constructed from four modules. It appears to be the Muncy Builders 'Ranch - Westfield - Plan 118 (muncyhomes.com/floorplan/ranch-westfield-plan-118). The common area on its south side was added at the time of construction. A portion of each living room utilized for the common laundry area. The space shown on the Muncy plan as basement stairs was not constructed and incorporated into Bedroom 1"}, 
     {id: "img004",imageUrl: "/images/img-03-pre-retrofit.webp", title: "Building's 'data plate'", shortAnnotation: "As-purchased home 'nameplate'", fullAnnotation: "The data plate lists each apartment's modular characteristics: electric service panel of 200 A (single phase, 3-wire, not '3 PHASE'), 2x6 walls with cavity fiberglass insulation, ceiling insulatws with 9 in. of fiberglass faced batts. There were attic accesses from each apartment from its Bedroom 2. The windows were double pane with aluminum frames."},
@@ -114,6 +113,19 @@ export const galleryIndex = {
         { id: "img001",imageUrl: "",  title: "",shortAnnotation: "",fullAnnotation: "" },
         { id: "img002",  imageUrl: "",  title: "",shortAnnotation: "",fullAnnotation: "" },
         { id: "img003", imageUrl: "",  title: "",shortAnnotation: "",fullAnnotation: "" },  
+      ],
+
+  "construction/ice-dams": 
+    [
+    { id: "img001",imageUrl: "/images/img-01-ice-dams.webp",title: "northwest valley 1",shortAnnotation: "",fullAnnotation: "Dramatic melting above the northwest valley of the north addition " },     
+     { id: "img002", imageUrl: "/images/img-02-ice-dams.webp", title: "northeast valley 1",shortAnnotation: "", fullAnnotation: "similar pattern at the northeast valley of the north addition" },        
+     { id: "img003", imageUrl: "/images/img-03-ice-dams.webp",title: "northeast valley 1",shortAnnotation: "", fullAnnotation: "6 in. of ice buildup at eave" }, 
+     { id: "img004",imageUrl: "/images/img-04-ice-dams.webp", title: "northeast valley 2",shortAnnotation: "", fullAnnotation: "6 in. of ice buildup at eave" },
+     { id: "img005",imageUrl: "/images/img-05-ice-dams.webp", title: "here's a roof section",shortAnnotation: "", fullAnnotation: "The pre-existing roof was retrofitted to vent above the deck insulation through flat 2x4 'channels' from the soffit to the ridge." },
+     { id: "img006",imageUrl: "/images/img-06-ice-dams.webp", title: "ovwerframed addition",shortAnnotation: "",fullAnnotation: "Next, the ell addition was framed atop of the insulated main roof deck." },     
+     { id: "img007", imageUrl: "/images/img-07-ice-dams.webp", title: "soffit vent channel intakes are now within the heated space of the entry ceilings.",shortAnnotation: "", fullAnnotation: "And, heated air was leaking from above the ceilings of the ell through the vent to the ridge." },        
+     { id: "img008", imageUrl: "/images/img-08-ice-dams.webp",title: "the fix: seal the vent channels",shortAnnotation: "", fullAnnotation: "cut holes in the entry ceilings of each unit for access, and seal the vent channels." }, 
+     { id: "img009",imageUrl: "/images/img-09-ice-dams.webp", title: "a week after sealing the vent channels",shortAnnotation: "", fullAnnotation: "a week after sealing the vent channels" }              
       ],
   "construction/party-walls": 
       [

@@ -1,0 +1,9 @@
+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
+
+
+git remote set-url origin https://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@github.com/morrisonwolozin/358highstreet.git
+
+git clone https://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@github.com/morrisonwolozin/358highstreet.git
+cd 358highstreet/frontend
+npm install
+npm run dev

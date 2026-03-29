@@ -12,8 +12,10 @@ import GalleryRoute from "./GalleryRoute";
 import IssuesPage from "../pages/IssuesPage";
 import AboutPage from "../pages/AboutPage";
 import DownloadsPage from "../pages/DownloadsPage";
-import EnergyPage from "../pages/EnergyPage"
-import DesignPage from "../pages/DesignPage"
+import EnergyPage from "../pages/EnergyPage";
+import DesignPage from "../pages/DesignPage";
+import ProjectCostPage from "../pages/ProjectCostPage";
+import IceDamsPage from "../pages/IceDamsPage";
 
 export const router = createBrowserRouter([
   {
@@ -29,6 +31,8 @@ export const router = createBrowserRouter([
       { path: "downloads", element: <DownloadsPage /> },
       { path: "energy-performance", element: <EnergyPage /> },
       { path: "design", element: <DesignPage /> },
+      { path: "project-cost", element: <ProjectCostPage /> },
+      { path: "construction/ice-dams", element: <IceDamsPage /> },
 
       // ✅ ONE route handles all galleries (any URL that isn't above)
       { path: "*", element: <GalleryRoute /> },
