@@ -29,9 +29,9 @@ function MetricCard({ label, pre, post, unit, highlight = false }) {
 
 function SummaryBadge({ value, label }) {
   return (
-    <div className="flex flex-col items-center justify-center rounded-lg border border-green-200 bg-green-50 p-6 text-center">
-      <div className="text-4xl font-bold text-green-700">{value}</div>
-      <div className="text-sm text-gray-600 mt-1">{label}</div>
+    <div className="flex flex-col items-center justify-center rounded-lg border border-green-200 bg-green-50 p-2 text-center">
+      <div className="text-3xl font-bold text-green-800">{value}</div>
+      <div className="text-base text-gray-600 mt-1">{label}</div>
     </div>
   );
 }
@@ -58,12 +58,15 @@ export default function EnergyPage() {
         <h1 className="text-3xl font-semibold text-gray-900 mb-2">Energy Performance</h1>
         <p className="text-gray-600">
           Whole-building energy use before and after the deep energy retrofit.
-          Pre-retrofit baseline is calendar year 2023; post-retrofit figures are estimated
-          from partial-year data and will be updated as full annual data becomes available.
+          Pre-retrofit baseline is calendar year 2023; post-retrofit consumption is based on
+           partial-year data and will be updated.
         </p>
       </div>
 
       {/* Summary badges */}
+        <h2 className="text-lg font-semibold text-gray-800 border-b border-gray-200 pb-1 mb-4">
+          Building Summary
+        </h2>
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
         <SummaryBadge
           value={`${summary.total_mmbtu_reduction_pct}%`}
@@ -123,7 +126,7 @@ export default function EnergyPage() {
       {/* Unit breakdown */}
       <div>
         <h2 className="text-lg font-semibold text-gray-800 border-b border-gray-200 pb-1 mb-4">
-          Electricity by Unit
+          Electricity by Apartment Unit
         </h2>
         <div className="overflow-x-auto">
           <table className="min-w-full text-sm border border-gray-200 rounded-lg">

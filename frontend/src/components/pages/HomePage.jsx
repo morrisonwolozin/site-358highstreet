@@ -41,8 +41,7 @@ export default function HomePage() {
       {/* Introduction */}
       <section className="max-w-5xl mx-auto text-gray-700 leading-relaxed text-base sm:text-lg md:text-xl columns-1 md:columns-2 gap-8 space-y-2">
         <p>
-          <strong>358 High Street</strong> is a deep energy retrofit (DER) — a duplex residence
-          built in 2004 and renovated in 2025 to include a high-performance thermal envelope and new HVAC. There's one year of measured performance data, select the button below.
+          <strong>358 High Street</strong> is a duplex residence built in 2004 and modified in 2025. Retrofits included a high-performance thermal envelope, electrified HVAC and additions. For its initial year of performance data, select the button below or from the menu bar at left or via the menu "hamburger" from a small screen.
         </p>
         <div className="text-center">
           {rentalAvailable ? (
@@ -63,8 +62,7 @@ export default function HomePage() {
         </div>
 
         <p>
-          Its <strong>construction photo galleries and descriptive pages</strong> selected from the menu at left describe the project — from pre-retrofit
-          to renovated assemblies. New space, finishes, sound isolation and appliances were added. Select the button below for an example.
+          358 Main St.'s <strong> design considerations, construction photo galleries, data and downloads</strong> are viewable from the left menu bar. "Deep Energy" retrofits of the existing, added new spaces, finishes, sound isolation, HVAC and appliances were elements of the project. Select the button below for an example.
         </p>
         <div className="text-center">
           <button
