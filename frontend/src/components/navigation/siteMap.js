@@ -87,18 +87,9 @@ export const siteMap = [
     label: "Historical",
     path: "/historical",
     type: "gallery",
-<<<<<<< HEAD
     summary: "358 High Street's 'checkered' past.",
     intro:
       "The residence was built behind 360 High Street in 2004. There were numerous issues with its siting and construction. The was no lot division to separate it from 360 High Street. It failed comply with lot setbacks on its south side. The was no driveway, nor parking. Site drainage from its up hill, west side, was not considered. There were no fire walls between the apartments in its 42 in. crawl space. Its original owners defaulted and a mortgage company assumed ownership. A consent agreement was reached with the Town of Belfast to correct permitting and zoning deficiencies in 2013. The photo gallery below shows its original 'name plates' and its pre-construction conditions in 2023.",
-=======
-    summary: "The building was purchased in late 2024.",
-    intro:
-      "358 High Street is a duplex residence which was built behind 360 High Street in 2004. There were numerous issues with its siting and construction. It failed to comply with zoning setbacks, site drainage was unreliable, its owners ultimately defaulted and a mortgage company assumed ownership. A consent agreement was reached with the Town of Belfast to correct permitting and zoning deficiencies in 2013.",
->>>>>>> 242e38d9e19cc93e295aadc89df0de6612cbe952
-    // children: [
-    //   { label: "Historical", path: "/pre-retrofit/historical", type: "gallery" },
-    // ],
   },
 
   { label: "Project Cost", path: "/project-cost", type: "page",

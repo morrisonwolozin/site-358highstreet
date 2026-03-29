@@ -8,11 +8,7 @@ The design scope addressed the building's physical and functional deficiencies, 
 
 The primary architectural objectives were to create a dedicated front entry, add a second bathroom, and provide a laundry alcove for each apartment — transforming a shared floor plan into two fully independent dwelling units.
 
-<<<<<<< HEAD
 The original building was based on a catalog modular layout - see the [Historical](/historical) page - with a shared entry vestibule and shared laundry space. This project reclaimed that shared space: by adding new entry additions to the building's north side, the original vestibule and laundry area became available to provide a new half bath for each apartment.
-=======
-The original building was based on a catalog modular layout - see the [Historical](/pre-retrofit/historical) page - with a shared entry vestibule and shared laundry space. This project reclaimed that shared space: by adding new entry additions to the building's north side, the original vestibule and laundry area became available to provide a new half bath for each apartment.
->>>>>>> 242e38d9e19cc93e295aadc89df0de6612cbe952
 
 The party wall separating the occupied spaces of two units was fully rebuilt — replacing the original partition with an insulated double-wall assembly designed for superior sound attenuation, estimated to be at least STC 65. A fire and sound separation wall between the units was constructed in the crawl space. The original attic included a separation wall, which was altered to fit the zig-zag footprint of the new interior bathrooms.
 

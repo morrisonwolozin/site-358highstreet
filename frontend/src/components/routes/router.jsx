@@ -15,10 +15,7 @@ import DownloadsPage from "../pages/DownloadsPage";
 import EnergyPage from "../pages/EnergyPage";
 import DesignPage from "../pages/DesignPage";
 import ProjectCostPage from "../pages/ProjectCostPage";
-<<<<<<< HEAD
 import IceDamsPage from "../pages/IceDamsPage";
-=======
->>>>>>> 242e38d9e19cc93e295aadc89df0de6612cbe952
 
 export const router = createBrowserRouter([
   {
@@ -35,10 +32,7 @@ export const router = createBrowserRouter([
       { path: "energy-performance", element: <EnergyPage /> },
       { path: "design", element: <DesignPage /> },
       { path: "project-cost", element: <ProjectCostPage /> },
-<<<<<<< HEAD
       { path: "construction/ice-dams", element: <IceDamsPage /> },
-=======
->>>>>>> 242e38d9e19cc93e295aadc89df0de6612cbe952
 
       // ✅ ONE route handles all galleries (any URL that isn't above)
       { path: "*", element: <GalleryRoute /> },
