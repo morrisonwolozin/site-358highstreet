@@ -17,7 +17,7 @@ export default function HeaderBanner({ onMenuOpen }) {
         className="w-full text-center select-none transition-all duration-300 ease-out hover:brightness-110 active:scale-[0.99]"
       >
         <div className="text-2xl sm:text-3xl font-bold text-white py-1">
-          Residential Duplex Deep Energy Retrofit
+          Residential Duplex Energy Retrofit and Electrification
         </div>
         <div className="text-2xl font-bold text-white pt-2">
           358 High Street Belfast, Maine 04915
