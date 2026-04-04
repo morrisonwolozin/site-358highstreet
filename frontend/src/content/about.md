@@ -18,6 +18,7 @@ The retrofit was designed and built by Maine-based contractors and consultants.
 | Dave's Heat Pumps           | Mike Ketchen          | Heat Pump Systems Installation               | Winthrop, ME   | [davesheatpumps.com](https://davesheatpumps.com)                                   |
 | Kenney and Gray LLC         | Kevin Gray            | Electrical                                   | Swanville, ME  | —                                                                                  |
 | Larrabee Plumbing           | Forrest Larrabee      | Plumbing                                     | Knox, ME       | —                                                                                  |
+| Macleod's Furniture Inc     |                       | Appliances                                   | Belfast, ME    | [macleodsfurniture.com](https://www.macleodsfurniture.com)                                |
 | GoodDeeds                   | Clark Staples, P.E.   | Surveying                                    | Belfast, ME    | [wemapit.com](https://www.wemapit.com/)                                            |
 | Maine Blower Door Testing   | Svea Tullberg         | Air Leakage Testing                          | Belfast, ME    | [maineblowerdoortest.com](https://maineblowerdoortest.com/)                        |
 | Niess Tile                  | Jeff Niess            | Bathroom Tile                                | Dixmont, ME    | —                                                                                  |
