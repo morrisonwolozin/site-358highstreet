@@ -65,13 +65,32 @@ export default function ProjectCostPage() {
 
       {/* Header */}
       <div>
-        <h1 className="text-3xl font-semibold text-gray-900 mb-2">Project Costs - Coming Soon</h1>
+        <h1 className="text-3xl font-semibold text-gray-900 mb-2">Project Costs - in Progress</h1>
         <p className="text-gray-600">
           Final costs for the 2025 deep energy retrofit, organized by building system.
         </p>
       </div>
 
+      {/* Total badge */}
+      <div className="rounded-lg border border-green-200 bg-green-50 p-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div>
+          <div className="text-sm font-semibold text-gray-600 uppercase tracking-wide">
+            Total Project Cost
+          </div>
+          <div className="text-4xl font-bold text-green-700 mt-1">
+            {formatCost(totalCost)}
+          </div>
+        </div>
+        <div className="text-sm text-gray-500 max-w-sm text-center sm:text-right">
+          Includes all construction, design, and professional services.
+          Excludes owner-furnished materials and equipment.
+        </div>
+      </div>
 
+      {/* Systems */}
+      {systems.map((s) => (
+        <SystemSection key={s.system} system={s.system} items={s.items} />
+      ))}
 
     </div>
   );

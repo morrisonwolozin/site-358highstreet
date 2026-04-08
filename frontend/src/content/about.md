@@ -1,6 +1,6 @@
 # About This Project
 
-358 High Street is a duplex residence in Belfast, Maine, built in 2004. It was purchased in late 2023 and underwent a "deep energy retrofit" and expansion which were completed in 2025. The project was owner-developed by Robert Morrison, P.E. of October Engineering LLC, with the goal of creating healthy, energy-efficient rental housing while fully electrifying the building.
+358 High Street is a duplex residence in Belfast, Maine, built in 2004. It was purchased in late 2023 and underwent an energy retrofit, expansion and electrification which were completed in 2025. The project was owner-developed by Robert Morrison, P.E. of October Engineering LLC, with the goal of creating healthy, energy-efficient rental housing while fully electrifying the building.
 
 The retrofit was designed and built by Maine-based contractors and consultants.
 
@@ -18,7 +18,7 @@ The retrofit was designed and built by Maine-based contractors and consultants.
 | Dave's Heat Pumps           | Mike Ketchen          | Heat Pump Systems Installation               | Winthrop, ME   | [davesheatpumps.com](https://davesheatpumps.com)                                   |
 | Kenney and Gray LLC         | Kevin Gray            | Electrical                                   | Swanville, ME  | —                                                                                  |
 | Larrabee Plumbing           | Forrest Larrabee      | Plumbing                                     | Knox, ME       | —                                                                                  |
-| Macleod's Furniture Inc     |                       | Appliances                                   | Belfast, ME    | [macleodsfurniture.com](https://www.macleodsfurniture.com)                                |
+| Macleod's Furniture Inc     |                       | Appliances                                   | Belfast, ME    | [macleodsfurniture.com](https://www.macleodsfurniture.com)                         |
 | GoodDeeds                   | Clark Staples, P.E.   | Surveying                                    | Belfast, ME    | [wemapit.com](https://www.wemapit.com/)                                            |
 | Maine Blower Door Testing   | Svea Tullberg         | Air Leakage Testing                          | Belfast, ME    | [maineblowerdoortest.com](https://maineblowerdoortest.com/)                        |
 | Niess Tile                  | Jeff Niess            | Bathroom Tile                                | Dixmont, ME    | —                                                                                  |
