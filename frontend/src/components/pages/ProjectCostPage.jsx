@@ -71,7 +71,7 @@ export default function ProjectCostPage() {
         </p>
       </div>
 
-
+   {/* reinsert output code here */}
 
     </div>
   );

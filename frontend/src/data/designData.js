@@ -19,9 +19,9 @@ export const designData = {
       },
       {
         element: "Wall, Below Grade (Original)",
-        pre: 17.5,
+        pre: 4.0,
         post: 18.9,
-        remarks: "Added 2\" ccSPF to original 1\" XPS rigid board, all continuous.",
+        remarks: "Added 2\" continuous ccSPF to original 1\" deteriorated XPS rigid board",
       },
       {
         element: "Wall, Below Grade (New Addition)",
@@ -31,7 +31,7 @@ export const designData = {
       },
       {
         element: "Roof / Attic",
-        pre: 38.0,
+        pre: 36.0,
         post: 54.1,
         remarks: "Original: vented attic, 12\" fiberglass batt. Retrofit: sealed attic, 4\" ccSPF rafter cavities, 4\" exterior polyiso, 1.5\" soffit-to-ridge vent space.",
       },
