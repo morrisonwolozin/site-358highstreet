@@ -41,7 +41,7 @@ export default function HomePage() {
       {/* Introduction */}
       <section className="max-w-5xl mx-auto text-gray-700 leading-relaxed text-base sm:text-lg md:text-xl columns-1 md:columns-2 gap-8 space-y-2">
         <p>
-          <strong>358 High Street</strong> was a conventional rental duplex from 2004 that was transformed to a clean energy building in 2025. Modifications included a high-performance thermal envelope retrofit, electrified HVAC and added tenant space. For its initial year of energy performance data, select the button below,  the menu bar at left or via the small screen menu "hamburger".
+          <strong>358 High Street</strong> was a conventional rental duplex from 2004, which was transformed to a clean energy building in 2025. Modifications included a high-performance thermal envelope retrofit, electrified HVAC and added tenant space. For its initial year of energy performance data, select the button below,  the menu bar at left or via the small screen menu "hamburger".
         </p>
         <div className="text-center">
           {rentalAvailable ? (
