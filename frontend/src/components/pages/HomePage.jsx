@@ -41,7 +41,7 @@ export default function HomePage() {
       {/* Introduction */}
       <section className="max-w-5xl mx-auto text-gray-700 leading-relaxed text-base sm:text-lg md:text-xl columns-1 md:columns-2 gap-8 space-y-2">
         <p>
-          <strong>358 High Street</strong> was a conventional rental duplex from 2004 that was transformed to a clean energy building in 2025. Modifications included a high-performance thermal envelope retrofit, electrified HVAC and additioned space. For its initial year of performance data, select the button below or from the menu bar at left or via the menu "hamburger" from a small screen.
+          <strong>358 High Street</strong> was a conventional rental duplex from 2004 that was transformed to a clean energy building in 2025. Modifications included a high-performance thermal envelope retrofit, electrified HVAC and added tenant space. For its initial year of energy performance data, select the button below,  the menu bar at left or via the small screen menu "hamburger".
         </p>
         <div className="text-center">
           {rentalAvailable ? (
@@ -62,7 +62,7 @@ export default function HomePage() {
         </div>
 
         <p>
-          358 Main St.'s <strong> design considerations, construction photo galleries, data and downloads</strong> are viewable from the left menu bar. "Deep Energy" retrofits of the existing, added new spaces, finishes, sound isolation, HVAC and appliances were elements of the project. Select the button below for an example.
+          358 Main St.'s <strong> design considerations, construction photo galleries, data and downloads</strong> are selectable from the left menu bar. "Deep Energy" retrofits of the existing, new spaces, finishes, rebuilt party-wall sound isolation, electrifed HVAC and DHW were elements of the project. Select the button below for an example.
         </p>
         <div className="text-center">
           <button
