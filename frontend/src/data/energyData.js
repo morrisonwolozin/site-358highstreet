@@ -44,8 +44,8 @@ export const energyData = {
       "Post-retrofit conditioned area includes additions.",
       "Electricity consumption reflects heat pumps, ERV, and additional conditioned space.",
       "The retrofitted crawl spaces and attic are within the post construction conditioned envelope.",
-      "Solar electric generation from a remote site serves most of the Unit 1 consumption.",
-      "Solar PV will be installed on site to serve Unit 2, Summer, 2026."
+      "Solar electric generation from a remote site serves most of Unit 1's consumption.",
+      "Solar PV on site will be installed to serve Unit 2, Summer, 2026."
     ],
   },
   summary: {
