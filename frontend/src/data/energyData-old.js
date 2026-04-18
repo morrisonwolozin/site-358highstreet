@@ -1,6 +1,6 @@
 // src/data/energyData.js
 // Pre-retrofit baseline: calendar year 2023, tenant-furnished data
-// Post-retrofit: edit this data ongoing
+// Post-retrofit: partial year estimate, annualized
 // Unit 1 pre-retrofit kWh adjusted: deducted 3,200 kWh for plug-in Prius charging
 
 export const energyData = {
@@ -19,38 +19,35 @@ export const energyData = {
     eui_kbtu_sf_yr: 71.7,
     notes: [
       "Data furnished by previous tenants and owner; completeness cannot be fully verified.",
-      "Unit 1's electric service included the shared clothes dryer and boiler plant.",
       "Consistent with three years of fuel oil delivery records at similar heating degree days.",
       "Unit 1 electricity adjusted to exclude approximately 3,200 kWh for plug-in vehicle charging.",
       "Building measured at 3.68 ACH50 — relatively air-tight for its era.",
     ],
   },
   post: {
-    label: "Post-Retrofit - first year of occupancy",
+    label: "Post-Retrofit (Estimated)",
     area_sf: 2010,
     electricity_kwh: {
-      unit1: 6679,
-      unit2: 8311,
-      total: 14856,
+      unit1: 5845,
+      unit2: 6110,
+      total: 11955,
     },
     fueloil_gallons: 0,
     fueloil_mmbtu: 0,
-    electricity_mmbtu: 14990 * 0.003412,   // 40.8 MMBTU
-    total_mmbtu: 51.1,
-    eui_kbtu_sf_yr: 25.4,
+    electricity_mmbtu: 11955 * 0.003412,   // 40.8 MMBTU
+    total_mmbtu: 40.8,
+    eui_kbtu_sf_yr: 20.3,
     notes: [
-      "Post-retrofit data is a the first year of near total occupancy.",
+      "Post-retrofit data is a partial-year estimate; figures will be updated with full annual data.",
       "No fossil fuel consumption — building is fully electrified.",
       "Post-retrofit conditioned area includes additions.",
       "Electricity consumption reflects heat pumps, ERV, and additional conditioned space.",
-      "The retrofitted crawl spaces and attic are within the post construction conditioned envelope.",
-      "Solar electric generation from a remote site serves most of the Unit 1 consumption.",
-      "Solar PV will be installed on site to serve Unit 2, Summer, 2026."
+      "The retrofitted crawl spaces and attic are within the post construction conditioned envelope."
     ],
   },
   summary: {
-    total_mmbtu_reduction_pct: 52,
-    eui_reduction_pct: 65,
+    total_mmbtu_reduction_pct: 72,
+    eui_reduction_pct: 72,
     fueloil_eliminated_gallons: 505,
     area_increase_sf: 520,
     area_increase_pct: 35,

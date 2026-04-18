@@ -59,7 +59,7 @@ export default function EnergyPage() {
         <p className="text-gray-600">
           Whole-building energy use before and after the deep energy retrofit.
           Pre-retrofit baseline is calendar year 2023; post-retrofit consumption is based on
-           partial-year data and will be updated.
+           a year of near-full occupancy, April, 2025 through March, 2026.
         </p>
       </div>
 
