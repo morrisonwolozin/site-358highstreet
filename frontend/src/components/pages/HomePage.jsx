@@ -41,7 +41,7 @@ export default function HomePage() {
       {/* Introduction */}
       <section className="max-w-5xl mx-auto text-gray-700 leading-relaxed text-base sm:text-lg md:text-xl columns-1 md:columns-2 gap-8 space-y-2">
         <p>
-          <strong>358 High Street</strong> is a high-performance, electrified duplex. Originally built in 2004 as conventional rental housing, it underwent a deep energy retrofit with additions completed in 2025. The project added significant exterior and interior insulation, air-sealing, electrified HVAC, and expanded tenant space. First year energy performance data is available via the button below or navigation menu.
+          <strong>358 High Street</strong> is a high-performance, all-electric duplex. Originally built in 2004 as conventional rental housing, it underwent a deep energy retrofit with additions completed in 2025. The project added significant exterior and interior insulation, air-sealing, electrified HVAC, and expanded tenant space. First year energy performance data is available via the button below or navigation menu.
         </p>
         <div className="text-center">
           {rentalAvailable ? (
