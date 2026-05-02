@@ -69,5 +69,5 @@ A cedar treeline on the south side of the property was trimmed to improve solar 
 
 ## Tenants' Benefits
 
-Tenants will be billed for solar-sourced electricity at a rate of **50% of the prevailing CMP retail energy rate** ($/kWh), exclusive of fixed customer charges and transmission and distribution components. This rate reflects the owner's intent to share the economic benefit of solar generation with tenants while recovering a portion of the capital investment.
+Tenants will be billed for solar-sourced electricity at a rate of **50% of the prevailing CMP retail energy rate** ($/kWh) for their consumption. This rate reflects the owner's intent to share the economic benefit of solar generation with tenants while recovering a portion of the capital investment.
 
