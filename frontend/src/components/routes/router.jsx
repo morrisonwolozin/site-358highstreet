@@ -16,6 +16,7 @@ import EnergyPage from "../pages/EnergyPage";
 import DesignPage from "../pages/DesignPage";
 import ProjectCostPage from "../pages/ProjectCostPage";
 import IceDamsPage from "../pages/IceDamsPage";
+import SolarPage from "../pages/SolarPage";
 
 export const router = createBrowserRouter([
   {
