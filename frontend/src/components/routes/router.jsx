@@ -31,6 +31,7 @@ export const router = createBrowserRouter([
       { path: "downloads", element: <DownloadsPage /> },
       { path: "energy-performance", element: <EnergyPage /> },
       { path: "design", element: <DesignPage /> },
+      { path: "solar", element: <SolarPage /> },
       { path: "project-cost", element: <ProjectCostPage /> },
       { path: "construction/ice-dams", element: <IceDamsPage /> },
 

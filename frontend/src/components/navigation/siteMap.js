@@ -23,6 +23,7 @@
 // │   DownloadsPage.jsx
 // │   RentalPage.jsx
 // │   RestrictedPage.jsx
+// │   SolarPage.jsx
 // │
 // ├─ navigation/
 // │   SidebarNav.jsx
@@ -82,6 +83,13 @@ export const siteMap = [
     path: "/energy-performance",
     type: "page",
     summary: "Whole-building energy use before and after the deep energy retrofit",
+  },
+  { 
+    label: "Solar Generation", 
+    path: "/solar", 
+    type: "page", 
+    summary: "Owner-financed photovoltaic supply for both units",
+    intro: "intro info"
   },
   {
     label: "Historical",
