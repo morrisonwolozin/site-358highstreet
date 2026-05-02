@@ -2,7 +2,7 @@
 
 ## Overview
 
-Electricity for both dwelling units will be supplied in whole or in part from solar photovoltaic generation. The arrangement uses two separate arrays at two locations: an existing offsite array in Palermo that currently serves Unit 1, and a forthcoming onsite array under contract for installation that will serve Unit 2. Tenants are (Unit 1) and will be (Unit 2) billed for their consumption at a rate equal to 50% of the prevailing CMP retail rate.
+Electricity for both dwelling units will be supplied in whole or in part from solar photovoltaic generation. The arrangement uses two separate arrays at two locations: an existing offsite array in Palermo that currently serves Unit 1, and a forthcoming onsite array that will serve Unit 2. Tenants will be billed for their consumption at a rate equal to 50% of the prevailing CMP retail rate.
 
 ---
 
