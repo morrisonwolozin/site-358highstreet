@@ -1,8 +1,8 @@
-# Solar Electric Generation
+# Solar Electricity
 
 ## Overview
 
-Electricity for both dwelling units is supplied in whole or in part from solar photovoltaic generation owned by the building owner. The arrangement uses two separate arrays at two locations: an existing offsite array in Palermo that serves Unit 1, and a new onsite array under contract for installation that will serve Unit 2. In both cases the owner retains ownership of the generation assets; tenants are billed for their consumption at a rate equal to 50% of the prevailing CMP retail rate.
+Electricity for both dwelling units will be supplied in whole or in part from solar photovoltaic generation. The arrangement uses two separate arrays at two locations: an existing offsite array in Palermo that currently serves Unit 1, and a forthcoming onsite array under contract for installation that will serve Unit 2. Tenants are (Unit 1) and will be (Unit 2) billed for their consumption at a rate equal to 50% of the prevailing CMP retail rate.
 
 ---
 
@@ -16,7 +16,7 @@ Under normal conditions the offsite array produces sufficient surplus to cover U
 
 ## Future Onsite Generation  — Unit 2
 
-An 8.36 kW rooftop system is under contract for installation at 358 High Street by [Revision Energy](https://revisionenergy.com), a Maine-based, employee-owned solar contractor operating since 2003. The array will be interconnected with CMP under net metering and dedicated to offsetting Unit 2's consumption.
+An 8.36 kW rooftop system is under contract for installation at 358 High Street from [Revision Energy](https://revisionenergy.com), a Maine-based, employee-owned solar contractor operating since 2003. The array will be interconnected with CMP under net metering and dedicated to offsetting Unit 2's consumption.
 
 ### Future Array Layout
 
@@ -25,7 +25,7 @@ Panels are distributed across two south-southeast facing roof planes at a 5/12 p
 | Roof Plane | Panel Count |
 |---|---|
 | Addition roof  | 6 |
-| West half of Main roof | 13 |
+| Main roof, west half | 13 |
 | **Total** | **19** |
 Note: the east half of the main roof is reserved for a future array
 

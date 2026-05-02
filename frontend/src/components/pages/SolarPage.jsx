@@ -18,8 +18,7 @@ export default function SolarPage() {
           Revision Energy, April 2026.
         </p>
       </div>
-
-          <MarkdownPage content={content} />
+      <MarkdownPage content={content} />
     </div>
 
   )
