@@ -1,8 +1,5 @@
-# Building Design
 
-## Design Narrative
 
-The design scope addressed the building's physical and functional deficiencies, added new spaces, and delivered a deep energy retrofit "lite". The project goals were to offer a superior tenant experience through complete separation of all functions and utilities, relatively low utility operating expenses and good indoor air quality. And provide ongoing monitoring of indoor air quality.
 
 ### Architectural Goals
 

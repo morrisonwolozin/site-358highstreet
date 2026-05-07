@@ -2,6 +2,8 @@
 import { designData } from "../../data/designData";
 import MarkdownPage from "./MarkdownPage";
 import narrative from "../../content/design-narrative.md?raw";
+import designPageImage from "/images/designPage-image.webp"
+
 
 const { thermal, airLeakage, loads } = designData;
 
@@ -171,6 +173,20 @@ function LoadsSection() {
 export default function DesignPage() {
   return (
     <div className="max-w-5xl mx-auto space-y-10">
+
+      <div className="flex flex-col sm:flex-row gap-6 items-start">
+        <img
+          src={designPageImage}
+          alt="design page image"
+          className="w-full sm:w-96 rounded shadow-sm flex-shrink-0"
+        />
+        <div className="space-y-4">
+          <h1 className="text-3xl font-semibold text-gray-900">Building Design</h1>
+          <p className="text-gray-600">
+            The design scope addressed the building's physical and functional deficiencies, added new spaces, and delivered a deep energy retrofit "lite". The project goals were to offer a superior tenant experience through complete separation of all functions and utilities, low utility operating expenses and good indoor air quality. And provide ongoing monitoring of indoor air quality.
+          </p>
+        </div>
+      </div>
 
       {/* Markdown narrative */}
       <MarkdownPage content={narrative} />

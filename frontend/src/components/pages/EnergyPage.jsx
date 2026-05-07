@@ -1,5 +1,6 @@
 // src/pages/EnergyPage.jsx
 import { energyData } from "../../data/energyData.js";
+import energyPageImage from "/images/energy-image.webp"
 
 const { pre, post, summary } = energyData;
 
@@ -51,16 +52,24 @@ function NotesList({ notes }) {
 
 export default function EnergyPage() {
   return (
+
+    
     <div className="max-w-5xl mx-auto space-y-10">
 
-      {/* Header */}
-      <div>
-        <h1 className="text-3xl font-semibold text-gray-900 mb-2">Energy Performance</h1>
-        <p className="text-gray-600">
-          Whole-building energy use before and after the deep energy retrofit.
-          Pre-retrofit baseline is calendar year 2023; post-retrofit consumption is based on
-           a year of near-full occupancy, April, 2025 through March, 2026.
-        </p>
+      <div className="flex flex-col sm:flex-row gap-6 items-start">
+        <img
+          src={energyPageImage}
+          alt="Energy page image"
+          className="w-full sm:w-64 rounded shadow-sm flex-shrink-0"
+        />
+        <div className="space-y-4">
+          <h1 className="text-3xl font-semibold text-gray-900">Energy Performance</h1>
+          <p className="text-gray-600">
+            Whole-building energy use is listed before and after the energy retrofit and electrification.
+            Pre-retrofit baseline is calendar year 2023; post-retrofit consumption is based on
+            a year of near-full occupancy, April 2025 through March 2026. The summary below is up to date as of April, 2026.
+          </p>
+        </div>
       </div>
 
       {/* Summary badges */}

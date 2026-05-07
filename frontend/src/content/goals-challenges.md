@@ -1,36 +1,34 @@
-# Renovation Challenge
 
-The project's goal was to create energy-efficient and healthy dwelling apartments while eliminating all fossil fuel combustion equipment.
 
-## Goals:
+## Other Goals:
 
 1. Low cooling and heating demand and energy consumption;
 2. High performing sound and air isolation between apartments;
-3. Good indoor air quality, continuously monitored;
-4. Improved livability by adding half baths, laundry spaces, mudrooms, conditioned and unconditioned storage;
-5. Eliminate bulk water intrusion by improving site drainage.
+3. Improved livability by adding half baths, laundry spaces, mudrooms, conditioned and unconditioned storage;
+4. Eliminate bulk water intrusion by improving site drainage.
+5. Near net-zero utility consumption.
 
 ## Retrofit Scope of Work:
 
 1. Excavate original building foundation perimeter to apply water-proofing, replace drainage, add drainage from roof;
 2. Site grading to improve surface water diversion and increase parking;
 3. Add conditioned space for each apartment inlcuding an entry with laundry alcove and conditioned storage;
-4. Replaced original party wall with insulated double wall construction for sound attenuation;
-5. Add interior half baths in place of the original shared laundry room and closets;
-6. Add insulation to walls, roof and air-seal all spaces, a "deep energy retrofit lite";
-7. Heat pump domestic water heater for each apartment;
-8. Ducted central heat pump heating and cooling for each apartment;
-9. Variable speed kitchen range exhaust hoods;
-10. Energy recovery ventilator (ERV) for each apartment;
-11. New kitchens and appliances;
-12. New bathrooms and fixtures;
-13. New ceiling lighting for all spaces, including closets, removed switched recepticles;
-14. New crawl space floor insulation, "dimple mat", subfloor;
-15. New insulated sound and fire wall between the apartment apartments in the crawlspace;
-16. On site unconditioned storage space;
-17. Gardening raised beds.
-
-The following pre-construction conditions defined the building improvement scope of the retrofit.
+4. Replaced original party wall on occupied level with insulated double wall construction for sound attenuation;
+5. Added party wall between crawl spaces;
+6. Add interior half baths in place of the original shared laundry room and closets;
+7. Add insulation to walls, roof and air-seal all spaces, a deep energy retrofit "lite";
+8. Heat pump domestic water heater in the newly created storage rooms for each apartment;
+9. Ducted central heat pump heating and cooling for each apartment located in each ;
+10. Variable speed kitchen range exhaust hoods;
+11. Energy recovery ventilator (ERV) for each apartment;
+12. New kitchens and appliances;
+13. New bathrooms and fixtures;
+14. New ceiling lighting for all spaces, including closets, removed switched recepticles;
+15. New crawl space floor insulation, "dimple mat", subfloor;
+16. New insulated sound and fire wall between the apartment apartments in the crawlspace;
+17. On site unconditioned storage space;
+18. On site solar electric generation.
+19. Gardening raised beds.
 
 ## Pre-construction Conditions
 
