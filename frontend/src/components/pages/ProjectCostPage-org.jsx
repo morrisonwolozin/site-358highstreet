@@ -65,13 +65,13 @@ export default function ProjectCostPage() {
 
       {/* Header */}
       <div>
-        <h1 className="text-3xl font-semibold text-gray-900 mb-2">Project Costs - in Progress</h1>
-        <p className="text-gray-600">
+      
+        <h1 className="text-gray-600">
           Final costs for the 2025 deep energy retrofit, organized by building system.
-        </p>
+        </h1>
       </div>
 
-      {/* Total badge */}
+       {/* Total badge */}
       <div className="rounded-lg border border-green-200 bg-green-50 p-6 flex flex-col sm:flex-row items-center justify-between gap-4">
         <div>
           <div className="text-sm font-semibold text-gray-600 uppercase tracking-wide">

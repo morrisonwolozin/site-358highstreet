@@ -3,5 +3,9 @@ import MarkdownPage from "./MarkdownPage";
 import content from "../../content/goals-challenges.md?raw";
 
 export default function IssuesPage() {
-  return <MarkdownPage content={content} />;
+  return (
+      <div className="max-w-5xl mx-auto space-y-10">
+          <MarkdownPage content={content} />;
+    </div>
+  )
 }

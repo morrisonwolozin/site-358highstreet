@@ -1,3 +1,5 @@
+# Solar Electricity
+
 ## Overview
 
 Electricity for both dwelling units will be supplied in whole or in part from solar photovoltaic generation. The arrangement uses two separate arrays at two locations: an existing offsite array in Palermo that currently serves Unit 1, and a forthcoming onsite array that will serve Unit 2. Tenants will be billed for their consumption at a rate equal to 50% of the prevailing CMP retail rate.
@@ -46,9 +48,26 @@ A cedar treeline on the south side of the property was trimmed to improve solar 
 | Unit 2 annual consumption (baseline) | 8,311 kWh |
 | Expected Coverage | 97% |
 
+### Warranties
+
+| Coverage | Term |
+|---|---|
+| Silfab panel product warranty | 25 years |
+| Silfab linear performance warranty | 30 years |
+| SolarEdge inverter | 12 years |
+| Revision Energy workmanship (including roof penetrations) | 10 years |
+| Revision Energy enhanced warranty (labor for diagnosis and repair) | 10 years |
+
+### Project Cost
+
+| Item | Amount |
+|---|---|
+| Contract price | $26,375 |
+| Federal tax credit (30%, Section 48E) | −$7,912 |
+
 ---
 
 ## Tenants' Benefits
 
-Tenants will be billed for solar-sourced electricity at a rate of **50% of the prevailing CMP retail energy rate** ($/kWh). This rate reflects the owner's intent to share the economic benefit of solar generation with tenants while recovering a portion of the capital investment.
+Tenants will be billed for solar-sourced electricity at a rate of **50% of the prevailing CMP retail energy rate** ($/kWh) for their consumption. This rate reflects the owner's intent to share the economic benefit of solar generation with tenants while recovering a portion of the capital investment.
 

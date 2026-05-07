@@ -108,8 +108,8 @@ export default function ProjectCostPage() {
             </div>
           </div>
           <div className="text-sm text-gray-500 max-w-sm text-right">
-            Includes all construction, design, owner-supplied materials and professional services.
-            Excludes property purchase and owner labor.
+            Includes all construction, design, and professional services.
+            Excludes property purchase and owner-furnished items.
           </div>
         </div>
         {/* Labor / Material / Turnkey summary */}

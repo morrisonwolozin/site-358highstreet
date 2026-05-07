@@ -1,61 +1,220 @@
 // src/data/projectCostData.js
-// Placeholder data — replace with actual figures from Excel pivot table
-// Structure mirrors pivot table output: systems → line items
+// Updated from pivot table — 358 High Street Belfast, ME
+// Costs reflect construction scope only (excludes property purchase)
 
 export const projectCostData = {
-  totalCost: 0, // replace with actual total
+  totalCost: 466492,
 
   systems: [
     {
-      system: "Site Work & Foundation",
+      system: "General Conditions",
+      labor: 28627,
+      material: 1897,
+      turnkey: 0,
+      total: 30524,
       items: [
-        { contractor: "Dube Construction LLC",  description: "Excavation, site drainage, walkways", cost: 0, notes: "" },
-        { contractor: "MacDonald Concrete",      description: "Foundation work",                    cost: 0, notes: "" },
-        { contractor: "GoodDeeds",               description: "Surveying",                          cost: 0, notes: "" },
-        { contractor: "Maine Raised Gardens",    description: "Raised garden beds",                 cost: 0, notes: "" },
-      ],
-    },
-    {
-      system: "Structure & Envelope",
-      items: [
-        { contractor: "Northridge Construction LLC", description: "General contracting",              cost: 0, notes: "" },
-        { contractor: "Maple Knoll Builders LLC",    description: "Carpentry, exterior insulation",   cost: 0, notes: "" },
-        { contractor: "N.E. Spray Foam",             description: "Spray foam insulation",            cost: 0, notes: "" },
-        { contractor: "Rainwater Solutions",         description: "Roof gutters",                     cost: 0, notes: "" },
-      ],
-    },
-    {
-      system: "HVAC & Ventilation",
-      items: [
-        { contractor: "October Engineering LLC", description: "HVAC design, ERV installation",    cost: 0, notes: "" },
-        { contractor: "Dave's Heat Pumps",       description: "Heat pump systems installation",   cost: 0, notes: "" },
-      ],
-    },
-    {
-      system: "Electrical",
-      items: [
-        { contractor: "Kenney and Gray LLC", description: "Electrical", cost: 0, notes: "" },
-      ],
-    },
-    {
-      system: "Plumbing",
-      items: [
-        { contractor: "Larrabee Plumbing", description: "Plumbing", cost: 0, notes: "" },
-      ],
-    },
-    {
-      system: "Finishes & Interiors",
-      items: [
-        { contractor: "Manson Wall",  description: "Drywall",        cost: 0, notes: "" },
-        { contractor: "Niess Tile",   description: "Bathroom tile",  cost: 0, notes: "" },
+        { component: "General Contractor", description: "Northridge Construction general conditions", labor: 26563, material: 0,     turnkey: 0,     total: 26563 },
+        { component: "Misc",               description: "Miscellaneous site expenses",                labor: 39,    material: 1213,  turnkey: 0,     total: 1252  },
+        { component: "Permit",             description: "Building and plumbing permits",              labor: 2024,  material: 133,   turnkey: 0,     total: 2158  },
+        { component: "Tools & Equipment",  description: "Tools and equipment purchases",              labor: 0,     material: 551,   turnkey: 0,     total: 551   },
       ],
     },
     {
       system: "Design & Professional Services",
+      labor: 0,
+      material: 0,
+      turnkey: 2684,
+      total: 2684,
       items: [
-        { contractor: "Maines Design",             description: "Design consultant",      cost: 0, notes: "" },
-        { contractor: "Maine Blower Door Testing", description: "Air leakage testing",    cost: 0, notes: "" },
+        { component: "Additions",           description: "Design consultant — front entry addition",  labor: 0, material: 0, turnkey: 625,  total: 625  },
+        { component: "Lot Boundary",        description: "GoodDeeds surveying",                       labor: 0, material: 0, turnkey: 1459, total: 1459 },
+        { component: "Structure & Envelope",description: "Maine Blower Door Testing",                 labor: 0, material: 0, turnkey: 600,  total: 600  },
+      ],
+    },
+    {
+      system: "Site Work",
+      labor: 37192,
+      material: 1672,
+      turnkey: 4497,
+      total: 43361,
+      items: [
+        { component: "Drainage",  description: "Site drainage",                           labor: 0,     material: 252,  turnkey: 0,    total: 252  },
+        { component: "Excavation",description: "Excavation — Dube Construction",          labor: 37192, material: 0,    turnkey: 0,    total: 37192 },
+        { component: "Landscape", description: "Hydroseeding, raised garden beds",        labor: 0,     material: 1420, turnkey: 4497, total: 5917 },
+      ],
+    },
+    {
+      system: "Demolition & Disposal",
+      labor: 3674,
+      material: 0,
+      turnkey: 0,
+      total: 3674,
+      items: [
+        { component: "General", description: "Demolition and disposal", labor: 3674, material: 0, turnkey: 0, total: 3674 },
+      ],
+    },
+    {
+      system: "Finishes & Interiors",
+      labor: 49257,
+      material: 65601,
+      turnkey: 0,
+      total: 114858,
+      items: [
+        { component: "Attics",              description: "Attic finishes",                            labor: 0,     material: 510,   turnkey: 0, total: 510   },
+        { component: "Bathrooms",           description: "Tile labor (Niess Tile), vanities",         labor: 4070,  material: 2904,  turnkey: 0, total: 6974  },
+        { component: "Ceilings",            description: "Ceiling finishes and paint",                labor: 190,   material: 229,   turnkey: 0, total: 419   },
+        { component: "Crawl Spaces",        description: "Crawl space finishes",                      labor: 0,     material: 795,   turnkey: 0, total: 795   },
+        { component: "Entries, Bathrooms",  description: "Entry and bathroom finishes",               labor: 0,     material: 110,   turnkey: 0, total: 110   },
+        { component: "Floors",              description: "Floor prep and underlayment",               labor: 0,     material: 2195,  turnkey: 0, total: 2195  },
+        { component: "Floors — Flooring",   description: "Hardwood flooring — labor and material",   labor: 7000,  material: 6984,  turnkey: 0, total: 13984 },
+        { component: "Interior Walls",      description: "Drywall, paint — Don Manson",              labor: 17074, material: 9310,  turnkey: 0, total: 26384 },
+        { component: "Kitchens",            description: "Cabinetry, countertops, installation",      labor: 3765,  material: 14813, turnkey: 0, total: 18578 },
+        { component: "Kitchens — Appliances",description: "Kitchen appliances",                      labor: 0,     material: 15376, turnkey: 0, total: 15376 },
+        { component: "Party Walls",         description: "Sound isolation — Maple Knoll Builders",   labor: 13658, material: 7561,  turnkey: 0, total: 21219 },
+        { component: "Storage Rooms",       description: "Storage room finishes",                    labor: 0,     material: 1956,  turnkey: 0, total: 1956  },
+        { component: "Storage Rooms, Shed", description: "Storage and shed finishes",                labor: 0,     material: 5107,  turnkey: 0, total: 5107  },
+        { component: "Windows",             description: "Window finishes and trim",                  labor: 0,     material: 1251,  turnkey: 0, total: 1251  },
+      ],
+    },
+    {
+      system: "Structure & Envelope",
+      labor: 59818,
+      material: 92351,
+      turnkey: 31274,
+      total: 183443,
+      items: [
+        { component: "Additions",      description: "Front entry and Unit 2 addition framing",        labor: 26350, material: 15391, turnkey: 0,     total: 41741 },
+        { component: "Attics",         description: "Attic spray foam — N.E. Spray Foam",             labor: 0,     material: 9960,  turnkey: 0,     total: 9960  },
+        { component: "Crawl Spaces",   description: "Crawl space insulation and encapsulation",       labor: 3100,  material: 8835,  turnkey: 0,     total: 11935 },
+        { component: "Exterior Walls", description: "Wall framing, insulation, LP SmartSide cladding",labor: 19518, material: 48352, turnkey: 7000,  total: 74870 },
+        { component: "Foundation",     description: "Foundation work",                                labor: 1800,  material: 14314, turnkey: 0,     total: 16114 },
+        { component: "Roof",           description: "Roofing — framing, sheathing, shingles",         labor: 9050,  material: 19773, turnkey: 0,     total: 28823 },
+      ],
+    },
+    {
+      system: "Plumbing",
+      labor: 12686,
+      material: 10485,
+      turnkey: 0,
+      total: 23172,
+      items: [
+        { component: "Bathrooms",             description: "Bathroom plumbing rough and finish",      labor: 0,     material: 777,  turnkey: 0, total: 777   },
+        { component: "Crawl Spaces",          description: "Crawl space plumbing",                   labor: 0,     material: 94,   turnkey: 0, total: 94    },
+        { component: "Crawl Spaces — Sump",   description: "Sump pump systems — Units 1 & 2",        labor: 0,     material: 568,  turnkey: 0, total: 568   },
+        { component: "Crawl Spaces — DHWHs",  description: "Domestic hot water heaters",             labor: 0,     material: 1063, turnkey: 0, total: 1063  },
+        { component: "Kitchen",               description: "Kitchen plumbing",                        labor: 0,     material: 342,  turnkey: 0, total: 342   },
+        { component: "Plumbing",              description: "Miscellaneous plumbing materials",        labor: 0,     material: 1,    turnkey: 0, total: 1     },
+        { component: "Subcontractor",         description: "Larrabee Plumbing — labor and materials", labor: 12686, material: 7640, turnkey: 0, total: 20326 },
+      ],
+    },
+    {
+      system: "Electrical",
+      labor: 0,
+      material: 2220,
+      turnkey: 25668,
+      total: 27888,
+      items: [
+        { component: "Attic — Lighting",    description: "Owner installed attic lighting",                  labor: 0,    material: 122,  turnkey: 0,     total: 122   },
+        { component: "Ceilings",            description: "Owner supplied lighting fixtures",                labor: 0,    material: 860,  turnkey: 0,     total: 860   },
+        { component: "Crawl Space",         description: "Owner installed crawl space lighting",             labor: 0,    material: 243,  turnkey: 0,     total: 243   },
+        { component: "Exterior Walls",      description: "Owner supplied exterior lighting fixtures",        labor: 0,    material: 388,  turnkey: 0,     total: 388   },
+        { component: "Kitchen",             description: "Owner supplied kitchen lighting fixtures",          labor: 0,    material: 607,  turnkey: 0,     total: 607   },
+        { component: "Subcontractor",       description: "Kenney & Gray — wiring, devices and panel work",    labor: 0, material: 0,    turnkey: 25668, total: 25668 },
+      ],
+    },
+    {
+      system: "HVAC & Ventilation",
+      labor: 12467,
+      material: 22315,
+      turnkey: 0,
+      total: 34782,
+      items: [
+        { component: "Crawl Spaces — Dehumidifiers", description: "Crawl space dehumidifiers",       labor: 0,     material: 842,  turnkey: 0, total: 842   },
+        { component: "Exhaust",                      description: "Kitchen and bath exhaust systems", labor: 0,     material: 1373, turnkey: 0, total: 1373  },
+        { component: "Heating and Cooling",          description: "Mitsubishi heat pump equipment",  labor: 0,     material: 11504,turnkey: 0, total: 11504 },
+        { component: "Heating, Cooling — Sub",       description: "Dave's Heat Pumps — installation",labor: 12467, material: 0,    turnkey: 0, total: 12467 },
+        { component: "Ventilation",                  description: "ERV systems, ductwork, controls", labor: 0,     material: 8596, turnkey: 0, total: 8596  },
+      ],
+    },
+    {
+      system: "Monitoring & Controls",
+      labor: 0,
+      material: 2107,
+      turnkey: 0,
+      total: 2107,
+      items: [
+        { component: "Conditioned Space", description: "AirThings and TempStick sensors", labor: 0, material: 2107, turnkey: 0, total: 2107 },
       ],
     },
   ],
 };
+
+
+
+
+
+
+
+
+
+
+// src/data/projectCostData.js
+// Placeholder data — replace with actual figures from Excel pivot table
+// Structure mirrors pivot table output: systems → line items
+// org export const projectCostData = {
+//   totalCost: 0, // replace with actual total
+
+//   systems: [
+//     {
+//       system: "Site Work & Foundation",
+//       items: [
+//         { contractor: "Dube Construction LLC",  description: "Excavation, site drainage, walkways", cost: 0, notes: "" },
+//         { contractor: "MacDonald Concrete",      description: "Foundation work",                    cost: 0, notes: "" },
+//         { contractor: "GoodDeeds",               description: "Surveying",                          cost: 0, notes: "" },
+//         { contractor: "Maine Raised Gardens",    description: "Raised garden beds",                 cost: 0, notes: "" },
+//       ],
+//     },
+//     {
+//       system: "Structure & Envelope",
+//       items: [
+//         { contractor: "Northridge Construction LLC", description: "General contracting",              cost: 0, notes: "" },
+//         { contractor: "Maple Knoll Builders LLC",    description: "Carpentry, exterior insulation",   cost: 0, notes: "" },
+//         { contractor: "N.E. Spray Foam",             description: "Spray foam insulation",            cost: 0, notes: "" },
+//         { contractor: "Rainwater Solutions",         description: "Roof gutters",                     cost: 0, notes: "" },
+//       ],
+//     },
+//     {
+//       system: "HVAC & Ventilation",
+//       items: [
+//         { contractor: "October Engineering LLC", description: "HVAC design, ERV installation",    cost: 0, notes: "" },
+//         { contractor: "Dave's Heat Pumps",       description: "Heat pump systems installation",   cost: 0, notes: "" },
+//       ],
+//     },
+//     {
+//       system: "Electrical",
+//       items: [
+//         { contractor: "Kenney and Gray LLC", description: "Electrical", cost: 0, notes: "" },
+//       ],
+//     },
+//     {
+//       system: "Plumbing",
+//       items: [
+//         { contractor: "Larrabee Plumbing", description: "Plumbing", cost: 0, notes: "" },
+//       ],
+//     },
+//     {
+//       system: "Finishes & Interiors",
+//       items: [
+//         { contractor: "Manson Wall",  description: "Drywall",        cost: 0, notes: "" },
+//         { contractor: "Niess Tile",   description: "Bathroom tile",  cost: 0, notes: "" },
+//       ],
+//     },
+//     {
+//       system: "Design & Professional Services",
+//       items: [
+//         { contractor: "Maines Design",             description: "Design consultant",      cost: 0, notes: "" },
+//         { contractor: "Maine Blower Door Testing", description: "Air leakage testing",    cost: 0, notes: "" },
+//       ],
+//     },
+//   ],
+// };

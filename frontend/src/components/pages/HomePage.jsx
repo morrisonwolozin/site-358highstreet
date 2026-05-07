@@ -62,14 +62,14 @@ export default function HomePage() {
         </div>
 
         <p>
-          Design considerations, construction photo galleries, performance data, and project downloads are accessible from the navigation menu. The retrofit scope included a high-performance thermal envelope, new living spaces, updated finishes, rebuilt party wall sound isolation, and fully electrified heating, cooling, and domestic hot water systems. Click the button below for a sample construction photo gallery.
+          Design considerations, construction photo galleries, performance data, and project downloads are accessible from the navigation menu. The retrofit scope included a high-performance thermal envelope, new living spaces, updated finishes, rebuilt party wall sound isolation, and fully electrified heating, cooling, and domestic hot water systems. Next, solar PV will be installed. Click the button below for details.
         </p>
         <div className="text-center">
           <button
             className="inline-block mt-4 px-6 py-3 bg-green-600 text-white text-lg rounded-lg hover:bg-green-700 transition"
-            onClick={() => navigateTo("construction/party-walls")}
+            onClick={() => navigateTo("solar")}
           >
-            Duplex party walls
+            Solar PV
           </button>
         </div>
       </section>

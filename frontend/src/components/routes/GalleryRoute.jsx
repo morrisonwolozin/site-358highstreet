@@ -23,7 +23,8 @@ export default function GalleryRoute() {
   // console.log(`GalleryRoute: images: ${images}`)
 
   return (
-    <div className="p-6">
+    <div className="max-w-5xl mx-auto space-y-10">
+     {/* <div className="p-6"> */}
       {/* Breadcrumb from URL 
       <div className="mb-4 text-sm text-gray-600">
         {key.split("/").filter(Boolean).map((seg, i, arr) => (

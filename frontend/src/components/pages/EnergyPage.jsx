@@ -51,7 +51,7 @@ function NotesList({ notes }) {
 
 export default function EnergyPage() {
   return (
-    <div className="max-w-4xl mx-auto space-y-8">
+    <div className="max-w-5xl mx-auto space-y-10">
 
       {/* Header */}
       <div>
