@@ -2,15 +2,15 @@
 
 ## Design Narrative
 
-The design scope addressed the building's physical and functional deficiencies, added new spaces, and delivered a deep energy retrofit. The scope's goals were to offer a superior tenant experience through complete separation of all functions and utilities, relatively low utility operating expenses and good indoor air quality with transparent ongoing monitoring.
+The design scope addressed the building's physical and functional deficiencies, added new spaces, and delivered a deep energy retrofit "lite". The project goals were to offer a superior tenant experience through complete separation of all functions and utilities, relatively low utility operating expenses and good indoor air quality. And provide ongoing monitoring of indoor air quality.
 
 ### Architectural Goals
 
-The primary architectural objectives were to create a dedicated front entry, add a second bathroom, and provide a laundry alcove for each apartment — transforming a shared floor plan into two fully independent dwelling units.
+The primary architectural objectives were to create a dedicated front entry, and add a second bathroom and laundry space for each apartment.
 
 The original building was based on a catalog modular layout - see the [Historical](/historical) page - with a shared entry vestibule and shared laundry space. This project reclaimed that shared space: by adding new entry additions to the building's north side, the original vestibule and laundry area became available to provide a new half bath for each apartment.
 
-The party wall separating the occupied spaces of two units was fully rebuilt — replacing the original partition with an insulated double-wall assembly designed for superior sound attenuation, estimated to be at least STC 65. A fire and sound separation wall between the units was constructed in the crawl space. The original attic included a separation wall, which was altered to fit the zig-zag footprint of the new interior bathrooms.
+The party wall separating the two units was fully rebuilt — replacing the original partition with an insulated double-wall assembly designed for superior sound attenuation, estimated to be at least STC 65. A fire and sound separation wall between the units was constructed in the crawl space. The original attic included a separation wall, which was altered to fit the zig-zag footprint of the new interior bathrooms. The original crawl space had no fire or sound party wall - this project added them.
 
 ### Site History and Zoning
 

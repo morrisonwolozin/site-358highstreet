@@ -72,26 +72,26 @@ export const galleryIndex = {
     ],
   "construction/envelope/der-windows":
   [
-      { id: "img001",imageUrl: "/images/img-1-windows-remove-existing.webp",title: "9 windows: remove existing ",      shortAnnotation: "remove existing windows", 
+      { id: "img001",imageUrl: "/images/img-1-windows-remove-existing.webp",title: "remove existing",      shortAnnotation: "remove existing windows", 
         fullAnnotation: "remove existing double hung, double-pane, aluminum frame windows, 2004" },
       { id: "img002", imageUrl: "/images/img-2-windows-extension-framing.webp", 
-        title: "9-1 windows: extend existing framing",shortAnnotation: "extend window framing", 
+        title: "extend existing framing",shortAnnotation: "extend window framing", 
         fullAnnotation: "extend existing framing outward to accomodate 2 in. exterior insulation" },
-      { id: "img003",imageUrl: "/images/img-3-windows-extension-framing.webp",title: "", 
-        shortAnnotation: "",fullAnnotation: "" },
-      { id: "img004",imageUrl: "/images/img-4-windows-new-prep.webp", title: "", 
+      { id: "img003",imageUrl: "/images/img-3-windows-extension-framing.webp",title: "extended framing", 
+        shortAnnotation: "windows: extension framing",fullAnnotation: "" },
+      { id: "img004",imageUrl: "/images/img-4-windows-new-prep.webp", title: "air sealing", 
         shortAnnotation: "", fullAnnotation: "" },
-      { id: "img005",imageUrl: "/images/img-5-windows-new-prep.webp",title: "", 
+      { id: "img005",imageUrl: "/images/img-5-windows-new-prep.webp",title: "air sealing", 
         shortAnnotation: "",fullAnnotation: "" },
-      { id: "img006", imageUrl: "/images/img-6-windows-set.webp", title: "", 
+      { id: "img006", imageUrl: "/images/img-7-windows-set.webp", title: "initial setting in opening", 
         shortAnnotation: "",fullAnnotation: "" },
-      { id: "img007", imageUrl: "/images/img-7-windows-set.webp", title: "", 
+      { id: "img007", imageUrl: "/images/img-6-windows-set.webp", title: "final setting", 
         shortAnnotation: "",fullAnnotation: "" },
-      { id: "img008", imageUrl: "/images/img-8-windows-set.webp", title: "", 
+      { id: "img008", imageUrl: "/images/img-8-windows-set.webp", title: "fastening the unit", 
         shortAnnotation: "",fullAnnotation: "" },
-      { id: "img009", imageUrl: "/images/img-9-windows-fasten.webp", title: "", 
+      { id: "img009", imageUrl: "/images/img-9-windows-fasten.webp", title: "final fastening the unit", 
         shortAnnotation: "", fullAnnotation: "" },
-      { id: "img010", imageUrl: "/images/img-10-windows-taped.webp", title: "", 
+      { id: "img010", imageUrl: "/images/img-10-windows-taped.webp", title: "final air sealing with flashing tape", 
         shortAnnotation: "", fullAnnotation: "" }
     ],
   "construction/envelope/der-interior-crawl-space-walls": 
@@ -110,9 +110,9 @@ export const galleryIndex = {
       ],
   "construction/envelope/der-roof-interior": 
       [
-        { id: "img001",imageUrl: "",  title: "",shortAnnotation: "",fullAnnotation: "" },
-        { id: "img002",  imageUrl: "",  title: "",shortAnnotation: "",fullAnnotation: "" },
-        { id: "img003", imageUrl: "",  title: "",shortAnnotation: "",fullAnnotation: "" },  
+        { id: "img001",imageUrl: "/images/img-01-attic.webp",  title: "attic before roof cavity ccSPF",shortAnnotation: "",fullAnnotation: "" },
+        { id: "img002",  imageUrl: "/images/img-02-attic.webp",  title: "5\" ccSPF added in cavities",shortAnnotation: "",fullAnnotation: "" },
+        { id: "img003", imageUrl: "/images/img-03-attic.webp",  title: "5\" ccSPF added in cavities",shortAnnotation: "",fullAnnotation: "" },  
       ],
 
   "construction/ice-dams": 

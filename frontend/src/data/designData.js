@@ -63,7 +63,7 @@ export const designData = {
     remarks: [
       "Post-retrofit building volume is 66% larger than pre-construction, yet CFM50 was reduced by more than twenty percent.",
       "Post-retrofit ACH50 of 1.7 is exceeds Maine code for new construction (~3.0 ACH50).",
-      "See Downloads for air leakage (blower door) test reports.",
+      "See Downloads page for air leakage (blower door) test reports.",
     ],
   },
 
@@ -86,7 +86,7 @@ export const designData = {
       cooling_intensity_sf_per_ton: 1546,
     },
     remarks: [
-      "Loads cover entire building — both apartments and common areas.",
+      "Loads refer to both apartments.",
       "Heating load intensity reduced 65%: from 38.7 to 13.4 kBTU/hr·SF.",
       "Cooling load per SF nearly doubled (931 → 1,546 SF/ton), meaning less cooling capacity needed per square foot.",
       "Cooling is an added electric load — the original building had no mechanical cooling.",
