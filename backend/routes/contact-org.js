@@ -1,32 +1,9 @@
 // routes/contact.js
 import express from 'express';
+import nodemailer from 'nodemailer';
 import Contact from '../models/Contact.js';
 
 const router = express.Router();
-
-async function sendNotification(name, email, message) {
-  const response = await fetch('https://api.sendgrid.com/v3/mail/send', {
-    method: 'POST',
-    headers: {
-      'Authorization': `Bearer ${process.env.SENDGRID_API_KEY}`,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      personalizations: [{ to: [{ email: process.env.NOTIFY_EMAIL }] }],
-      from: { email: process.env.SENDGRID_FROM_EMAIL },
-      subject: '358 High Street — New Contact Submission',
-      content: [{
-        type: 'text/plain',
-        value: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
-      }],
-    }),
-  });
-
-  if (!response.ok) {
-    const error = await response.text();
-    throw new Error(`SendGrid error: ${error}`);
-  }
-}
 
 // POST /api/contact
 router.post('/', async (req, res) => {
@@ -37,10 +14,26 @@ router.post('/', async (req, res) => {
   }
 
   try {
+
+    const transporter = nodemailer.createTransport({
+    host:   process.env.SMTP_HOST,
+    port:   parseInt(process.env.SMTP_PORT),
+    secure: false,
+    auth: {
+        user: process.env.SMTP_USER,
+        pass: process.env.SMTP_PASS,
+    },
+    });
+
     const submission = new Contact({ name, email, message });
     await submission.save();
 
-    await sendNotification(name, email, message);
+    await transporter.sendMail({
+      from:    process.env.SMTP_USER,
+      to:      process.env.NOTIFY_EMAIL,
+      subject: '358 High Street — New Contact Submission',
+      text:    `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
+    });
 
     res.status(201).json({ success: true, message: 'Submission received.' });
   } catch (err) {
