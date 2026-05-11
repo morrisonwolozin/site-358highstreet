@@ -1,7 +1,6 @@
 // routes/contact.js
 import express from 'express';
 import nodemailer from 'nodemailer';
-// import dns from 'dns';
 import Contact from '../models/Contact.js';
 
 const router = express.Router();
@@ -15,7 +14,7 @@ router.post('/', async (req, res) => {
   }
 
   try {
-    //dns.setDefaultResultOrder('ipv4first');      Create transporter per request ensuring DNS setting is active
+
     const transporter = nodemailer.createTransport({
     host:   process.env.SMTP_HOST,
     port:   parseInt(process.env.SMTP_PORT),
