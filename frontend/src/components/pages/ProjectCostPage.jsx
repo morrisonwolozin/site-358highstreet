@@ -1,7 +1,7 @@
 // src/pages/ProjectCostPage.jsx
 import { projectCostData } from "../../data/projectCostData";
 
-const { totalCost, systems } = projectCostData;
+const { totalCost, totalArea, systems } = projectCostData;
 
 function formatCost(amount) {
   if (!amount) return "—";
@@ -106,6 +106,9 @@ export default function ProjectCostPage() {
             <div className="text-4xl font-bold text-green-700 mt-1">
               {formatCost(totalCost)}
             </div>
+            <div className="text-4xl font-bold text-green-700 mt-1">
+              {formatCost(totalCost / totalArea )} per Square Foot
+            </div>
           </div>
           <div className="text-sm text-gray-500 max-w-sm text-right">
             Includes all construction, design, owner-supplied materials and professional services.
@@ -117,7 +120,7 @@ export default function ProjectCostPage() {
           {[
             { label: "Labor",    value: grandTotals.labor   },
             { label: "Material", value: grandTotals.material },
-            { label: "Turnkey",  value: grandTotals.turnkey  },
+            { label: "Turnkey",  value: grandTotals.turnkey  }
           ].map(({ label, value }) => (
             <div key={label} className="text-center">
               <div className="text-xs font-semibold text-gray-500 uppercase tracking-wide">{label}</div>

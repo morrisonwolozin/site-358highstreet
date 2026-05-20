@@ -4,15 +4,15 @@ Electricity for both dwelling units will be supplied in whole or in part from so
 
 ---
 
-## Offsite Generation — Unit 1
+## Solar Electricity for Unit 1 - Offsite Generation
 
-A 15 kW rooftop array located in Palermo, Maine has supplied Unit 1 since the building was occupied. The array was installed prior to this project and generates excess production; that surplus is applied to Unit 1's consumption through CMP's net metering program.
+A 14.7 kW rooftop array located in Palermo, Maine has supplied Unit 1 since the building was occupied. The array was installed prior to this project and generates excess production; that surplus is applied to Unit 1's consumption through CMP's net metering program.
 
-Under normal conditions the offsite array produces sufficient surplus to cover Unit 1's annual consumption. A seasonal shortfall occurs during winter months when reduced insolation and higher consumption converge; this shortfall is drawn from the grid at standard CMP rates. 
+Under normal conditions the offsite array produces sufficient surplus to cover Unit 1's annual consumption. A seasonal shortfall occurs during winter months when reduced insolation and higher consumption converge; this shortfall is drawn from the grid at standard CMP rates.
 
 ---
 
-## Future Onsite Generation  — Unit 2
+## Solar Electricity for Unit 2 - Future Onsite Generation
 
 An 8.36 kW rooftop system is under contract for installation at 358 High Street from [Revision Energy](https://revisionenergy.com), a Maine-based, employee-owned solar contractor operating since 2003. The array will be interconnected with CMP under net metering and dedicated to offsetting Unit 2's consumption.
 
@@ -20,35 +20,35 @@ An 8.36 kW rooftop system is under contract for installation at 358 High Street 
 
 Panels are distributed across two south-southeast facing roof planes at a 5/12 pitch:
 
-| Roof Plane | Panel Count |
-|---|---|
-| Addition roof  | 6 |
-| Main roof, west half | 13 |
-| **Total** | **19** |
+| Roof Plane           | Panel Count |
+| -------------------- | ----------- |
+| Addition roof        | 6           |
+| Main roof, west half | 13          |
+| **Total**            | **19**      |
+
 Note: the east half of the main roof is reserved for a future array
 
-A cedar treeline on the south side of the property was trimmed to improve solar access.
+A cedar treeline on the south side of the property and a willow tree on the adjacent property wer trimmed to improve solar access.
 
 ### System Components
 
-| Component | Specification |
-|---|---|
-| Solar modules | (19) Silfab SIL-440QD DCA2 — 440W each |
-| Inverter | SolarEdge Home Hub grid-tied with Revenue Grade Monitoring |
-| DC optimizers | (19) SolarEdge U650B |
+| Component     | Specification                                              |
+| ------------- | ---------------------------------------------------------- |
+| Solar modules | (19) Silfab SIL-440QD DCA2 — 440W each                     |
+| Inverter      | SolarEdge Home Hub grid-tied with Revenue Grade Monitoring |
+| DC optimizers | (19) SolarEdge U650B                                       |
 
 ### Production Estimate
 
-| Metric | Value |
-|---|---|
-| System size | 8.36 kW |
-| Estimated annual production | 8,034 kWh |
+| Metric                               | Value     |
+| ------------------------------------ | --------- |
+| System size                          | 8.36 kW   |
+| Estimated annual production          | 8,034 kWh |
 | Unit 2 annual consumption (baseline) | 8,311 kWh |
-| Expected Coverage | 97% |
+| Expected Coverage                    | 97%       |
 
 ---
 
 ## Tenants' Benefits
 
 Tenants will be billed for solar-sourced electricity at a rate of **50% of the prevailing CMP retail energy rate** ($/kWh). This rate reflects the owner's intent to share the economic benefit of solar generation with tenants while recovering a portion of the capital investment.
-
