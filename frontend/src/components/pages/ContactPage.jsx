@@ -1,9 +1,11 @@
 // src/pages/ContactPage.jsx
 import { useState } from 'react';
 
-const CONTACT_API = import.meta.env.VITE_API_URL
-  ? `${import.meta.env.VITE_API_URL}/api/contact`
-  : '/api/contact';
+// const CONTACT_API = import.meta.env.VITE_API_URL
+//   ? `${import.meta.env.VITE_API_URL}/api/contact`
+//   : '/api/contact';
+
+const CONTACT_API = '/forms/highstreet/contact';
 
 export default function ContactPage() {
   const [form, setForm] = useState({ name: '', email: '', message: '' });
