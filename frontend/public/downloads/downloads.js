@@ -4,6 +4,16 @@
 
 export const downloads = [
   {
+    category: "Legal & Financial",
+    items: [
+      {
+      title: "Consent Agreement — Nationstar Mortgage LLC and City of Belfast",
+      description: "2012 agreement to correct planning code deficiencies prior to sale.",
+      file: "consentAgreement.pdf"
+      }
+    ],
+  },
+  {
     category: "General Construction",
     items: [
       {
@@ -74,19 +84,5 @@ export const downloads = [
     ],
   }
 
-  // {
-  //   category: "Legal & Financial",
-  //   items: [
-  //     {
-  //       title: "Lease Agreement — Unit 1",
-  //       description: "Standard lease for Unit 1.",
-  //       file: "lease-unit1.pdf",
-  //     },
-  //     {
-  //       title: "Lease Agreement — Unit 2",
-  //       description: "Standard lease for Unit 2.",
-  //       file: "lease-unit2.pdf",
-  //     },
-  //   ],
-  // },
+
 ];

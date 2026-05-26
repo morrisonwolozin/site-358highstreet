@@ -1,5 +1,6 @@
 // src/pages/ContactPage.jsx
 import { useState } from 'react';
+import bobImage from "/images/contactPagePhoto.webp"
 
 // const CONTACT_API = import.meta.env.VITE_API_URL
 //   ? `${import.meta.env.VITE_API_URL}/api/contact`
@@ -48,11 +49,18 @@ export default function ContactPage() {
     <div className="max-w-5xl mx-auto space-y-6">
 
       {/* Header */}
-      <div className="space-y-2">
-        <h1 className="text-3xl font-semibold text-gray-900">Contact Me</h1>
-        <p className="text-gray-600">
-          Questions about the project or rental availability? Send a message.
-        </p>
+      <div className="flex flex-col sm:flex-row gap-6 items-start">
+        <img
+          src={bobImage}
+          alt="Bob image"
+          className="w-full sm:w-64 rounded shadow-sm flex-shrink-0"
+        />
+        <div className="space-y-2">
+          <h1 className="text-3xl font-semibold text-gray-900">Contact Me</h1>
+          <p className="text-gray-600">
+            Questions about the project or rental availability? Send a message.
+          </p>
+        </div>
       </div>
 
       {/* Success state */}

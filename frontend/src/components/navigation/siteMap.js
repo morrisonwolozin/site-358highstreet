@@ -97,14 +97,22 @@ export const siteMap = [
     label: "Historical",
     path: "/historical",
     type: "gallery",
-    summary: "358 High Street's 'checkered' past.",
+    summary: "",
     intro:
-      "The residence was built behind 360 High Street in 2004. There were numerous issues with its siting and construction. The was no lot division to separate it from 360 High Street. It failed comply with lot setbacks on its south side. The was no driveway, nor parking. Site drainage from its up hill, west side, was not considered. There were no fire walls between the apartments in its 42 in. crawl space. Its original owners defaulted and a mortgage company assumed ownership. A consent agreement was reached with the Town of Belfast to correct permitting and zoning deficiencies in 2013. The photo gallery below shows its original 'name plates' and its pre-construction conditions in 2023.",
+      "![Consent Agreement signature page — December 2012](/public/images/historicalPage.webp) The residence was built to the rear of 360 High Street within the same lot  in 2004. There were numerous deficiencies with its siting and construction. The was no lot division. It failed comply with lot setbacks on its south side. The was no driveway, nor parking. Site drainage from its up hill, west side, was not considered. There were no fire walls between the apartments in its 42 in. crawl space. Its original owners defaulted and a mortgage company assumed ownership. The image above is the signature page of a consent agreement to correct the deficiencies. The original owners had defaulted and a mortgage company, Nationstar Mortgage LLC, assumed ownership. The agreement's parties were the Town of Belfast, an abutter, Michelle Morrow, and the mortgage company. See the [2012 Consent Agreement](/downloads) on the Downloads page for the full legal context. The photo gallery below shows its original, 2004, 'nameplates' and the pre-construction condition in 2023.",
   },
 
-  { label: "Project Cost", path: "/project-cost", type: "page",  summary: "Final costs for the 2025 deep energy retrofit" 
+  { 
+    label: "Project Cost", 
+    path: "/project-cost", 
+    type: "page",  
+    summary: "Final costs for the 2025 deep energy retrofit" 
   },
-   { label: "Contact Me", path: "/contact", type: "page",  summary: "Questions about the project or rental availability?" 
+   { 
+    label: "Contact Me", 
+    path: "/contact", 
+    type: "page",  
+    summary: "Questions about the project or rental availability?" 
   }, 
   {
     label: "Construction",
