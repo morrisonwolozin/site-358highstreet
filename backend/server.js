@@ -1,11 +1,8 @@
-// server.js
-
+// 358 backend server.js
+// updated 2026-05-25
 import express from 'express';
-import mongoose from 'mongoose';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import contactRoutes from './routes/contact.js';
-
 dotenv.config();
 
 const app = express();
@@ -14,14 +11,13 @@ const PORT = process.env.PORT || 3000;
 app.use(cors({ origin: process.env.FRONTEND_URL }));
 app.use(express.json());
 
-// Routes
-app.use('/api/contact', contactRoutes);
+// Health check
+app.get('/health', (req, res) => res.json({ status: 'ok' }));
 
-// MongoDB connection
-mongoose.connect(process.env.MONGODB_URI)
-  .then(() => console.log('MongoDB connected'))
-  .catch(err => console.error('MongoDB connection error:', err));
+// AirThings routes — future development
+// import airthingsRoutes from './routes/airthings.js';
+// app.use('/api/airthings', airthingsRoutes);
 
 app.listen(PORT, () => 
-  console.log(`358highstreet server running on port ${PORT}`)
+  console.log(`358highstreet backend running on port ${PORT}`)
 );
