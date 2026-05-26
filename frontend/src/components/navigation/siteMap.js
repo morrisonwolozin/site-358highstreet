@@ -91,7 +91,7 @@ export const siteMap = [
     path: "/solar", 
     type: "page", 
     summary: "Owner-financed photovoltaic supply for both units",
-    intro: "intro info"
+    intro: ""
   },
   {
     label: "Historical",
@@ -99,7 +99,7 @@ export const siteMap = [
     type: "gallery",
     summary: "",
     intro:
-      "![Consent Agreement signature page — December 2012](/public/images/historicalPage.webp) The residence was built to the rear of 360 High Street within the same lot  in 2004. There were numerous deficiencies with its siting and construction. The was no lot division. It failed comply with lot setbacks on its south side. The was no driveway, nor parking. Site drainage from its up hill, west side, was not considered. There were no fire walls between the apartments in its 42 in. crawl space. Its original owners defaulted and a mortgage company assumed ownership. The image above is the signature page of a consent agreement to correct the deficiencies. The original owners had defaulted and a mortgage company, Nationstar Mortgage LLC, assumed ownership. The agreement's parties were the Town of Belfast, an abutter, Michelle Morrow, and the mortgage company. See the [2012 Consent Agreement](/downloads) on the Downloads page for the full legal context. The photo gallery below shows its original, 2004, 'nameplates' and the pre-construction condition in 2023.",
+      "![Consent Agreement signature page](/images/historicalPage.webp) The duplex was built to the rear of 360 High Street within the same lot in 2004. There were numerous deficiencies with its siting and construction. The was no lot division. It failed comply with lot setbacks on its south side. The was no driveway, nor parking. Site drainage from its up-hill, west side, was not considered. There were no sound nor fire-rated partitions between the apartments in its crawl space. Byt 2012 the original owners had defaulted and a mortgage company, Nationstar Mortgage LLC, assumed ownership. The image above is the signature page of the consent agreement to correct the deficiencies. The agreement's parties were the Town of Belfast, an abutter, Michelle Morrow, and the mortgage company. See the [2012 Consent Agreement](/downloads) on the Downloads page for the full legal context. The photo gallery below shows its original, 2004, 'nameplates' and the pre-construction condition in 2023.",
   },
 
   { 
