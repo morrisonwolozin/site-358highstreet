@@ -91,7 +91,7 @@ export default function ProjectCostPage() {
 
       {/* Header */}
       <div>
-        <h1 className="text-gray-600">
+        <h1 className="text-gray-800">
           Final costs for the 2025 deep energy retrofit, organized by building system.
         </h1>
       </div>
@@ -103,10 +103,10 @@ export default function ProjectCostPage() {
             <div className="text-sm font-semibold text-gray-600 uppercase tracking-wide">
               Total Construction Cost
             </div>
-            <div className="text-4xl font-bold text-green-700 mt-1">
+            <div className="text-2xl font-bold text-green-700 mt-1">
               {formatCost(totalCost)}
             </div>
-            <div className="text-4xl font-bold text-green-700 mt-1">
+            <div className="text-xl font-bold text-green-700 mt-1">
               {formatCost(totalCost / totalArea )} per Square Foot
             </div>
           </div>

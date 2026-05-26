@@ -118,7 +118,7 @@ export const siteMap = [
     label: "Construction",
     path: "/construction",
     type: "section",
-    summary: "A deep energy retrofit 'lite' of a conventional single-story duplex residence",
+    summary: "A deep energy retrofit 'lite' of a conventional single-story duplex residence from 2004.",
     intro:
       "Goals: reduce envelope thermal transmission rates, increase air tightness, add energy recovery ventilation, range hood exhaust, HVAC electrification and bulk water drainage.",
     children: [
