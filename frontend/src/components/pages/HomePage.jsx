@@ -5,7 +5,7 @@ import { useSiteConfig } from '../../config/SiteConfigContext';
 const seasonalHero = () => {
   const month = new Date().getMonth(); // 0 = January
   if (month <= 1 || month === 11) return { src: "images/img-hero-winter.webp", label: "Winter" };
-  if (month <= 4)                 return { src: "images/img-hero-spring.webp", label: "Spring" };
+  if (month <= 4)                 return { src: "images/img-hero-spring-2.webp", label: "Late Spring, 2026" };
   if (month <= 7)                 return { src: "images/img-hero-spring.webp", label: "Summer" };
   if (month <= 9)                 return { src: "images/img-hero-fall.webp",   label: "Fall"   };
                                   return { src: "images/img-hero-winter.webp", label: "Winter" };
