@@ -7,12 +7,14 @@ export default defineConfig({
     react()
   ],
   assetsInclude: ['**/*.md'],
+
   server: {
     proxy: {
-      '/forms': {
-        target: 'http://localhost:3002',
+      '/solar-api': {
+        target: 'https://358highstreet.com',
         changeOrigin: true,
       }
     }
   }
 })
+
