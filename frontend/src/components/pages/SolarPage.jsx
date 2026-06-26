@@ -466,39 +466,36 @@ function SystemSection() {
 function ApproachSection() {
   return (
     <section className="mb-8">
-      <SectionHeading>Solar electricity at 358 High Street</SectionHeading>
+      <SectionHeading>Solar Electric at 358 High Street</SectionHeading>
 
       <div className="space-y-5 text-sm text-gray-600 leading-relaxed">
 
         <p>
-          Electricity for both dwelling units is supplied in whole or in part from solar
-          photovoltaic generation. The arrangement uses two separate arrays at two locations:
-          an existing offsite array in Palermo that serves Unit 1, and the onsite rooftop
-          array installed in June 2026 that serves Unit 2. Tenants are billed for their
+          Electricity for both dwelling units is supplied from solar
+          photovoltaic generation. The arrangement uses two arrays:
+          an offsite array in Palermo which serves Unit 1, and the onsite rooftop
+          array installed in June 2026 for Unit 2. Tenants are billed for their
           consumption at a rate equal to{" "}
-          <strong className="text-gray-800">50% of the prevailing CMP retail energy rate</strong>,
-          sharing the economic benefit of solar generation while recovering a portion of
-          the capital investment.
+          <strong className="text-gray-800">50% </strong>of the prevailing CMP retail energy rate.
         </p>
 
         <div>
           <h3 className="text-base font-semibold text-gray-700 mb-1">
-            Unit 1 — offsite generation, Palermo
+            Unit 1 — Offsite Generation, Palermo
           </h3>
           <p>
-            A 14.7 kW rooftop array located in Palermo, Maine has supplied Unit 1 since the
-            building was first occupied. That array was installed prior to this project and
-            generates excess production; the surplus is applied to Unit 1's consumption
-            through CMP's net metering program. Under normal conditions the offsite array
-            produces sufficient surplus to cover Unit 1's annual consumption. A seasonal
-            shortfall occurs during winter months when reduced insolation and higher
-            consumption converge; this shortfall is drawn from the grid at standard CMP rates.
+            A 14.7 kW rooftop array in Palermo, Maine has supplied Unit 1's electricity since the
+            its initial occupancy. This array was installed in 2019 by Revision Energy Inc. and
+            produces more energy than its host building's consumption. The excess is applied to Unit 1's consumption
+            through CMP's net metering program. Mostly, this system
+            produces sufficient surplus to cover Unit 1's annual consumption. However, for the 2025-26 winter
+            its shortfall was about 8%.
           </p>
         </div>
 
         <div>
           <h3 className="text-base font-semibold text-gray-700 mb-1">
-            Unit 2 — onsite generation, 358 High Street
+            Unit 2 — Onsite Generation
           </h3>
           <p>
             The 8.36 kW rooftop system was designed and installed by{" "}
@@ -511,14 +508,13 @@ function ApproachSection() {
               Revision Energy
             </a>
             , a Maine-based, employee-owned solar contractor operating since 2003. The array
-            came online on June 24, 2026 and is interconnected with CMP under net metering,
+            came online on June 24, 2026 and is interconnected with CMP under net metering. It is 
             dedicated to offsetting Unit 2's consumption. A cedar treeline on the south side
-            of the property and a willow tree on the adjacent property were trimmed ahead of
-            installation to improve solar access.
+            of the property was trimmed and a willow tree on the adjacent property was removed to improve solar access.
           </p>
           <p className="mt-3">
-            Projected annual production of 8,034 kWh against a baseline consumption of
-            8,311 kWh gives an expected solar coverage of approximately 97%. Net metering
+            The system's projected annual production is 8,034 kWh against last year's baseline consumption of
+            8,311 kWh will provide an expected coverage of 97%. Net metering
             carries surplus summer production forward to offset higher winter draws from
             the grid.
           </p>
@@ -527,7 +523,7 @@ function ApproachSection() {
         <p className="text-xs text-gray-400 pt-2 border-t border-gray-100">
           Production data is pulled from the SolarEdge monitoring API and refreshes every
           5 minutes. Generation figures are gross AC output. Consumption monitoring
-          (CT-based) is available at this site but is not displayed here.
+          (CT-based) is available for this site and will be displayed soon.
         </p>
 
       </div>
