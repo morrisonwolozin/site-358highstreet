@@ -1,14 +1,9 @@
-# About This Project
 
-358 High Street is a duplex residence in Belfast, Maine, built in 2004. It was purchased in late 2023 and underwent an energy retrofit, expansion and electrification which were completed in 2025. The project was owner-developed by Robert Morrison, P.E. of October Engineering LLC, with the goal of creating healthy, energy-efficient rental housing while fully electrifying the building.
 
-The retrofit was designed and built by Maine-based contractors and consultants.
-
-## Project Participants
 
 | Company                     | Contact               | Role                                         | Location       | Website                                                                            |
 | --------------------------- | --------------------- | -------------------------------------------- | -------------- | ---------------------------------------------------------------------------------- |
-| October Engineering LLC     | Robert Morrison, P.E. | Owner, HVAC Design, Ventilation Installation | Palermo, ME    | [octoberengineering.com](https://www.octoberengineering.com/)                      |
+| October Engineering LLC     | Robert Morrison, P.E. | Owner, HVAC Design, Ventilation systems installation | Palermo, ME    | [octoberengineering.com](https://www.octoberengineering.com/)                      |
 | Northridge Construction LLC | Mike Martin           | General Contractor                           | Union, ME      | [northridgeconstruction.me](https://northridgeconstruction.me)                     |
 | Maines Design               | Mike Maines           | Design Consultant                            | Palermo, ME    | [mottramandmaines.com](https://www.mottramandmaines.com/)                          |
 | Dube Construction LLC       | Tim Dube              | Excavation, Site Drainage, Walkways          | Washington, ME | [facebook.com](https://www.facebook.com/p/Dubes-Construction-LLC-100071722756198/) |
