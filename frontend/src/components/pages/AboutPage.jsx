@@ -1,6 +1,6 @@
 // src/pages/AboutPage.jsx
 import MarkdownPage from "./MarkdownPage";
-import designPageImage from "/images/img-hero-spring.webp"
+import aboutPageImage from "/images/img-hero-spring.webp"
 import content from "../../content/about.md?raw";
 
 export default function AboutPage() {
@@ -8,7 +8,7 @@ export default function AboutPage() {
     <>
         <div className="flex flex-col sm:flex-row gap-6 items-start">
         <img
-          src={designPageImage}
+          src={aboutPageImage}
           alt="particpants page"
           className="w-full sm:w-96 rounded shadow-sm flex-shrink-0"
         />

@@ -94,7 +94,6 @@ export const siteMap = [
     intro: "",
         children: [
       { label: "Installation Photos", path: "/solar/photos", type: "gallery" },
-
     ],
   },
   {
@@ -105,7 +104,6 @@ export const siteMap = [
     intro:
       "![Consent Agreement signature page](/images/historicalPage.webp) The duplex was built to the rear of 360 High Street within the same lot in 2004. There were numerous deficiencies with its siting and construction. The was no lot division. It failed comply with lot setbacks on its south side. The was no driveway, nor parking. Site drainage from its up-hill, west side, was not considered. There were no sound nor fire-rated partitions between the apartments in its crawl space. Byt 2012 the original owners had defaulted and a mortgage company, Nationstar Mortgage LLC, assumed ownership. The image above is the signature page of the consent agreement to correct the deficiencies. The agreement's parties were the Town of Belfast, an abutter, Michelle Morrow, and the mortgage company. See the [2012 Consent Agreement](/downloads) on the Downloads page for the full legal context. The photo gallery below shows its original, 2004, 'nameplates' and the pre-construction condition in 2023.",
   },
-
   { 
     label: "Project Cost", 
     path: "/project-cost", 
