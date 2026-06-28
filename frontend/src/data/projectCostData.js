@@ -3,6 +3,7 @@
 // Costs reflect construction scope only (excludes property purchase)
 
 export const projectCostData = {
+  purchaseCost: 325000,
   totalCost: 466492,
   totalArea: 2010,
 

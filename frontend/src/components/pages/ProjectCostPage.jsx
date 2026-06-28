@@ -1,7 +1,7 @@
 // src/pages/ProjectCostPage.jsx
 import { projectCostData } from "../../data/projectCostData";
 
-const { totalCost, totalArea, systems } = projectCostData;
+const { totalCost, totalArea, purchaseCost, systems } = projectCostData;
 
 function formatCost(amount) {
   if (!amount) return "—";
@@ -98,8 +98,18 @@ export default function ProjectCostPage() {
 
       {/* Total badge */}
       <div className="rounded-lg border border-green-200 bg-green-50 p-6 space-y-4">
+        <div  className="border-b border-green-200">
+          <div className="text-sm font-semibold text-gray-600 uppercase tracking-wide">
+            Purchase Cost
+          </div>
+          <div className="text-2xl font-bold text-green-700 mb-4 ">
+            {formatCost(purchaseCost)}
+          </div>
+        </div>
+
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <div>
+            
             <div className="text-sm font-semibold text-gray-600 uppercase tracking-wide">
               Total Construction Cost
             </div>
@@ -110,6 +120,7 @@ export default function ProjectCostPage() {
               {formatCost(totalCost / totalArea )} per Square Foot
             </div>
           </div>
+
           <div className="text-sm text-gray-500 max-w-sm text-right">
             Includes all construction, design, owner-supplied materials and professional services.
             Excludes property purchase and owner labor.

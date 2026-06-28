@@ -69,7 +69,7 @@ export default function HomePage() {
             className="inline-block mt-4 px-6 py-3 bg-green-600 text-white text-lg rounded-lg hover:bg-green-700 transition"
             onClick={() => navigateTo("solar")}
           >
-            Solar PV
+            Solar Electricity
           </button>
         </div>
       </section>

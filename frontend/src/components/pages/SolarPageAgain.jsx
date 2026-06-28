@@ -1,4 +1,4 @@
-/** 2026- 06-24 
+/**
  * SolarPage.jsx  —  358 High Street solar monitoring
  *
  * Sections:
@@ -14,7 +14,7 @@
  */
 
 import { useState, useEffect, useCallback } from "react";
-import arrayImage from "/images/img-array2.webp";
+import arrayImage from "/images/img-array.webp";
 import {
   AreaChart,
   Area,
@@ -376,7 +376,7 @@ function SystemSection() {
     { label: "Inverter",          value: "SolarEdge Home Hub" },
     { label: "DC optimizers",     value: "19 × SolarEdge U650B" },
     { label: "Monitoring",        value: "SolarEdge Revenue Grade" },
-    { label: "Installer",         value: "Revision Energy Inc." },
+    { label: "Installer",         value: "Revision Energy" },
     { label: "Commissioned",      value: COMMISSION_DATE },
   ];
 
@@ -386,11 +386,12 @@ function SystemSection() {
   ];
 
   const economics = [
-    { label: "Estimated annual production",  value: "8,100 kWh", note: "Revision Energy projection" },
-    { label: "Unit 2 annual consumption",    value: "8,300 kWh", note: "pre-solar baseline" },
-    { label: "System turnkey cost",          value: "$26,375",   note: "includes enhanced 10 year warranty" },
+    { label: "Estimated annual production",  value: "8,034 kWh", note: "Revision Energy projection" },
+    { label: "Unit 2 annual consumption",    value: "8,311 kWh", note: "pre-solar baseline" },
+    { label: "Expected solar coverage",      value: "97%",       note: "" },
     { label: "Federal ITC (Section 48E)",    value: "30%",       note: "commercial investment tax credit" },
     { label: "Domestic content adder",       value: "+10%",      note: "pending qualification" },
+    { label: "Tenant electricity rate",      value: "50% of CMP retail", note: "solar benefit passed to tenants" },
   ];
 
   return (
@@ -437,7 +438,7 @@ function SystemSection() {
       {/* Panel layout */}
       <div className="bg-white rounded-lg border border-gray-200 overflow-hidden">
         <p className="text-xs uppercase tracking-widest text-gray-400 px-4 pt-4 pb-2">
-          Panel layout — two south-southeast facing roofs at a 5/12 pitch
+          Panel layout — two south-southeast facing roof planes, 5/12 pitch
         </p>
         <table className="w-full text-sm">
           <thead>
@@ -478,8 +479,14 @@ function ApproachSection() {
       <div className="space-y-5 text-sm text-gray-600 leading-relaxed">
 
         <p>
-          Electricity for each apartment is supplied from solar 
-          photovoltaic generation from two system: an offsite system in Palermo that serves Unit 1, and the onsite rooftop system installed in June 2026 to serve Unit 2. Tenants are billed for their consumption at a rate equal to 50% of the prevailing CMP retail energy rate.
+          Electricity for both dwelling units is supplied in whole or in part from solar
+          photovoltaic generation. The arrangement uses two separate arrays at two locations:
+          an existing offsite array in Palermo that serves Unit 1, and the onsite rooftop
+          array installed in June 2026 that serves Unit 2. Tenants are billed for their
+          consumption at a rate equal to{" "}
+          <strong className="text-gray-800">50% of the prevailing CMP retail energy rate</strong>,
+          sharing the economic benefit of solar generation while recovering a portion of
+          the capital investment.
         </p>
 
         <div>
@@ -492,7 +499,8 @@ function ApproachSection() {
             generates excess production; the surplus is applied to Unit 1's consumption
             through CMP's net metering program. Under normal conditions the offsite array
             produces sufficient surplus to cover Unit 1's annual consumption. A seasonal
-            shortfall occurs during two winter months.
+            shortfall occurs during winter months when reduced insolation and higher
+            consumption converge; this shortfall is drawn from the grid at standard CMP rates.
           </p>
         </div>
 
@@ -508,9 +516,19 @@ function ApproachSection() {
               rel="noreferrer"
               className="text-emerald-700 underline underline-offset-2 hover:text-emerald-900"
             >
-              Revision Energy Inc.
+              Revision Energy
             </a>
-            , a Maine-headquartered, employee-owned, solar contractor operating since 2003. The system came online on June 24, 2026 and is interconnected with CMP under net metering. It's intended to offset Unit 2's consumption. A cedar treeline on the south side of the property and a willow tree on the adjacent property were trimmed to improve solar access.
+            , a Maine-based, employee-owned solar contractor operating since 2003. The array
+            came online on June 24, 2026 and is interconnected with CMP under net metering,
+            dedicated to offsetting Unit 2's consumption. A cedar treeline on the south side
+            of the property and a willow tree on the adjacent property were trimmed ahead of
+            installation to improve solar access.
+          </p>
+          <p className="mt-3">
+            Projected annual production of 8,034 kWh against a baseline consumption of
+            8,311 kWh gives an expected solar coverage of approximately 97%. Net metering
+            carries surplus summer production forward to offset higher winter draws from
+            the grid.
           </p>
         </div>
 
@@ -542,7 +560,7 @@ export default function SolarPage() {
           <h1 className="text-3xl font-semibold text-gray-900">Solar Electricity</h1>
           <p className="text-gray-600">
             19-panel, 8.36 kW rooftop array across two south-southeast facing roof planes.
-            Designed and installed by Revision Energy Inc.; live on June 24, 2026.
+            Designed and installed by Revision Energy; commissioned June 24, 2026.
           </p>
           <p className="text-gray-500 text-sm">
             Live production data updates every 5 minutes via the SolarEdge API.

@@ -87,7 +87,7 @@ export const siteMap = [
     summary: "Whole-building energy use before and after the deep energy retrofit",
   },
   { 
-    label: "Solar Generation", 
+    label: "Solar Electricity", 
     path: "/solar", 
     type: "page", 
     summary: "Owner-financed photovoltaic supply for both units",
