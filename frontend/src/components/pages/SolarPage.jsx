@@ -10,7 +10,6 @@
  * API: same-origin /solar-api/*  (Apache proxy → server-solarpv :3003)
  * Site: 358 High Street, Belfast ME  |  commissioned 2026-06-24
  *
- * Replace SITE_ID below with the real SolarEdge numeric site ID for 358.
  */
 
 import { useState, useEffect, useCallback } from "react";
@@ -540,12 +539,12 @@ export default function SolarPage() {
         />
         <div className="space-y-3">
           <h1 className="text-3xl font-semibold text-gray-900">Solar Electricity</h1>
-          <p className="text-gray-600">
-            19-panel, 8.36 kW rooftop array across two south-southeast facing roof planes.
-            Designed and installed by Revision Energy Inc.; live on June 24, 2026.
+          <p className="text-gray-700">
+            The onsite solar photovoltaic system is a 19-panel, 8.36 kW on two south-southeast facing roofs.
+            Designed and installed by Revision Energy Inc. The system became operational on June 24, 2026.
           </p>
-          <p className="text-gray-500 text-sm">
-            Live production data updates every 5 minutes via the SolarEdge API.
+          <p className="text-gray-600 text-base">
+            The energy generated and power curve displayed below are updated every 5 minutes with data requested from the SolarEdge application programming interface (API). 
           </p>
         </div>
       </div>
