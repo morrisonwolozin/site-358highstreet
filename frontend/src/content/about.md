@@ -26,3 +26,4 @@ The retrofit was designed and built by Maine-based contractors and consultants.
 | Rainwater Solutions         | Chris Maguire         | Roof Gutters                                 | Orland, ME     | [rwsgutters.com](https://rwsgutters.com/)                                          |
 | Breakwater Inspections      | John Howard           | Radon Testing                                | Rockland, ME   | [breakwaterinspections.com](https://breakwaterinspections.com/)                    |
 | Maine Raised Gardens        | Steve Rodrique        | Raised Garden Beds                           | Northport, ME  | [maineraisedgardens.com](https://www.maineraisedgardens.com/)                      |
+| Revision Energy Inc         | Will Field            | Solar PV system                              | Liberty, ME  | [revisionenergy.com](https://www.revisionenergy.com/)                      |
