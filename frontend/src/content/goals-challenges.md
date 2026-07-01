@@ -2,11 +2,12 @@
 
 ## Other Goals:
 
-1. Low cooling and heating demand and energy consumption;
-2. High performing sound and air isolation between apartments;
-3. Improved livability by adding half baths, laundry spaces, mudrooms, conditioned and unconditioned storage;
-4. Eliminate bulk water intrusion by improving site drainage.
-5. Near net-zero utility consumption.
+1. Net-zero utilities consumption via on- and off-site solar generation systems;
+2. Low cooling and heating demand and energy consumption;
+3. High performing sound and air isolation between the apartment units;
+4. Improved livability by adding half baths, laundry spaces, mudrooms, conditioned and unconditioned storage;
+5. Eliminate bulk water intrusion by improving foundation and site drainage;
+6. Ongoing monitoring of air quality parameters.
 
 ## Retrofit Scope of Work:
 

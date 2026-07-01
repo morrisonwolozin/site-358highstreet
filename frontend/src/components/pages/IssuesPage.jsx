@@ -10,15 +10,19 @@ export default function IssuesPage() {
       <div className="max-w-5xl mx-auto space-y-10">
 
         <div className="flex flex-col sm:flex-row gap-6 items-start">
-          <img
-            src={issuesPageImage}
-            alt="issues page image"
-            className="w-full sm:w-96 rounded shadow-sm flex-shrink-0"
-          />
+          <figure>
+            <img
+              src={issuesPageImage}
+              alt="issues page image"
+              className="w-full sm:w-96 rounded shadow-sm flex-shrink-0"
+            />
+            <figcaption className="text-sm italic text-gray-500 mt-2 text-center">The original crawlspace flooded.</figcaption>
+          </figure>
+
           <div className="space-y-4">
             <h1 className="text-3xl font-semibold text-gray-900">Renovation Challenge</h1>
             <p className="text-gray-600">
-              The project's overall goal was to create energy-efficient and healthy dwelling apartments while eliminating all fossil fuel combustion.
+              The project's overall goal was to create a clean energy property: fully-electrified, energy-efficient and verified healthy environments, equivalent to the Massachusetts Clean Energy Center's <a href="https://goclean.masscec.com/landlords/clean-energy-solutions/"  target="_blank" rel="noreferrer" className="text-emerald-700 underline underline-offset-2 hover:text-emerald-900" >Solutions for Landlords </a>.
             </p>
           </div>
         </div>
