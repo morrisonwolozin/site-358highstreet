@@ -222,6 +222,16 @@ export const galleryIndex = {
         imageUrl: "/images/img-06-solar.webp", 
         title: "Inverter", 
         shortAnnotation: "", 
+        fullAnnotation: "" },
+      { id: "img-07",
+        imageUrl: "/images/img-06-solar.webp", 
+        title: "Completed array", 
+        shortAnnotation: "", 
+        fullAnnotation: "" },
+      { id: "img-08",
+        imageUrl: "/images/img-06-solar.webp", 
+        title: "Completed inverter", 
+        shortAnnotation: "", 
         fullAnnotation: "" }
    ], 
   "construction/mechanical/hp-dhw":[{}]
