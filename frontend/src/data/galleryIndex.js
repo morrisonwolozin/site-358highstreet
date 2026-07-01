@@ -192,6 +192,38 @@ export const galleryIndex = {
         shortAnnotation: "Unit 2 exterior exhaust fan and ERV exhaust", 
         fullAnnotation: "Exhaust fan: Fantech RVF 6XL from the range hood via a 7 in. duct. See drawing H-4, HVAC Attic Plan." }      
     ],
+   "solar/photos":[
+      { id: "img01",
+        imageUrl: "/images/img-01-solar.webp", 
+        title: "Mounting rails installed", 
+        shortAnnotation: "", 
+        fullAnnotation: "rail feet fastened to structral 2x4s" },
+      { id: "img-02",
+        imageUrl: "/images/img-02-solar.webp", 
+        title: "'Laying glass' begins", 
+        shortAnnotation: "", 
+        fullAnnotation: "" },
+      { id: "img-03",
+        imageUrl: "/images/img-03-solar.webp", 
+        title: "Hoisting panels", 
+        shortAnnotation: "", 
+        fullAnnotation: "" },
+      { id: "img-04",
+        imageUrl: "/images/img-04-solar.webp", 
+        title: "Main roof completed", 
+        shortAnnotation: "", 
+        fullAnnotation: "" },
+      { id: "img-05",
+        imageUrl: "/images/img-05-solar.webp", 
+        title: "Last Panel of 19", 
+        shortAnnotation: "", 
+        fullAnnotation: "" },
+      { id: "img-06",
+        imageUrl: "/images/img-06-solar.webp", 
+        title: "Inverter", 
+        shortAnnotation: "", 
+        fullAnnotation: "" }
+   ], 
   "construction/mechanical/hp-dhw":[{}]
 
   }
