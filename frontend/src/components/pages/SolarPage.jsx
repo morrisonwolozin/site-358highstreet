@@ -477,21 +477,19 @@ function ApproachSection() {
       <div className="space-y-5 text-sm text-gray-600 leading-relaxed">
 
         <p>
-          Electricity for each apartment is supplied from solar 
-          photovoltaic generation from two system: an offsite system in Palermo that serves Unit 1, and the onsite rooftop system installed in June 2026 to serve Unit 2. Tenants are billed for their consumption at a rate equal to 50% of the prevailing CMP retail energy rate.
+          Reduced cost electricity for the apartments is supplied from solar photovoltaic (PV) generation from two sources: an offsite PV system that serves Unit 1, and an onsite rooftop system installed in June, 2026, for Unit 2. Tenants are billed for their electric consumption at 50% of CMP's retail energy rate.
         </p>
 
         <div>
           <h3 className="text-base font-semibold text-gray-700 mb-1">
-            Unit 1 — offsite generation, Palermo
+            Unit 1 — offsite generation source located in Palermo, ME.
           </h3>
           <p>
-            A 14.7 kW rooftop array located in Palermo, Maine has supplied Unit 1 since the
-            building was first occupied. That array was installed prior to this project and
+            A 14.7 kW rooftop system located in Palermo, Maine, offsets Unit 1's electric consumption with net-metered energy. That system 
             generates excess production; the surplus is applied to Unit 1's consumption
             through CMP's net metering program. Under normal conditions the offsite array
             produces sufficient surplus to cover Unit 1's annual consumption. A seasonal
-            shortfall occurs during two winter months.
+            shortfall occured during two winter months during winter, 2026.
           </p>
         </div>
 
@@ -538,10 +536,10 @@ export default function SolarPage() {
           className="w-full sm:w-96 rounded shadow-sm flex-shrink-0"
         />
         <div className="space-y-3">
-          <h1 className="text-3xl font-semibold text-gray-900">Solar Electricity</h1>
+          <h1 className="text-3xl font-semibold text-gray-900">Renewable Electricity</h1>
           <p className="text-gray-700">
             The onsite solar photovoltaic system is a 19-panel, 8.36 kW on two south-southeast facing roofs.
-            Designed and installed by Revision Energy Inc. The system became operational on June 24, 2026.
+            Designed and installed by Revision Energy Inc. The system's intial day of operation was June 24, 2026.
           </p>
           <p className="text-gray-600 text-base">
             The energy generated and power curve displayed below are updated every 5 minutes with data requested from the SolarEdge application programming interface (API). 
