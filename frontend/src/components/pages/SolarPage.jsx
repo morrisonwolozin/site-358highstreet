@@ -59,11 +59,13 @@ function fmtTime(iso) {
 
 function fmtDate(dateStr) {
   if (!dateStr) return "";
-  const [y, m, d] = dateStr.split("-").map(Number);
-  return new Date(y, m - 1, d).toLocaleDateString([], {
-    month: "short",
-    day: "numeric",
-  });
+  const parts = dateStr.split("-").map(Number);
+  if (parts.length === 2) {
+    // "2026-06" — monthly bucket
+    return new Date(parts[0], parts[1] - 1, 1).toLocaleDateString([], { month: "short", year: "2-digit" });
+  }
+  // "2026-06-25" — daily
+  return new Date(parts[0], parts[1] - 1, parts[2]).toLocaleDateString([], { month: "short", day: "numeric" });
 }
 
 function daysSinceCommission() {
@@ -264,10 +266,12 @@ function HistoricalSection() {
     if (tooNew) { setLoading(false); return; }
     setLoading(true);
     try {
-      const res = await fetch(`/solar-api/sites/${SITE_ID}/energy?period=${period}`);
+      console.log(`period: ${period}`)
+      const res = await fetch(`/solar-api/sites/${SITE_ID}/energy?range=${period}`);
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const json = await res.json();
 
+      console.log(`FE solar json: ${JSON.stringify(json, null, 2)}`)
       // Response: { range, values: [{period, kWh}, …] }
       const points = (json.values ?? []).map((p) => ({
         date: p.period,
