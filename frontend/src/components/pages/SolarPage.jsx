@@ -116,7 +116,7 @@ function SectionHeading({ children }) {
 function StatCard({ label, value, sub }) {
   return (
     <div className="bg-white rounded-lg border border-gray-200 px-5 py-4">
-      <p className="text-xs uppercase tracking-widest text-gray-400 mb-1">{label}</p>
+      <p className="text-xs uppercase tracking-widest text-gray-800 mb-1">{label}</p>
       <p className="text-3xl font-bold text-emerald-700 leading-none">{value}</p>
       {sub && <p className="text-xs text-gray-400 mt-1">{sub}</p>}
     </div>
@@ -170,7 +170,7 @@ function TodaySection() {
 
   return (
     <section className="mb-12">
-      <SectionHeading>Today</SectionHeading>
+      {/* <SectionHeading>Today</SectionHeading> */}
 
       {loading && <p className="text-gray-400 text-sm">Loading today's data…</p>}
       {error   && <p className="text-red-500 text-sm">Could not load live data: {error}</p>}
@@ -184,17 +184,13 @@ function TodaySection() {
               sub="resets at midnight"
             />
             <StatCard
-              label="Peak output"
+              label="Today's 15 Minute Power Peak"
               value={peakW != null ? fmtPower(peakW) : "—"}
-              sub="system rated 8.36 kW"
+              sub="system rated at 8.36 kW"
             />
           </div>
 
-          {lastUpdated && (
-            <p className="text-xs text-gray-400 text-right -mt-2 mb-4">
-              Updated {lastUpdated.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" })}
-            </p>
-          )}
+
 
           {!hasData ? (
             <div className="bg-gray-50 rounded-lg border border-gray-200 p-6 text-center text-gray-400 text-sm">
@@ -202,7 +198,7 @@ function TodaySection() {
             </div>
           ) : (
             <div className="bg-white rounded-lg border border-gray-200 p-4">
-              <p className="text-xs uppercase tracking-widest text-gray-400 mb-3">
+              <p className="text-xs uppercase tracking-widest text-gray-800 mb-3">
                 Power curve — 15-minute intervals
               </p>
               <ResponsiveContainer width="100%" height={220}>
@@ -243,6 +239,11 @@ function TodaySection() {
                 </AreaChart>
               </ResponsiveContainer>
             </div>
+          )}
+          {lastUpdated && (
+            <p className="text-xs text-gray-400 text-left mt-2 mb-4">
+              Updated {lastUpdated.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" })}
+            </p>
           )}
         </>
       )}
@@ -533,23 +534,27 @@ export default function SolarPage() {
     <div className="max-w-5xl mx-auto px-4 py-8">
 
       {/* Header — matches existing layout: image left, text right */}
-      <div className="flex flex-col sm:flex-row gap-6 items-start mb-10">
-        <img
+      <div className="flex flex-col sm:flex-row gap-6 items-start justify-center mb-4">
+        <figure className="w-full sm:w-auto flex-shrink-0">
+          <img
           src={arrayImage}
           alt="19-panel rooftop array at 358 High Street, Belfast ME"
-          className="w-full sm:w-96 rounded shadow-sm flex-shrink-0"
-        />
-        <div className="space-y-3">
+            className="sm:w-96 rounded shadow-sm flex-shrink-0 flex-col items-center"
+          />
+          <figcaption className="text-base italic text-gray-500 mt-2 text-center">Completed array.</figcaption>
+        </figure>
+        <div className="text-left space-y-4 max-w-xl">
           <h1 className="text-3xl font-semibold text-gray-900">Renewable Electricity</h1>
-          <p className="text-gray-700">
+          <p className="text-gray-600">
             The onsite solar photovoltaic system is a 19-panel, 8.36 kW on two south-southeast facing roofs.
             Designed and installed by Revision Energy Inc. The system's intial day of operation was June 24, 2026.
           </p>
           <p className="text-gray-600 text-base">
-            The energy generated and power curve displayed below are updated every 5 minutes with data requested from the SolarEdge application programming interface (API). 
+            The energy generated and power curve displayed below are updated every 5 minutes with data requested from the SolarEdge. 
           </p>
         </div>
       </div>
+
 
       <TodaySection />
       <HistoricalSection />
