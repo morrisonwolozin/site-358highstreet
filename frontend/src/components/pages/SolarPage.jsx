@@ -538,7 +538,7 @@ export default function SolarPage() {
           imgName= {arrayImage}
           altImageName = "solar array image"
           capText = "Completed array"
-          h1Text = "Renewable Electricity"
+          h1Text = "Solar Electricity"
           >
           <p className="text-gray-600">{<>The onsite solar photovoltaic system is a 19-panel, 8.36 kW on two south-southeast facing roofs. Designed and installed by Revision Energy Inc. The system's intial day of operation was June 24, 2026.</>}</p>
           <p className="text-gray-600">{<>The energy generated and power curve displayed below are updated every 5 minutes with data requested from SolarEdge\'s API.</>}</p>   

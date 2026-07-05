@@ -61,9 +61,9 @@ export default function EnergyPage() {
           imgName= {energyPageImage}
           altImageName= "Energy page image"
           capText ="A ducted heat pump system for each apartment"
-          h1Text = "Renewable Electricity"
+          h1Text = "Energy Performance"
           >
-          <p className="text-gray-600"> "Whole-building energy use is listed before and after the energy retrofit and electrification. Pre-retrofit baseline is calendar year 2023; post-retrofit consumption is based on a year of near-full occupancy, April 2025 through March 2026. The summary below is up to date as of April, 2026.</p>
+          <p className="text-gray-600">Whole-building energy use is listed before and after the energy retrofit and electrification. Pre-retrofit baseline is the calendar year 2023; post-retrofit consumption is based on a year of near-full occupancy, April 2025 through March 2026. The summary below is up to date as of April, 2026.</p>
 
         </PageIntro>
 
@@ -130,7 +130,7 @@ export default function EnergyPage() {
       {/* Unit breakdown */}
       <div>
         <h2 className="text-lg font-semibold text-gray-800 border-b border-gray-200 pb-1 mb-4">
-          Electricity by Apartment Unit
+          Electricity by Apartment
         </h2>
         <div className="overflow-x-auto">
           <table className="min-w-full text-sm border border-gray-200 rounded-lg">
@@ -171,7 +171,7 @@ export default function EnergyPage() {
           </table>
         </div>
         <p className="text-xs text-gray-500 mt-2">
-          Unit 1 pre-retrofit figure excludes ~3,200 kWh attributed to plug-in vehicle charging.
+          Unit 1 pre-retrofit figure excludes an estimated 3,200 kWh attributed to tenant's vehicle charging.
           Unit 2 post-retrofit increase reflects heat pump heating/cooling replacing fuel oil.
         </p>
       </div>
