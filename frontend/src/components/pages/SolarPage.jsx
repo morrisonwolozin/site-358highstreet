@@ -25,6 +25,7 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
+import PageIntro from '../PageIntro'
 
 // ─── constants ────────────────────────────────────────────────────────────────
 
@@ -531,31 +532,17 @@ function ApproachSection() {
 
 export default function SolarPage() {
   return (
-    <div className="max-w-5xl mx-auto px-4 py-8">
+    <div className="max-w-5xl mx-auto gap-y-6">
 
-      {/* Header — matches existing layout: image left, text right */}
-      <div className="flex flex-col sm:flex-row gap-6 items-start justify-center mb-4">
-        <figure className="w-full sm:w-auto flex-shrink-0">
-          <img
-          src={arrayImage}
-          alt="19-panel rooftop array at 358 High Street, Belfast ME"
-            className="sm:w-96 rounded shadow-sm flex-shrink-0 flex-col items-center"
-          />
-          <figcaption className="text-base italic text-gray-500 mt-2 text-center">Completed array.</figcaption>
-        </figure>
-        <div className="text-left space-y-4 max-w-xl">
-          <h1 className="text-3xl font-semibold text-gray-900">Renewable Electricity</h1>
-          <p className="text-gray-600">
-            The onsite solar photovoltaic system is a 19-panel, 8.36 kW on two south-southeast facing roofs.
-            Designed and installed by Revision Energy Inc. The system's intial day of operation was June 24, 2026.
-          </p>
-          <p className="text-gray-600 text-base">
-            The energy generated and power curve displayed below are updated every 5 minutes with data requested from the SolarEdge. 
-          </p>
-        </div>
-      </div>
-
-
+      <PageIntro  
+          imgName= {arrayImage}
+          altImageName = "solar array image"
+          capText = "Completed array"
+          h1Text = "Renewable Electricity"
+          >
+          <p className="text-gray-600">{<>The onsite solar photovoltaic system is a 19-panel, 8.36 kW on two south-southeast facing roofs. Designed and installed by Revision Energy Inc. The system's intial day of operation was June 24, 2026.</>}</p>
+          <p className="text-gray-600">{<>The energy generated and power curve displayed below are updated every 5 minutes with data requested from SolarEdge\'s API.</>}</p>   
+      </PageIntro>
       <TodaySection />
       <HistoricalSection />
       <SystemSection />

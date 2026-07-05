@@ -1,6 +1,8 @@
 // src/pages/EnergyPage.jsx
 import { energyData } from "../../data/energyData.js";
+import PageIntro from '../PageIntro';
 import energyPageImage from "/images/energy-image.webp"
+
 
 const { pre, post, summary } = energyData;
 
@@ -52,32 +54,21 @@ function NotesList({ notes }) {
 
 export default function EnergyPage() {
   return (
-
     
-    <div className="max-w-5xl mx-auto space-y-10">
+    <div className="max-w-5xl mx-auto gap-y-4">
 
+      <PageIntro  
+          imgName= {energyPageImage}
+          altImageName= "Energy page image"
+          capText ="A ducted heat pump system for each apartment"
+          h1Text = "Renewable Electricity"
+          >
+          <p className="text-gray-600"> "Whole-building energy use is listed before and after the energy retrofit and electrification. Pre-retrofit baseline is calendar year 2023; post-retrofit consumption is based on a year of near-full occupancy, April 2025 through March 2026. The summary below is up to date as of April, 2026.</p>
 
-        <div className="flex flex-col sm:flex-row gap-6 items-start justify-center">
-          <figure className="w-full sm:w-auto flex-shrink-0">
-            <img
-              src={energyPageImage}
-              alt="Energy page image"
-              className="sm:w-96 rounded shadow-sm flex-shrink-0 flex-col items-center"
-            />
-            <figcaption className="text-base italic text-gray-500 mt-2 text-center">A ducted heat pump system for each apartment.</figcaption>
-          </figure>
-          <div className="text-left space-y-4 max-w-xl">
-            <h1 className="text-3xl font-semibold text-gray-900">Energy Performance</h1>
-            <p className="text-gray-600">
-                Whole-building energy use is listed before and after the energy retrofit and electrification.
-                Pre-retrofit baseline is calendar year 2023; post-retrofit consumption is based on
-                a year of near-full occupancy, April 2025 through March 2026. The summary below is up to date as of April, 2026.
-            </p>
-          </div>
-        </div>
+        </PageIntro>
 
       {/* Summary badges */}
-        <h2 className="text-lg font-semibold text-gray-800 border-b border-gray-200 pb-1 mb-4">
+        <h2 className="text-lg font-semibold text-gray-800 border-b border-gray-200 px-1 mb-4">
           Retrofitted Building Summary
         </h2>
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">

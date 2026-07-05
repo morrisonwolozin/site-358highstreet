@@ -1,6 +1,7 @@
 // src/pages/DesignPage.jsx
 import { designData } from "../../data/designData";
 import MarkdownPage from "./MarkdownPage";
+import PageIntro from "../PageIntro";
 import narrative from "../../content/design-narrative.md?raw";
 import designPageImage from "/images/designPage-image.webp"
 
@@ -174,22 +175,14 @@ export default function DesignPage() {
   return (
     <div className="max-w-5xl mx-auto space-y-10">
 
-      <div className="flex flex-col sm:flex-row gap-6 items-start justify-center">
-        <figure className="w-full sm:w-auto flex-shrink-0">
-          <img
-            src={designPageImage}
-            alt="design page image"
-            className="sm:w-96 rounded shadow-sm flex-shrink-0 flex-col items-center"
-          />
-          <figcaption className="text-base italic text-gray-500 mt-2 text-center">See Downloads for all drawings</figcaption>
-        </figure>
-        <div className="text-left space-y-4 max-w-xl">
-          <h1 className="text-3xl font-semibold text-gray-900">Building Design</h1>
-          <p className="text-gray-600">
-            The design scope addressed the building's physical and functional deficiencies, added new spaces, and delivered a deep energy retrofit "lite". The project goals were to offer a superior tenant experience through complete separation of all functions and utilities, low utility operating expenses and good indoor air quality. And provide ongoing monitoring of indoor air quality.
-          </p>
-        </div>
-      </div>
+      <PageIntro  
+          imgName= {designPageImage}
+          altImageName= "design page image"
+          capText ={<>See <a href='/downloads'> Downloads </a>for all drawings</>}
+          h1Text = "Building Design"
+          >
+          <p className="text-gray-600">The design scope addressed the building's physical and functional deficiencies, added new spaces, and delivered a deep energy retrofit 'lite'. The project goals were to offer a superior tenant experience through complete separation of all functions and utilities, low utility operating expenses and good indoor air quality. And provide ongoing monitoring of indoor air quality.</p> 
+         </PageIntro>
 
       {/* Markdown narrative */}
       <MarkdownPage content={narrative} />
