@@ -1,57 +1,14 @@
 // src/navigation/siteMap.js
-// Updated: 2026-03-22
+// Updated: 2026-07-06
 //
 // Notes:
-// type: "gallery"  → render via GalleryRoute using URL as key
-// type: "page"     → render a dedicated page component
-// type: "section"  → nav grouping node only (may also have a path)
+// type: "page"     → dedicated page component, always has a route
+// type: "section"  → nav grouping label only, no route, no path
 //
-// src
-// │
-// ├─ routes/
-// │   router.jsx
-// │
-// ├─ layouts/
-// │   RootLayout.jsx
-// │
-// ├─ pages/
-// │   HomePage.jsx
-// │   IssuesPage.jsx
-// │   DesignPage.jsx
-// │   EnergyPage.jsx
-// │   CostingPage.jsx
-// │   ContactPage.jsx
-// │   AboutPage.jsx
-// │   DownloadsPage.jsx
-// │   RentalPage.jsx
-// │   RestrictedPage.jsx
-// │   SolarPage.jsx
-// │
-// ├─ navigation/
-// │   SidebarNav.jsx
-// │   MobileMenu.jsx
-// │   Breadcrumbs.jsx
-// │
-// ├─ components/
-// │   Gallery.jsx
-// │   MarkdownPage.jsx
-// │   HeaderBanner.jsx
-// │   Footer.jsx
-// │   Modal.jsx
-// │
-// ├─ content/
-// │   goals-challenges.md
-// │   design-narrative.md
-// │   about.md
-// │
-// ├─ data/
-// │   galleryIndex.js
-// │   energyData.js
-// │   designData.js
-// │   downloads.js
-// │
-// └─ utils/
-//     utils.js
+// All leaf pages use PageIntro + content (gallery, data, or markdown).
+// GalleryRoute eliminated — galleries are embedded within their page.
+// Flat paths for all leaf pages — no deep nesting.
+// Rental section visibility controlled via SiteConfigContext.
 
 function validatePaths(nodes) {
   nodes.forEach((node) => {
@@ -70,9 +27,15 @@ export const siteMap = [
   },
   {
     label: "Project Challenges",
-    path: "/issues",
+    path: "/challenges",
     type: "page",
     summary: "Pre-construction conditions that shaped the retrofit project",
+  },
+  {
+    label: "Historical",
+    path: "/historical",
+    type: "page",
+    summary: "The first two decades of 358 High Street",
   },
   {
     label: "Building Design",
@@ -86,78 +49,149 @@ export const siteMap = [
     type: "page",
     summary: "Whole-building energy use before and after the deep energy retrofit",
   },
-  { 
-    label: "Solar Electricity", 
-    path: "/solar", 
-    type: "page", 
-    summary: "Owner-financed photovoltaic supply for both units",
-    intro: "",
-        children: [
-      { label: "Installation Photos", path: "/solar/photos", type: "gallery" },
-    ],
-  },
   {
-    label: "Historical",
-    path: "/historical",
-    type: "gallery",
-    summary: "This page describes the first couple decades of this building.",
-    intro:
-      "![Consent Agreement signature page](/images/historicalPage.webp) The duplex was built to the rear of 360 High Street within the same lot in 2004. There were numerous deficiencies with its siting and construction. The was no lot division. It failed comply with lot setbacks on its south side. The was no driveway, nor parking. Site drainage from its up-hill, west side, was not considered. There were no sound nor fire-rated partitions between the apartments in its crawl space. Byt 2012 the original owners had defaulted and a mortgage company, Nationstar Mortgage LLC, assumed ownership. The image above is the signature page of the consent agreement to correct the deficiencies. The agreement's parties were the Town of Belfast, an abutter, Michelle Morrow, and the mortgage company. See the [2012 Consent Agreement](/downloads) on the Downloads page for the full legal context. The photo gallery below shows its original, 2004, 'nameplates' and the pre-construction condition in 2023.",
+    label: "Project Cost",
+    path: "/project-cost",
+    type: "page",
+    summary: "Final costs for the 2025 deep energy retrofit",
   },
-  { 
-    label: "Project Cost", 
-    path: "/project-cost", 
-    type: "page",  
-    summary: "Final costs for the 2025 deep energy retrofit" 
+  
+  {
+    label: "Solar Electricity",
+    path: "/solar",
+    type: "page",
+    summary: "Owner-financed photovoltaic supply for both units",
   },
-   { 
-    label: "Contact Me", 
-    path: "/contact", 
-    type: "page",  
-    summary: "Questions about the project or rental availability?" 
-  }, 
   {
     label: "Construction",
-    path: "/construction",
     type: "section",
-    summary: "A deep energy retrofit 'lite' of a conventional single-story duplex residence from 2004.",
-    intro:
-      "Goals: reduce envelope thermal transmission rates, increase air tightness, add energy recovery ventilation, range hood exhaust, HVAC electrification and bulk water drainage.",
     children: [
       {
         label: "Envelope",
-        path: "/construction/envelope",
         type: "section",
         children: [
-          { label: "Above Grade Walls & Roof",   path: "/construction/envelope/der-exterior-walls-and-roof",    type: "gallery" },
-          { label: "Windows",                    path: "/construction/envelope/der-windows",                    type: "gallery" },
-          { label: "Below Grade Walls",          path: "/construction/envelope/der-interior-crawl-space-walls", type: "gallery" },
-          { label: "Below Grade Floor",          path: "/construction/envelope/der-crawl-space-floors",         type: "gallery" },
-          { label: "Roof Interior",              path: "/construction/envelope/der-roof-interior",              type: "gallery" },
+          {
+            label: "Exterior Walls",
+            path: "/exterior-walls",
+            type: "page",
+            summary: "Above-grade wall assembly upgrades",
+          },
+          {
+            label: "Roof",
+            path: "/roof",
+            type: "page",
+            summary: "Roof assembly and air sealing",
+          },
+          {
+            label: "Windows",
+            path: "/windows",
+            type: "page",
+            summary: "Triple-pane window installation",
+          },
+          {
+            label: "Crawlspace Walls",
+            path: "/crawlspace-walls",
+            type: "page",
+            summary: "Below-grade wall insulation and air sealing",
+          },
+          {
+            label: "Crawlspace Floors",
+            path: "/crawlspace-floors",
+            type: "page",
+            summary: "Below-grade floor insulation",
+          },
         ],
       },
       {
         label: "Foundation",
-        path: "/construction/foundation",
-        type: "gallery",
-        summary: "The perimeter of the original building was excavated",
-        intro:
-          "Surface water from above the site is diverted to either side of the building; gutters and sump pumps in the additions remove site bulk water.",
+        path: "/foundation",
+        type: "page",
+        summary: "Perimeter excavation, drainage, and waterproofing",
       },
-      { label: "Additions",    path: "/construction/additions",    type: "gallery" },
-      { label: "Party Walls",  path: "/construction/party-walls",  type: "gallery" },
-      { label: "HVAC",
-        path: "/construction/hvac",
+      {
+        label: "Additions",
+        path: "/additions",
+        type: "page",
+        summary: "Structural additions to the original building",
+      },
+      {
+        label: "Party Walls",
+        path: "/party-walls",
+        type: "page",
+        summary: "Fire and sound separation between units",
+      },
+      {
+        label: "Plumbing",
+        path: "/plumbing",
+        type: "page",
+        summary: "Domestic hot water and plumbing upgrades",
+      },
+      {
+        label: "HVAC",
         type: "section",
         children: [
-          { label: "HVAC Demolition",       path: "/construction/hvac/mechanical-demolition", type: "gallery" },
-          { label: "Ventilation",           path: "/construction/hvac/erv",                   type: "gallery" },
-          { label: "Heating and Cooling",   path: "/construction/hvac/heat-pumps",            type: "gallery" },
-          { label: "Range Hood Exhaust",    path: "/construction/hvac/kitchen-range-hood",    type: "gallery" },
+          {
+            label: "Demolition",
+            path: "/mechanical-demolition",
+            type: "page",
+            summary: "Removal of existing mechanical systems",
+          },
+          {
+            label: "Ventilation",
+            path: "/erv",
+            type: "page",
+            summary: "Energy recovery ventilation system",
+          },
+          {
+            label: "Heating & Cooling",
+            path: "/heat-pumps",
+            type: "page",
+            summary: "Heat pump installation for both units",
+          },
+          {
+            label: "Range Hood",
+            path: "/range-hood",
+            type: "page",
+            summary: "Kitchen exhaust ventilation",
+          },
         ],
       },
-     { label: "Ice Dams",  path: "/construction/ice-dams",  type: "page", summary: "An unexpected first-winter challenge — diagnosed and resolved" },
-
+    ],
+  },
+  {
+    label: "Ice Dams",
+    path: "/ice-dams",
+    type: "page",
+    summary: "An unexpected first-winter challenge — diagnosed and resolved",
+  },
+  {
+    label: "Contact Me",
+    path: "/contact",
+    type: "page",
+    summary: "Questions about the project or rental availability?",
+  },
+  {
+    label: "Rental",
+    type: "section",
+    children: [
+      {
+        label: "Rental Features",
+        path: "/rental",
+        type: "page",
+        summary: "Apartment features and amenities",
+      },
+      {
+        label: "Unit 1 Photos",
+        path: "/rental/unit1",
+        type: "page",
+        summary: "Photos of Unit 1",
+      },
+      {
+        label: "Unit 2 Photos",
+        path: "/rental/unit2",
+        type: "page",
+        summary: "Photos of Unit 2",
+      },
     ],
   },
   {
@@ -176,20 +210,6 @@ export const siteMap = [
     label: "Restricted",
     path: "/restricted",
     type: "page",
-  },
-  {
-    label: "Rental Features",
-    path: "/rental",
-    type: "page",
-  },
-  {
-    label: "Rental Photos",
-    path: "/rental/photos",
-    type: "gallery",
-    children: [
-      { label: "Unit 1", path: "/rental/photos/unit1", type: "gallery" },
-      { label: "Unit 2", path: "/rental/photos/unit2", type: "gallery" },
-    ],
   },
 ];
 

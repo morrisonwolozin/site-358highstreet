@@ -1,4 +1,5 @@
 // Gallery.jsx  renders the selected images 
+// 2026-07-06 refactor
 
 import { useState} from 'react'
 import GalleryModal from "./GalleryModal.jsx";

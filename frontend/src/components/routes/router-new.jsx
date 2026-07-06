@@ -10,7 +10,7 @@ import NotFound from "../pages/NotFound";
 
 // ─── existing pages ───────────────────────────────────────────────────────────
 import HomePage         from "../pages/HomePage";
-import ChallengesPage       from "../pages/ChallengesPage";       // path: /challenges
+import IssuesPage       from "../pages/IssuesPage";       // path: /challenges
 import DesignPage       from "../pages/DesignPage";
 import EnergyPage       from "../pages/EnergyPage";
 import SolarPage        from "../pages/SolarPage";
@@ -49,7 +49,7 @@ export const router = createBrowserRouter([
 
       // ─── top level ──────────────────────────────────────────────────────────
       { index: true,                  element: <HomePage /> },
-      { path: "challenges",           element: <ChallengesPage /> },
+      { path: "challenges",           element: <IssuesPage /> },
       { path: "design",               element: <DesignPage /> },
       { path: "energy-performance",   element: <EnergyPage /> },
       { path: "solar",                element: <SolarPage /> },

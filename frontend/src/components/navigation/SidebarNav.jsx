@@ -17,7 +17,7 @@ const RENTAL_PATHS = ["/rental", "/rental/photos"];
 
 function isRentalNode(node) {
   return RENTAL_PATHS.some(
-    (p) => node.path === p || node.path?.startsWith("/rental/photos/")
+    (p) => node.path === p || node.path?.startsWith("/rental")
   );
 }
 
