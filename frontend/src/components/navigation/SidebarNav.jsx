@@ -16,9 +16,7 @@ function linkClass({ isActive }, level = 0) {
 const RENTAL_PATHS = ["/rental", "/rental/photos"];
 
 function isRentalNode(node) {
-  return RENTAL_PATHS.some(
-    (p) => node.path === p || node.path?.startsWith("/rental")
-  );
+  return node.path?.startsWith("/rental") || node.label === "Rental";
 }
 
 function filterNodes(nodes, rentalAvailable) {

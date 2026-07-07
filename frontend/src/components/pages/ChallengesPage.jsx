@@ -16,7 +16,7 @@ export default function IssuesPage() {
             h1Text = "Project Challenges"
             >
 
-            <p className="text-gray-600">{<>The project's overall goal was to create a "clean energy property": fully-electrified, energy-efficient, verified healthy apartments and low utility costs, inspired by the Massachusetts Clean Energy Center's <a href='https://goclean.masscec.com/landlords/clean-energy-solutions/'  target='_blank' rel='noreferrer' className='text-emerald-700 underline underline-offset-2 hover:text-emerald-900' >Solutions for Landlords</a>.</>}</p>
+            <p className="text-gray-600">{<>The project's overall goal was to create a "clean energy property", fully-electrified, energy-efficient, verifiably healthy apartments. With low utility costs for tenants. The roadmap follows the Massachusetts Clean Energy Center's <a href='https://goclean.masscec.com/landlords/clean-energy-solutions/'  target='_blank' rel='noreferrer' className='text-emerald-700 underline underline-offset-2 hover:text-emerald-900' >Solutions for Landlords</a>.</>}</p>
           </PageIntro>
 
         <MarkdownPage content={content} />

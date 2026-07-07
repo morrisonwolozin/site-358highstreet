@@ -34,7 +34,7 @@ export default function HistoricalPage() {
             2012 Consent Agreement
           </a>{" "}
           on the Downloads page for the full legal context. The photo gallery
-          below shows the original 2004 module nameplates' and pre-construction
+          below shows the original 2004 module 'nameplates' and pre-construction
           conditions as of 2023.
         </p>
       </PageIntro>

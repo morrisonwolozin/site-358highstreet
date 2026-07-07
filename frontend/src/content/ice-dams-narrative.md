@@ -2,7 +2,7 @@
 
 ## What Happened
 
-Severe ice dams formed during the first winter, following a cold period after approximately six inches of snowfall. The roof was designed to vent above the deck insulation, with air channels intended to remain at essentially outdoor air temperature. So why were ice dams forming?
+Severe ice dams formed during a cold period with six inches of roof snow during the first winter. But why: the roof was designed to vent through 1.5\" channels from soffit to ridge above the deck insulation. These spaces should remain at the outdoor air temperature. So, how were ice dams forming?
 
 The initial photos show that melting occurred in the two valleys where the front addition intersects the main roof — but not on the main roof itself. Within the valleys, melt was pronounced between the flat 2x4s visible in the first three photos.
 

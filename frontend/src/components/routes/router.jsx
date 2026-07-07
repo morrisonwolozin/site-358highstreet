@@ -24,21 +24,21 @@ import IceDamsPage      from "../pages/IceDamsPage";
 
 // ─── new pages (uncomment as each is created) ─────────────────────────────────
 import HistoricalPage      from "../pages/HistoricalPage";
-// import FoundationPage      from "../pages/FoundationPage";
-// import AdditionsPage       from "../pages/AdditionsPage";
-// import PartyWallsPage      from "../pages/PartyWallsPage";
-// import PlumbingPage        from "../pages/PlumbingPage";
-// import ExteriorWallsPage   from "../pages/ExteriorWallsPage";
-// import RoofPage            from "../pages/RoofPage";
-// import WindowsPage         from "../pages/WindowsPage";
-// import CrawlspaceWallsPage from "../pages/CrawlspaceWallsPage";
-// import CrawlspaceFloorsPage from "../pages/CrawlspaceFloorsPage";
-// import DemolitionPage      from "../pages/DemolitionPage";
-// import VentilationPage     from "../pages/VentilationPage";
-// import HeatPumpsPage       from "../pages/HeatPumpsPage";
-// import RangeHoodPage       from "../pages/RangeHoodPage";
-// import RentalUnit1Page     from "../pages/RentalUnit1Page";
-// import RentalUnit2Page     from "../pages/RentalUnit2Page";
+import FoundationPage      from "../pages/FoundationPage";
+import AdditionsPage       from "../pages/AdditionsPage";
+import PartyWallsPage      from "../pages/PartyWallsPage";
+import PlumbingPage        from "../pages/PlumbingPage";
+import ExteriorWallsPage   from "../pages/ExteriorWallsPage";
+import RoofPage            from "../pages/RoofPage";
+import WindowsPage         from "../pages/WindowsPage";
+import CrawlspaceWallsPage from "../pages/CrawlspaceWallsPage";
+import CrawlspaceFloorsPage from "../pages/CrawlspaceFloorsPage";
+import DemolitionPage      from "../pages/DemolitionPage";
+import VentilationPage     from "../pages/VentilationPage";
+import HeatPumpsPage       from "../pages/HeatPumpsPage";
+import RangeHoodPage       from "../pages/RangeHoodPage";
+import RentalUnit1Page     from "../pages/RentalUnit1Page";
+import RentalUnit2Page     from "../pages/RentalUnit2Page";
 
 export const router = createBrowserRouter([
   {
@@ -61,31 +61,31 @@ export const router = createBrowserRouter([
       { path: "restricted/*",         element: <RestrictedPage /> },
 
       // ─── construction: envelope ─────────────────────────────────────────────
-      // { path: "exterior-walls",       element: <ExteriorWallsPage /> },
-      // { path: "roof",                 element: <RoofPage /> },
-      // { path: "windows",              element: <WindowsPage /> },
-      // { path: "crawlspace-walls",     element: <CrawlspaceWallsPage /> },
-      // { path: "crawlspace-floors",    element: <CrawlspaceFloorsPage /> },
+      { path: "exterior-walls",       element: <ExteriorWallsPage /> },
+      { path: "roof",                 element: <RoofPage /> },
+      { path: "windows",              element: <WindowsPage /> },
+      { path: "crawlspace-walls",     element: <CrawlspaceWallsPage /> },
+      { path: "crawlspace-floors",    element: <CrawlspaceFloorsPage /> },
 
       // ─── construction: structure ────────────────────────────────────────────
-      // { path: "foundation",           element: <FoundationPage /> },
-      // { path: "additions",            element: <AdditionsPage /> },
-      // { path: "party-walls",          element: <PartyWallsPage /> },
-      // { path: "plumbing",             element: <PlumbingPage /> },
+      { path: "foundation",           element: <FoundationPage /> },
+      { path: "additions",            element: <AdditionsPage /> },
+      { path: "party-walls",          element: <PartyWallsPage /> },
+      { path: "plumbing",             element: <PlumbingPage /> },
 
       // ─── construction: hvac ─────────────────────────────────────────────────
-      // { path: "mechanical-demolition", element: <DemolitionPage /> },
-      // { path: "erv",                  element: <VentilationPage /> },
-      // { path: "heat-pumps",           element: <HeatPumpsPage /> },
-      // { path: "range-hood",           element: <RangeHoodPage /> },
+      { path: "mechanical-demolition", element: <DemolitionPage /> },
+      { path: "erv",                  element: <VentilationPage /> },
+      { path: "heat-pumps",           element: <HeatPumpsPage /> },
+      { path: "range-hood",           element: <RangeHoodPage /> },
 
       // ─── construction: other ────────────────────────────────────────────────
       { path: "ice-dams",             element: <IceDamsPage /> },
 
       // ─── rental ─────────────────────────────────────────────────────────────
       { path: "rental",               element: <RentalPage /> },
-      // { path: "rental/unit1",         element: <RentalUnit1Page /> },
-      // { path: "rental/unit2",         element: <RentalUnit2Page /> },
+      { path: "rental/unit1",         element: <RentalUnit1Page /> },
+      { path: "rental/unit2",         element: <RentalUnit2Page /> },
 
       // ─── catch-all ──────────────────────────────────────────────────────────
       { path: "*",                    element: <NotFound /> },
