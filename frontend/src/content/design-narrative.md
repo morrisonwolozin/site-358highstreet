@@ -1,6 +1,3 @@
-
-
-
 ### Architectural Goals
 
 The primary architectural objectives were to create a dedicated front entry, and add a second bathroom and laundry space for each apartment.
@@ -18,9 +15,8 @@ After the original owners defaulted and a mortgage company assumed control, a Ci
 ### Site Drainage
 
 The site drainage was reimagined to eliminate water intrusion into the crawl space. Several measures were taken:
-
 - The elevation of the existing north-side culvert and drainage ditch was lowered to establish positive drainage from new perimeter footing drains;
-- A new ditch was cut along the lot's west side to capture runoff from the adjacent sloped lot, discharging to the main ditch;
+- New ditching was created along the lot's west side to divert up-slope runoff to the main ditch;
 - A separate perimeter collection system for roof gutter discharge was routed to the main ditch;
 - A floor drain in the crawl space was discovered, its outlet located, and rerouted to the ditch;
 - An existing swale on the south side was enhanced.

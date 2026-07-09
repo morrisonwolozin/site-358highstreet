@@ -61,9 +61,9 @@ export const designData = {
       notes: "Volume includes additions, conditioned crawl space, and sealed attic.",
     },
     remarks: [
-      "Post-retrofit building volume is 66% larger than pre-construction, yet CFM50 was reduced by more than twenty percent.",
+      "Post-retrofit building volume is 66% larger than pre-construction, yet CFM50 was reduced to less than half.",
       "Post-retrofit ACH50 of 1.7 is exceeds Maine code for new construction (~3.0 ACH50).",
-      "See Downloads page for air leakage (blower door) test reports.",
+      "See the Downloads page for the air leakage (blower door) test reports.",
     ],
   },
 

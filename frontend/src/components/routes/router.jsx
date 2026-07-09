@@ -28,8 +28,8 @@ import FoundationPage      from "../pages/FoundationPage";
 import AdditionsPage       from "../pages/AdditionsPage";
 import PartyWallsPage      from "../pages/PartyWallsPage";
 import PlumbingPage        from "../pages/PlumbingPage";
-import ExteriorWallsPage   from "../pages/ExteriorWallsPage";
-import RoofPage            from "../pages/RoofPage";
+import RetrofitWallRoofPage   from "../pages/RetrofitWallRoofPage";
+// import RoofPage            from "../pages/RoofPage";
 import WindowsPage         from "../pages/WindowsPage";
 import CrawlspaceWallsPage from "../pages/CrawlspaceWallsPage";
 import CrawlspaceFloorsPage from "../pages/CrawlspaceFloorsPage";
@@ -61,8 +61,8 @@ export const router = createBrowserRouter([
       { path: "restricted/*",         element: <RestrictedPage /> },
 
       // ─── construction: envelope ─────────────────────────────────────────────
-      { path: "exterior-walls",       element: <ExteriorWallsPage /> },
-      { path: "roof",                 element: <RoofPage /> },
+      { path: "retrofit-wall-roof",   element: <RetrofitWallRoofPage /> },
+      // { path: "roof",                 element: <RoofPage /> },
       { path: "windows",              element: <WindowsPage /> },
       { path: "crawlspace-walls",     element: <CrawlspaceWallsPage /> },
       { path: "crawlspace-floors",    element: <CrawlspaceFloorsPage /> },

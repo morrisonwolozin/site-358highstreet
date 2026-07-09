@@ -26,7 +26,7 @@ export const siteMap = [
     type: "page",
   },
   {
-    label: "Project Challenges",
+    label: "Project Goals and Challenges",
     path: "/challenges",
     type: "page",
     summary: "Pre-construction conditions that shaped the retrofit project",
@@ -71,16 +71,10 @@ export const siteMap = [
         type: "section",
         children: [
           {
-            label: "Exterior Walls",
-            path: "/exterior-walls",
+            label: "Retrofit Walls and Roof",
+            path: "/retrofit-wall-roof",
             type: "page",
-            summary: "Above-grade wall assembly upgrades",
-          },
-          {
-            label: "Roof",
-            path: "/roof",
-            type: "page",
-            summary: "Roof assembly and air sealing",
+            summary: "Above-grade wall and roof retrofit assembly upgrades",
           },
           {
             label: "Windows",

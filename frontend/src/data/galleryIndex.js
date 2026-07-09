@@ -51,27 +51,24 @@ export const galleryIndex = {
     { id: "img031", imageUrl: "/images/img-22-additions.webp", title: "roof framing over deck insulation", shortAnnotation: "roof framing", fullAnnotation: "roof framing" },
   ],
 
-  "exterior-walls": [
-    { id: "img000", imageUrl: "/images/img-0-envelope.webp", title: "initial view north 1", shortAnnotation: "initial view", fullAnnotation: "original roof: pre-retrofit condition: trusses with a foot of eave overhang and gable end overhangs" },
-    { id: "img001", imageUrl: "/images/img-1-envelope.webp", title: "initial view north 2", shortAnnotation: "initial view north 2", fullAnnotation: "original envelope wall : 2x6 with fiberglass cavity insulation" },
-    { id: "img002", imageUrl: "/images/img-2-envelope.webp", title: "siding and roof overhangs removed", shortAnnotation: "siding and roof overhangs removed", fullAnnotation: "a section of removed eave overhang" },
-    { id: "img003", imageUrl: "/images/img-3-envelope.webp", title: "remove siding", shortAnnotation: "remove siding", fullAnnotation: "remove existing vinyl siding" },
-    { id: "img004", imageUrl: "/images/img-4-envelope.webp", title: "roof and eave protection", shortAnnotation: "roof and eave protection", fullAnnotation: "siding and roofing removed exposing existing sheathing, then add underlayment (Roof Guard II) for water protection and air sealing of wall-roof joint" },
-    { id: "img005", imageUrl: "/images/img-5-envelope.webp", title: "insulation", shortAnnotation: "insulation", fullAnnotation: "add two layers of 2 in. polyiso insulation (Tuff R Enerfoil, R=6.5 per inch), onto the roof deck, staggering the joints" },
-    { id: "img006", imageUrl: "/images/img-6-envelope.webp", title: "2x4s over roof insulation", shortAnnotation: "2x4s over roof insulation", fullAnnotation: "screw flat 2x4s (8 in. screws, Simpson SDWS) securing insulation and creating a venting path from eave to ridge. The 2x4s will support a new overhang" },
-    { id: "img007", imageUrl: "/images/img-7-envelope.webp", title: "2x4s over roof insulation", shortAnnotation: "2x4s over roof insulation", fullAnnotation: "screw flat 2x4s (8 in. screws, Simpson SDWS) securing insulation and creating a venting path from eave to ridge. The 2x4s will support a new overhang" },
-    { id: "img008", imageUrl: "/images/img-8-envelope.webp", title: "roof decking", shortAnnotation: "roof decking", fullAnnotation: "add roof decking (5/8 in. Advantech)" },
-    { id: "img009", imageUrl: "/images/img-9-envelope.webp", title: "deck completed", shortAnnotation: "deck completed", fullAnnotation: "roof decking completed" },
-    { id: "img010", imageUrl: "/images/img-10-envelope.webp", title: "construct new overhangs", shortAnnotation: "construct new overhangs", fullAnnotation: "construct new overhangs" },
-    { id: "img011", imageUrl: "/images/img-11-envelope.webp", title: "overhangs", shortAnnotation: "overhangs", fullAnnotation: "new overhangs and soffits with rough facia" },
-    { id: "img012", imageUrl: "/images/img-12-envelope.webp", title: "facia", shortAnnotation: "facia", fullAnnotation: "install eave and rake facia (Azek). note: shed to be relocated on site" },
-    { id: "img013", imageUrl: "/images/img-13-envelope.webp", title: "exterior wall insulation", shortAnnotation: "exterior wall insulation and sheathing", fullAnnotation: "install 2 in. polyiso exterior wall insulation covered with ZipSystem sheathing" },
-  ],
-
-  "roof": [
-    { id: "img001", imageUrl: "/images/img-01-attic.webp", title: "attic before roof cavity ccSPF", shortAnnotation: "", fullAnnotation: "" },
-    { id: "img002", imageUrl: "/images/img-02-attic.webp", title: "5\" ccSPF added in cavities", shortAnnotation: "", fullAnnotation: "" },
-    { id: "img003", imageUrl: "/images/img-03-attic.webp", title: "5\" ccSPF added in cavities", shortAnnotation: "", fullAnnotation: "" },
+  "retrofit-wall-roof": [
+    
+    { id: "img001", imageUrl: "/images/img-1-envelope.webp", title: "initial view - northwest", shortAnnotation: "", fullAnnotation: "original envelope wall : 2x6 with fiberglass cavity insulation." },
+    { id: "img002", imageUrl: "/images/img-2-envelope.webp", title: "'chain saw retrofit'", shortAnnotation: "", fullAnnotation: "a section of removed eave overhang. the 'chain saw retrofit' removes overhangs flush to the wall to allow a continuous air barrier and insulation between walls and roof." },
+    { id: "img003", imageUrl: "/images/img-3-envelope.webp", title: "remove vinyl siding", shortAnnotation: "", fullAnnotation: "vinyl siding and north overhang removed." },
+    { id: "img004", imageUrl: "/images/img-4-envelope.webp", title: "roofing removal", shortAnnotation: "", fullAnnotation: "siding and roofing were removed exposing the existing sheathing; then underlayment (Roof Guard II) was added for water protection and air sealing of the wall-roof joint." },
+    { id: "img005", imageUrl: "/images/img-5-envelope.webp", title: "insulation", shortAnnotation: "insulation", fullAnnotation: "two layers of 2 in. polyiso insulation (Tuff R Enerfoil, R=6.5 per inch), were placed onto the roof deck, staggering the joints" },
+    { id: "img006", imageUrl: "/images/img-6-envelope.webp", title: "flat 2x4s over roof insulation", shortAnnotation: "", fullAnnotation: "flat 2x4s were screwed through the insulation (8 in. screws, Simpson SDWS) into the roof truss to secure the insulation and create an air vent path from eave to ridge. The 2x4s extend past the roof edge and will support a new overhang." },
+    { id: "img007", imageUrl: "/images/img-7-envelope.webp", title: "flat 2x4s", shortAnnotation: "", fullAnnotation: "the 2x4s were placed 16\" on center." },
+    { id: "img008", imageUrl: "/images/img-8-envelope.webp", title: "roof decking onto 2x4s", shortAnnotation: "", fullAnnotation: "new roof decking (5/8 in. Advantech) were placed onto the flat 2x4s." },
+    { id: "img009", imageUrl: "/images/img-9-envelope.webp", title: "deck completed", shortAnnotation: "", fullAnnotation: "roof decking completed." },
+    { id: "img010", imageUrl: "/images/img-10-envelope.webp", title: "new eave overhangs", shortAnnotation: "", fullAnnotation: "new eave and rage overhangs." },
+    { id: "img011", imageUrl: "/images/img-11-envelope.webp", title: "new rake overhangs", shortAnnotation: "", fullAnnotation: "new overhangs and soffits with rough facia." },
+    { id: "img012", imageUrl: "/images/img-12-envelope.webp", title: "wall insulation and sheathing", shortAnnotation: "", fullAnnotation: "install eave and rake facia (Azek). the shed was later relocated on the site." },
+    { id: "img013", imageUrl: "/images/img-13-envelope.webp", title: "section of exterior wall insulation and sheathing", shortAnnotation: "", fullAnnotation: "the exterior wall insulation (2 in. polyiso) was installed then covered with sheathing." },
+    { id: "img014", imageUrl: "/images/img-01-attic.webp", title: "attic before roof cavity and end wall ccSPF", shortAnnotation: "", fullAnnotation: "" },
+    { id: "img015", imageUrl: "/images/img-02-attic.webp", title: "5\" ccSPF added in roof cavities", shortAnnotation: "", fullAnnotation: "" },
+    { id: "img016", imageUrl: "/images/img-03-attic.webp", title: "5\" ccSPF added in cavities", shortAnnotation: "", fullAnnotation: "" },
   ],
 
   "windows": [
