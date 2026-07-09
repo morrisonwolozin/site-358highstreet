@@ -18,9 +18,9 @@ function IntroTable({ tableData }) {
   if (!tableData) return null;
   const { caption, headers, rows } = tableData;
   return (
-    <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden mt-2">
+    <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
       {caption && (
-        <caption className="text-xs uppercase tracking-widest text-gray-400 pb-2 text-left">
+        <caption className="text-xs uppercase tracking-widest text-gray-400 pb-1 text-left">
           {caption}
         </caption>
       )}
@@ -30,7 +30,7 @@ function IntroTable({ tableData }) {
             {headers.map((h, i) => (
               <th
                 key={i}
-                className={`px-4 py-2 font-medium text-gray-600 ${
+                className={`px-4 font-medium text-gray-600 ${
                   i === 0 ? "text-left" : "text-right"
                 }`}
               >
@@ -46,7 +46,7 @@ function IntroTable({ tableData }) {
             {row.map((cell, ci) => (
               <td
                 key={ci}
-                className={`px-4 py-2.5 ${
+                className={`px-4 py-1 ${
                   ci === 0
                     ? "text-gray-700"
                     : "text-center text-gray-500"
@@ -71,11 +71,11 @@ export default function PageIntro({ imgName, altImageName, capText, h1Text, tabl
           alt={altImageName}
           className="sm:w-96 rounded shadow-sm flex-shrink-0 flex-col items-center"
         />
-        <figcaption className="text-base italic text-gray-500 mt-2 text-center">
+        <figcaption className="text-base italic text-gray-500 mt-4 text-center">
           {capText}
         </figcaption>
       </figure>
-      <div className="text-left space-y-4 max-w-xl">
+      <div className="text-left space-y-2 max-w-xl">
         <h1 className="text-3xl font-semibold text-gray-900">{h1Text}</h1>
         {children}
         <IntroTable tableData={tableData} />
