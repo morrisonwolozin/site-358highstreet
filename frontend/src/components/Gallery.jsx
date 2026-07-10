@@ -57,7 +57,7 @@ export default function Gallery({images}) {
               className="object-cover w-full h-48 rounded-t"
             />
             <div className="p-3">
-              <h3 className="font-semibold text-center">{item.title}</h3>
+              <h3 className="text-base text-center text-italic text-gray-700">{item.title}</h3>
               <p className="text-sm text-center text-gray-600">{item.shortAnnotation}</p>
             </div>
           </div>

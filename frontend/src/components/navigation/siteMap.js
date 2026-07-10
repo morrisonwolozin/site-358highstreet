@@ -67,7 +67,7 @@ export const siteMap = [
     type: "section",
     children: [
       {
-        label: "Envelope",
+        label: "Original Envelope",
         type: "section",
         children: [
           {

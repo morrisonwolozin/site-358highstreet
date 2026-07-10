@@ -23,9 +23,11 @@ export default function ExteriorWallsPage() {
             ]
   }}
       >
-        <p className="text-gray-600">
-          The above-grade wall assembly was upgraded with 2" of polyiso exterior continuous insulation (R-13) over the original 2x6 walls with their cavity insulation, then resheathed. The original attic was vented above ceiling insulation; the retrofit incorporated the attic into conditioned space. The roof was insulated 4" of continuous polyiso onto the existing deck. Then, 5" of closed cell spray foam (ccSPF) was sprayed into the 2x6 rafter cavities. And 3" was sprayed onto the attic end walls.
+        <p className="text-sm text-gray-900">
+          The above-grade wall was retrofitted with 2" of exterior polyiso insulation (R-13) over the original 2x6 wall (fiberglass cavity insulation), then resheathed.
         </p>
+        <p className="text-sm text-gray-900">The roof was insulated 4" of continuous polyiso onto the existing deck. Then, 5" of closed cell spray foam (ccSPF) was sprayed into the 2x6 rafter cavities. Originally, the attic was vented above ceiling insulation; the retrofit incorporated the attic into conditioned space.And 3" was sprayed onto the attic end walls.</p>
+        <p className="text-sm text-gray-900">Finally, 3" of ccSPF was sprayed onto the attic end walls.</p>
 
       </PageIntro>
 

@@ -18,19 +18,15 @@ function IntroTable({ tableData }) {
   if (!tableData) return null;
   const { caption, headers, rows } = tableData;
   return (
-    <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden">
-      {caption && (
-        <caption className="text-xs uppercase tracking-widest text-gray-400 pb-1 text-left">
-          {caption}
-        </caption>
-      )}
+    <table className="w-full text-sm border border-gray-200 rounded-lg py-2 overflow-hidden">
+
       {headers && (
         <thead className="bg-gray-50">
           <tr>
             {headers.map((h, i) => (
               <th
                 key={i}
-                className={`px-4 font-medium text-gray-600 ${
+                className={`px-2 font-medium text-gray-600 ${
                   i === 0 ? "text-left" : "text-right"
                 }`}
               >
@@ -46,7 +42,7 @@ function IntroTable({ tableData }) {
             {row.map((cell, ci) => (
               <td
                 key={ci}
-                className={`px-4 py-1 ${
+                className={`px-2 py-1 ${
                   ci === 0
                     ? "text-gray-700"
                     : "text-center text-gray-500"
@@ -58,6 +54,11 @@ function IntroTable({ tableData }) {
           </tr>
         ))}
       </tbody>
+      {caption && (
+        <caption className="caption-bottom text-xs uppercase tracking-widest text-gray-700 px-2 pt-1 text-left">
+          {caption}
+        </caption>
+      )}
     </table>
   );
 }
