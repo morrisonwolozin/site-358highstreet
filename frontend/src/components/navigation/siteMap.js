@@ -67,11 +67,11 @@ export const siteMap = [
     type: "section",
     children: [
       {
-        label: "Original Envelope",
+        label: "Retrofitted Envelope",
         type: "section",
         children: [
           {
-            label: "Retrofit Walls and Roof",
+            label: "Above Grade Walls and Roof",
             path: "/retrofit-wall-roof",
             type: "page",
             summary: "Above-grade wall and roof retrofit assembly upgrades",
@@ -83,17 +83,17 @@ export const siteMap = [
             summary: "Triple-pane window installation",
           },
           {
-            label: "Crawlspace Walls",
-            path: "/crawlspace-walls",
+            label: "Crawlspace Walls and Floors",
+            path: "/crawlspace-walls-floors",
             type: "page",
             summary: "Below-grade wall insulation and air sealing",
           },
-          {
-            label: "Crawlspace Floors",
-            path: "/crawlspace-floors",
-            type: "page",
-            summary: "Below-grade floor insulation",
-          },
+          // {
+          //   label: "Crawlspace Floors",
+          //   path: "/crawlspace-floors",
+          //   type: "page",
+          //   summary: "Below-grade floor insulation",
+          // },
         ],
       },
       {

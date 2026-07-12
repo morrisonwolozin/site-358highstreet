@@ -2,7 +2,7 @@
 import MarkdownPage from "./MarkdownPage";
 import content from "../../content/goals-challenges.md?raw";
 import PageIntro from "../PageIntro";
-import issuesPageImage from "/images/issues-image.webp"
+import issuesPageImage from "/images/image-page-challenges.webp"
 
 export default function IssuesPage() {
   return (

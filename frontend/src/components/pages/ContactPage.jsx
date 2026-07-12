@@ -1,6 +1,6 @@
 // src/pages/ContactPage.jsx
 import { useState } from 'react';
-import bobImage from "/images/contactPagePhoto.webp"
+import bobImage from "/images/image-page-contact.webp"
 
 // const CONTACT_API = import.meta.env.VITE_API_URL
 //   ? `${import.meta.env.VITE_API_URL}/api/contact`

@@ -4,7 +4,7 @@
 import PageIntro from "../../components/PageIntro";
 import Gallery from "../../components/Gallery";
 import { galleryIndex } from "../../data/galleryIndex.js";
-import historicalPageImage from "/images/historicalPage.webp";
+import historicalPageImage from "/images/image-page-historical.webp";
 
 export default function HistoricalPage() {
   return (

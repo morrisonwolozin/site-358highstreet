@@ -41,7 +41,6 @@ export default function Gallery({ images }) {
   return (
     <>
       <div className="py-4 max-h-[80vh] overflow-y-auto">
-        <p className="text-sm italic pb-1">Select a photo below for more details.</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
           {images.map((item, index) => (
             <div
@@ -55,11 +54,11 @@ export default function Gallery({ images }) {
                 className="object-cover w-full h-48 rounded-t"
               />
               <div className="p-3">
-                <h3 className="text-sm italic text-center text-gray-700 leading-snug">
+                <h3 className="text-sm font-semibold text-center text-gray-700 leading-snug">
                   {item.title}
                 </h3>
                 {item.shortAnnotation && (
-                  <p className="text-sm text-center text-gray-700 leading-relaxed mt-1">
+                  <p className="text-sm text-center text-gray-600 leading-relaxed mt-1">
                     {item.shortAnnotation}
                   </p>
                 )}

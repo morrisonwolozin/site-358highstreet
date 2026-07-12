@@ -4,7 +4,7 @@ import PageIntro from "../../components/PageIntro";
 // import MarkdownPage from "./MarkdownPage";
 import Gallery from "../../components/Gallery";
 import { galleryIndex } from "../../data/galleryIndex";
-import pageImage from "/images/img-1-windows-remove-existing.webp";
+import pageImage from "/images/image-page-windows.webp";
 
 export default function WindowsPage() {
   return (
@@ -12,12 +12,12 @@ export default function WindowsPage() {
       <PageIntro
         imgName={pageImage}
         altImageName="Windows"
-        capText="Triple-pane window installation, 2024."
+        capText="Triple-pane windows"
         h1Text="Windows"
       >
-        <p className="text-gray-600">
-          All original double-pane aluminum-frame windows were replaced with triple-pane units. Framing was extended outward to align the new windows with the plane of the exterior insulation, and flashing tape was applied for continuous air sealing at each rough opening.
-        </p>
+        <p className="text-gray-600">The original double-pane, aluminum, windows were replaced with triple pane vinyl frame, 'Sanford Hills', manufactured by Matthews Brothers of Belfast, ME.</p>
+        <p className="text-gray-600">Framing was extended outward to align the new windows with the plane of the exterior insulation, and flashing tape was applied for continuous air sealing at each rough opening. </p>
+        
       </PageIntro>
 
       {/* <MarkdownPage content={content} /> */}

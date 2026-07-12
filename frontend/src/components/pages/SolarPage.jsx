@@ -268,12 +268,10 @@ function HistoricalSection() {
     if (tooNew) { setLoading(false); return; }
     setLoading(true);
     try {
-      console.log(`period: ${period}`)
       const res = await fetch(`/solar-api/sites/${SITE_ID}/energy?range=${period}`);
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const json = await res.json();
 
-      console.log(`FE solar json: ${JSON.stringify(json, null, 2)}`)
       // Response: { range, values: [{period, kWh}, …] }
       const points = (json.values ?? []).map((p) => ({
         date: p.period,
@@ -541,7 +539,7 @@ export default function SolarPage() {
           h1Text = "Solar Electricity"
           >
           <p className="text-gray-600">{<>The onsite solar photovoltaic system is a 19-panel, 8.36 kW on two south-southeast facing roofs. Designed and installed by Revision Energy Inc. The system's intial day of operation was June 24, 2026.</>}</p>
-          <p className="text-gray-600">{<>The energy generated and power curve displayed below are updated every 5 minutes with data requested from SolarEdge\'s API.</>}</p>   
+          <p className="text-gray-600">{<>The energy generated and power curve displayed below are updated every 5 minutes with data requested from SolarEdge's API.</>}</p>   
       </PageIntro>
       <TodaySection />
       <HistoricalSection />

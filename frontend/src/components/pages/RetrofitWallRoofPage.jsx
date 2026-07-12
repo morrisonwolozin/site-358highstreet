@@ -8,7 +8,7 @@ import pageImage from "/images/img-0-envelope.webp";
 
 export default function ExteriorWallsPage() {
   return (
-    <div className="max-w-5xl mx-auto gap-y-4">
+    <div className="max-w-5xl mx-auto gap-y-2">
       <PageIntro
         imgName={pageImage}
         altImageName="Exterior Walls and Roof"
@@ -18,17 +18,13 @@ export default function ExteriorWallsPage() {
             caption: "Thermal R-values",
             headers: ["Element", "Pre-Construction", "After Retrofit","Note"],
             rows: [
-              ["Above-grade walls", "R-17.5", "R-32.3",""],
-              ["Roof", "R-38.0", "R-54.1","includes interior ccSPF"],
-            ]
-  }}
-      >
-        <p className="text-sm text-gray-900">
-          The above-grade wall was retrofitted with 2" of exterior polyiso insulation (R-13) over the original 2x6 wall (fiberglass cavity insulation), then resheathed.
-        </p>
-        <p className="text-sm text-gray-900">The roof was insulated 4" of continuous polyiso onto the existing deck. Then, 5" of closed cell spray foam (ccSPF) was sprayed into the 2x6 rafter cavities. Originally, the attic was vented above ceiling insulation; the retrofit incorporated the attic into conditioned space.And 3" was sprayed onto the attic end walls.</p>
-        <p className="text-sm text-gray-900">Finally, 3" of ccSPF was sprayed onto the attic end walls.</p>
-
+              ["Above-grade walls", "R-17.5", "R-32.3","polyiso, fiberglass"],
+              ["Roof", "R-38.0", "R-54.1","ccSPF, exterior polyiso"],
+            ]}}
+            >
+        <p>The roof retrofit for the above-grade wall was 2" of exterior polyiso insulation onto the existing 2x6 wall including its cavity fiberglass insulation, then resheathed.</p>
+        <p>The roof retrofit placed 4" of exterior polyiso onto the existing roof deck. Then, 5" of closed cell spray foam (ccSPF) was sprayed into the interior roof rafter cavities. Pre-retrofit, the attic floor was insulated and attic vented. The retrofit incorporated the attic into ventilated conditioned space.</p>
+        <p>Lastly, 3" of ccSPF was sprayed onto the attic end walls.</p>
       </PageIntro>
 
       {/* <MarkdownPage content={content} /> */}

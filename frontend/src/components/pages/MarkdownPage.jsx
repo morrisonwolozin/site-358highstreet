@@ -41,7 +41,7 @@ export default function MarkdownPage({ content }) {
           ),
           hr: () => <hr className="border-gray-200 my-6" />,
           em: ({ children }) => (
-            <em className="text-gray-500 not-italic text-sm">{children}</em>
+            <em className="text-gray-600 not-italic text-sm">{children}</em>
           ),
           strong: ({ children }) => (
             <strong className="font-semibold text-gray-900">{children}</strong>

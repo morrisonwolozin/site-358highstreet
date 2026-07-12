@@ -72,31 +72,34 @@ export const galleryIndex = {
   ],
 
   "windows": [
-    { id: "img001", imageUrl: "/images/img-1-windows-remove-existing.webp", title: "remove existing", shortAnnotation: "remove existing windows", fullAnnotation: "remove existing double hung, double-pane, aluminum frame windows, 2004" },
-    { id: "img002", imageUrl: "/images/img-2-windows-extension-framing.webp", title: "extend existing framing", shortAnnotation: "extend window framing", fullAnnotation: "extend existing framing outward to accomodate 2 in. exterior insulation" },
-    { id: "img003", imageUrl: "/images/img-3-windows-extension-framing.webp", title: "extended framing", shortAnnotation: "windows: extension framing", fullAnnotation: "" },
+    { id: "img001", imageUrl: "/images/img-1-windows-remove-existing.webp", title: "remove existing and frame opening", shortAnnotation: "", fullAnnotation: "remove existing double hung, double-pane, aluminum frame windows, 2004" },
+    { id: "img002", imageUrl: "/images/img-2-windows-extension-framing.webp", title: "extend existing framing", shortAnnotation: "", fullAnnotation: "extend existing framing outward to accomodate 2 in. exterior insulation" },
+    { id: "img003", imageUrl: "/images/img-3-windows-extension-framing.webp", title: "extended framing", shortAnnotation: "", fullAnnotation: "" },
     { id: "img004", imageUrl: "/images/img-4-windows-new-prep.webp", title: "air sealing", shortAnnotation: "", fullAnnotation: "" },
     { id: "img005", imageUrl: "/images/img-5-windows-new-prep.webp", title: "air sealing", shortAnnotation: "", fullAnnotation: "" },
-    { id: "img006", imageUrl: "/images/img-7-windows-set.webp", title: "initial setting in opening", shortAnnotation: "", fullAnnotation: "" },
-    { id: "img007", imageUrl: "/images/img-6-windows-set.webp", title: "final setting", shortAnnotation: "", fullAnnotation: "" },
-    { id: "img008", imageUrl: "/images/img-8-windows-set.webp", title: "fastening the unit", shortAnnotation: "", fullAnnotation: "" },
-    { id: "img009", imageUrl: "/images/img-9-windows-fasten.webp", title: "final fastening the unit", shortAnnotation: "", fullAnnotation: "" },
+    { id: "img006", imageUrl: "/images/img-7-windows-set.webp", title: "setting window in opening", shortAnnotation: "", fullAnnotation: "" },
+    { id: "img007", imageUrl: "/images/img-6-windows-set.webp", title: "final adjustments", shortAnnotation: "", fullAnnotation: "" },
+    { id: "img008", imageUrl: "/images/img-8-windows-set.webp", title: "initial fastening", shortAnnotation: "", fullAnnotation: "" },
+    { id: "img009", imageUrl: "/images/img-9-windows-fasten.webp", title: "final fastening ", shortAnnotation: "", fullAnnotation: "" },
     { id: "img010", imageUrl: "/images/img-10-windows-taped.webp", title: "final air sealing with flashing tape", shortAnnotation: "", fullAnnotation: "" },
   ],
 
-  "crawlspace-walls": [
+  "crawlspace-walls-floors": [
     { id: "img001", imageUrl: "/images/img-1-crawlspace.webp", title: "original crawl space interior walls", shortAnnotation: "", fullAnnotation: "The original crawl space walls had an in. layer of rigid styrofoam against them; the attempt at adhesion had failed." },
     { id: "img002", imageUrl: "/images/img-2-crawlspace.webp", title: "original crawl space interior walls", shortAnnotation: "", fullAnnotation: "The interior insulation was pulled away and broken in numerous locations." },
     { id: "img003", imageUrl: "/images/img-3-crawlspace.webp", title: "crawl space walls before spray foam", shortAnnotation: "", fullAnnotation: "crawl space walls before spray foam - a stud wall set in 3 in. from the exterior wall retaining the original insulation. New lighting had been installed and the new floor." },
-    { id: "img004", imageUrl: "/images/img-4-crawlspace.webp", title: "crawl space walls spray foamed", shortAnnotation: "", fullAnnotation: "2 in. of foam within and behind the inset stud walls. The bare concrete is between the west addition and Crawl Space 2" },
-    { id: "img005", imageUrl: "/images/img-5-crawlspace.webp", title: "crawl space walls and band joist spaces spray foamed", shortAnnotation: "", fullAnnotation: "The spray foam filled a portion of the stud cavities and included the band joist spaces." },
+    { id: "img004", imageUrl: "/images/img-1-crawlspace-floor.webp", title: "new crawlspace floors", shortAnnotation: "", fullAnnotation: "The retrofit floor: 1/2 in. `dimple mat` (Doerken Delta-FL) moisture barrier with taped seams; 1 in. foam insulation; 5/8 in. subfloor (Advantek). the cutout is for an existing floor drain." },
+    { id: "img005", imageUrl: "/images/img-2-crawlspace-floor.webp", title: "new north addition crawlspace floor", shortAnnotation: "", fullAnnotation: "The new floor matched the retrofitted crawl space floor: 1/2 in. 'dimple mat', 1 in. foam insulation, 5/8 in. subfloor (Advantek). the cutoff is for an existing floor drain" },
+    { id: "img006", imageUrl: "/images/img-3-crawlspace-floor.webp", title: "new west addition crawlspace floor", shortAnnotation: "", fullAnnotation: "The new floor matched the retrofitted crawl space floor: 1/2 in. `dimple mat` (Doerken Delta-FL) moisture barrier, 1 in. foam insulation, 5/8 in. subfloor (Advantek)." },
+    { id: "img007", imageUrl: "/images/img-4-crawlspace.webp", title: "crawl space walls spray foamed", shortAnnotation: "", fullAnnotation: "2 in. of foam within and behind the inset stud walls. The bare concrete is between the west addition and Crawl Space 2" },
+    { id: "img008", imageUrl: "/images/img-5-crawlspace.webp", title: "crawl space walls and band joist spaces spray foamed", shortAnnotation: "", fullAnnotation: "The spray foam filled a portion of the stud cavities and included the band joist spaces." },
   ],
 
-  "crawlspace-floors": [
-    { id: "img001", imageUrl: "/images/img-1-crawlspace-floor.webp", title: "new crawlspace floors", shortAnnotation: "", fullAnnotation: "The retrofit floor: 1/2 in. `dimple mat` (Doerken Delta-FL) moisture barrier with taped seams; 1 in. foam insulation; 5/8 in. subfloor (Advantek). the cutout is for an existing floor drain." },
-    { id: "img002", imageUrl: "/images/img-2-crawlspace-floor.webp", title: "new north addition crawlspace floor", shortAnnotation: "", fullAnnotation: "The new floor matched the retrofitted crawl space floor: 1/2 in. 'dimple mat', 1 in. foam insulation, 5/8 in. subfloor (Advantek). the cutoff is for an existing floor drain" },
-    { id: "img003", imageUrl: "/images/img-3-crawlspace-floor.webp", title: "new west addition crawlspace floor", shortAnnotation: "", fullAnnotation: "The new floor matched the retrofitted crawl space floor: 1/2 in. `dimple mat` (Doerken Delta-FL) moisture barrier, 1 in. foam insulation, 5/8 in. subfloor (Advantek)." },
-  ],
+  // "crawlspace-floors": [
+  //   { id: "img001", imageUrl: "/images/img-1-crawlspace-floor.webp", title: "new crawlspace floors", shortAnnotation: "", fullAnnotation: "The retrofit floor: 1/2 in. `dimple mat` (Doerken Delta-FL) moisture barrier with taped seams; 1 in. foam insulation; 5/8 in. subfloor (Advantek). the cutout is for an existing floor drain." },
+  //   { id: "img002", imageUrl: "/images/img-2-crawlspace-floor.webp", title: "new north addition crawlspace floor", shortAnnotation: "", fullAnnotation: "The new floor matched the retrofitted crawl space floor: 1/2 in. 'dimple mat', 1 in. foam insulation, 5/8 in. subfloor (Advantek). the cutoff is for an existing floor drain" },
+  //   { id: "img003", imageUrl: "/images/img-3-crawlspace-floor.webp", title: "new west addition crawlspace floor", shortAnnotation: "", fullAnnotation: "The new floor matched the retrofitted crawl space floor: 1/2 in. `dimple mat` (Doerken Delta-FL) moisture barrier, 1 in. foam insulation, 5/8 in. subfloor (Advantek)." },
+  // ],
 
   "party-walls": [
     { id: "img001", imageUrl: "/images/img-1-party-walls.webp", title: "Original separation (party) wall between kitchens", shortAnnotation: "demolished party wall: staggered 2x4 studs, fiberglass insulation and three layers of 5/8 drywall", fullAnnotation: "The original party walls were staggered stud 2x4s on 2x6 plates, insulated with faced fiberglass, with two layers of 5/8 drywall on one side, one layer on the other" },

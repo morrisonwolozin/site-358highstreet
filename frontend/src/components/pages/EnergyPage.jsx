@@ -1,7 +1,7 @@
 // src/pages/EnergyPage.jsx
 import { energyData } from "../../data/energyData.js";
 import PageIntro from '../PageIntro';
-import energyPageImage from "/images/energy-image.webp"
+import energyPageImage from "/images/image-page-energy.webp"
 
 
 const { pre, post, summary } = energyData;

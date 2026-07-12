@@ -6,7 +6,7 @@ import Gallery from "../../components/Gallery";
 import { galleryIndex } from "../../data/galleryIndex";
 import pageImage from "/images/img-1-crawlspace.webp";
 
-export default function CrawlspaceWallsPage() {
+export default function CrawlspaceWallsFloorPage() {
   return (
     <div className="max-w-5xl mx-auto gap-y-4">
       <PageIntro
@@ -25,7 +25,7 @@ export default function CrawlspaceWallsPage() {
 
       {/* <MarkdownPage content={content} /> */}
 
-      <Gallery images={galleryIndex["crawlspace-walls"]} />
+      <Gallery images={galleryIndex["crawlspace-walls-floor"]} />
     </div>
   );
 }
