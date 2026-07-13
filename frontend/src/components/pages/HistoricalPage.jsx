@@ -11,17 +11,14 @@ export default function HistoricalPage() {
     <div className="max-w-5xl mx-auto gap-y-4">
       <PageIntro
         imgName={historicalPageImage}
-        altImageName="Consent agreement signature page"
-        capText="Signature page of the 2012 consent agreement."
+        altImageName="Consent agreement"
+        capText="2012 consent agreement."
         h1Text="Historical"
       >
         <p className="text-gray-600">
-          The duplex was built to the rear of 360 High Street within its
-          lot in 2004. There were numerous deficiencies with its siting and
-          construction aside from no lot division: failed setback compliance on the south
-          side, no driveway or parking, and unmanaged site drainage from the
-          up-slope west side. By 2012 the original owners had defaulted and
-          Nationstar Mortgage LLC assumed ownership.
+          The duplex was built to the rear of 360 High Street on its lot in 2004. There were numerous deficiencies with its siting and
+          construction aside from the lack of a lot division: failed setback compliance on the south
+          side, no driveway or parking, and unmanaged site drainage from the up-slope west side. By 2012 the original owners had defaulted and Nationstar Mortgage LLC assumed ownership.
         </p>
         <p className="text-gray-600">
           The image above is the signature page of the consent agreement to

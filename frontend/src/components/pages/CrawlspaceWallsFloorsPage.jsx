@@ -16,7 +16,7 @@ export default function CrawlspaceWallsFloorsPage() {
         h1Text="Crawlspace Floors and Walls"
       >
        <p>
-          The crawlspace floor is poured concrete. the retrofit and new crawlspace assembly onto the concrete is a 1/2" 'dimple mat' moisture barrier (Doerken Delta-FL) with taped seams; next, 1 in. rigid foam insulation, then covered with 5/8" Advantech subfloor.
+          The crawlspace floor is poured concrete. the retrofit and new crawlspace assembly onto the concrete is an HDPE air-gap membrane (Doerken Delta-FL) with taped seams. It serves as a moisture barrier. Next, 1 in. rigid foam insulation, then covered with 5/8" Advantech subfloor. Floor drains were covered with grilles.
         </p>
         <p className= "py-1">
           The crawlspace wall are poured concrete. Their original insulation was rigid styrofoam adhered directly to the concrete. The insulation had detached from the walls, and, in some areas, missing. Teh retrofit walls framed a stud wall were framed 3 in. from the exterior wall, then 2 in. of closed-cell spray foam was applied within and behind the studs, including all band joist spaces.
