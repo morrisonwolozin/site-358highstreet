@@ -181,8 +181,8 @@ export default function DesignPage() {
           capText ={<>See <a href='/downloads' className='text-emerald-700 underline underline-offset-2 hover:text-emerald-900'> Downloads</a> for all drawings</>}
           h1Text = "Building Design"
           >
-          <p className="text-gray-600">The design scope addressed the building's physical and functional deficiencies, added new spaces, and delivered a deep energy retrofit 'lite'. The project goals were to offer a superior tenant experience through complete separation of all functions and utilities, low utility operating expenses and good indoor air quality. And provide ongoing monitoring of indoor air quality.</p>
-          <p>See below on this page for details: thermal envelope retrofit, pre- and post-air leakage tests, Efficiency Maine incentives, pre- and post-Rvalues and HVAC load calculations.</p> 
+          <p className="text-base py-1 text-gray-700">The design scope addressed the building's physical and functional deficiencies, added new spaces, and delivered a deep energy retrofit 'lite'. The project goals were to offer a superior tenant experience through complete separation of all functions and utilities, low utility operating expenses and good indoor air quality. And provide ongoing monitoring of indoor air quality.</p>
+          <p className="text-base py-1 text-gray-700">See below on this page for details: thermal envelope retrofit, pre- and post-air leakage tests, Efficiency Maine incentives, pre- and post-Rvalues and HVAC load calculations.</p> 
          </PageIntro>
 
       {/* Markdown narrative */}

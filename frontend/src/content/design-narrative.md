@@ -15,6 +15,7 @@ After the original owners defaulted and a mortgage company assumed control, a Ci
 ### Site Drainage
 
 The site drainage was reimagined to eliminate water intrusion into the crawl space. Several measures were taken:
+
 - The elevation of the existing north-side culvert and drainage ditch was lowered to establish positive drainage from new perimeter footing drains;
 - New ditching was created along the lot's west side to divert up-slope runoff to the main ditch;
 - A separate perimeter collection system for roof gutter discharge was routed to the main ditch;
@@ -31,17 +32,17 @@ A key construction technique was the removal of existing soffits, the "chain saw
 
 ### HVAC and Ventilation
 
-A well-insulated, air-tight envelope dramatically reduces heating and cooling loads — as confirmed by the load calculation and measured performance listed. Reduced loads make air-source heat pumps a particularly cost-effective design choice, since their installed cost per capacity ($/MBH) is high (~2x) and thermal efficiency better (~3x) compared to a legacy fuel oil or natural gas furnace.
+A well-insulated, air-tight envelope dramatically reduces heating and cooling loads — as confirmed by the load calculation and measured performance listed. Reduced loads make air-source heat pumps a cost-effective design choice: while their installed cost per capacity ($/MBH) is relatively high (~2x) compared to a legacy fuel oil or natural gas furnace, their thermal efficiency is considerablty better (~3x).
 
-A single-zone ducted heat pump for each apartment was the natural choice: simple, efficient, and eligible for the maximum Efficiency Maine incentive. Each unit is fully independent, with its own heating, cooling, domestic hot water and air exchange systems.
+Tightening the envelope required mechanical ventilation. The original building relied on air infiltration for fresh air — an unreliable and uncontrollable approach. Each apartment was equipped with an energy recovery ventilator (ERV), providing continuous, controlled fresh air while recovering heat from the exhaust stream. Kitchen range hoods with true exhaust complete the ventilation system, replacing the original recirculating hoods. The kitchen range hood design included retrofitting an off-the-shelf canopy hood removing its fan and installing an outdoor fan. See Drawing HVAC Drawing H-7 in the [Downloads](/downloads) for details.
 
-Tightening the envelope also required mechanical ventilation. The original building relied on air infiltration for fresh air — an unreliable and uncontrollable approach. Each apartment was equipped with an energy recovery ventilator (ERV), providing continuous, controlled fresh air while recovering heat from the exhaust stream. Kitchen range hoods with true exhaust complete the ventilation system, replacing the original recirculating hoods. The kitchen range hood design included retrofitting an off-the-shelf canopy hood removing its fan and installing an outdoor fan. See Drawing HVAC Drawing H-7 in the [Downloads](/downloads) for details.
+A single-zone, ducted heat pump, 18 MBH, for each apartment was eligible for the maximum Efficiency Maine incentive. An energy recovery ventilator and heat pump domestic water heater was provided for each apartment.
 
 The project received the following [Efficiency Maine](https://www.efficiencymaine.com) incentives, partially offsetting equipment and installation costs:
 
-| Measure | Incentive |
-|---|---|
-| Heat pump heating & cooling systems | $8,000 |
-| Insulation | $4,000 |
-| Heat pump domestic hot water heaters | $2,100 |
-| **Total** | **$14,100** |
+| Measure                              | Incentive   |
+| ------------------------------------ | ----------- |
+| Heat pump heating & cooling systems  | $8,000      |
+| Insulation                           | $4,000      |
+| Heat pump domestic hot water heaters | $2,100      |
+| **Total**                            | **$14,100** |

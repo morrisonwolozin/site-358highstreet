@@ -63,7 +63,8 @@ export default function EnergyPage() {
           capText ="A ducted heat pump system for each apartment"
           h1Text = "Energy Performance"
           >
-          <p className="text-gray-600">Whole-building energy use is listed before and after the energy retrofit and electrification. Pre-retrofit baseline is the calendar year 2023; post-retrofit consumption is based on a year of near-full occupancy, April 2025 through March 2026. The summary below is up to date as of April, 2026.</p>
+          <p className="text-base py-1 text-gray-700">Whole-building energy use is listed before and after the energy retrofit and electrification. </p>
+          <p className="text-base py-1 text-gray-700">Pre-retrofit baseline is the calendar year 2023; post-retrofit consumption is based on a year of near-full occupancy, April 2025 through March 2026. The summary below is up to date as of April, 2026.</p>
 
         </PageIntro>
 
