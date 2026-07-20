@@ -1,5 +1,7 @@
 // src/pages/ProjectCostPage.jsx
 import { projectCostData } from "../../data/projectCostData";
+import costingPageImage from "/images/image-page-costing.webp";
+import PageIntro from "../../components/PageIntro";
 
 const { totalCost, totalArea, purchaseCost, systems } = projectCostData;
 
@@ -87,36 +89,57 @@ export default function ProjectCostPage() {
   );
 
   return (
-    <div className="max-w-5xl mx-auto space-y-10">
+    <div className="max-w-5xl mx-auto space-y-10 gap-y-4">
 
-      {/* Header */}
-      <div>
-        <h1 className="text-gray-800">
-          Final costs for the 2025 deep energy retrofit, organized by building system.
-        </h1>
-      </div>
+      <PageIntro
+        imgName={costingPageImage}
+        altImageName="framing photo"
+        capText="deep energy retrofit of exterior"
+        h1Text="Project Costs"
+      >
+        {/* <p className="text-base text-gray-700 py-1">
+          Purchase 
+        </p> */}
+        <p className="text-base py-1 text-gray-700">
+          Purchase and construction costs for the energy retrofit and electricificaton, organized by building system.
+        </p>
+      </PageIntro>
 
       {/* Total badge */}
       <div className="rounded-lg border border-green-200 bg-green-50 p-6 space-y-4">
+
         <div  className="border-b border-green-200">
-          <div className="text-sm font-semibold text-gray-600 uppercase tracking-wide">
-            Purchase Cost
-          </div>
-          <div className="text-2xl font-bold text-green-700 mb-4 ">
-            {formatCost(purchaseCost)}
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+            <div>
+              <div>
+                <div className="text-sm font-semibold text-gray-600 uppercase tracking-wide">
+                  Purchase Cost
+                </div>
+                <div className="text-2xl font-bold text-green-700 mb-4 ">
+                  {formatCost(purchaseCost)}
+                </div>
+                <div className="text-base font-bold text-green-700 mt-1">
+                    {formatCost(purchaseCost / totalArea )} per Square Foot
+                </div>
+              </div>
+
+            </div>
+              <div className="text-sm text-gray-500 max-w-sm text-right">
+                Purchased: November, 2023. Partial occupancy.
+              </div>
+
           </div>
         </div>
 
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <div>
-            
             <div className="text-sm font-semibold text-gray-600 uppercase tracking-wide">
               Total Construction Cost
             </div>
             <div className="text-2xl font-bold text-green-700 mt-1">
               {formatCost(totalCost)}
             </div>
-            <div className="text-xl font-bold text-green-700 mt-1">
+            <div className="text-base font-bold text-green-700 mt-1">
               {formatCost(totalCost / totalArea )} per Square Foot
             </div>
           </div>

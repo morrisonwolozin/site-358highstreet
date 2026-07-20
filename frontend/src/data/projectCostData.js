@@ -118,11 +118,12 @@ export const projectCostData = {
       items: [
         { component: "Attic — Lighting",    description: "Owner installed attic lighting",                  labor: 0,    material: 122,  turnkey: 0,     total: 122   },
         { component: "Ceilings",            description: "Owner supplied lighting fixtures",                labor: 0,    material: 860,  turnkey: 0,     total: 860   },
-        { component: "Crawl Space",         description: "Owner installed crawl space lighting",             labor: 0,    material: 243,  turnkey: 0,     total: 243   },
-        { component: "Exterior Walls",      description: "Owner supplied exterior lighting fixtures",        labor: 0,    material: 388,  turnkey: 0,     total: 388   },
-        { component: "Kitchen",             description: "Owner supplied kitchen lighting fixtures",          labor: 0,    material: 607,  turnkey: 0,     total: 607   },
-        { component: "Subcontractor",       description: "Kenney & Gray — wiring, devices and panel work",    labor: 0, material: 0,    turnkey: 25668, total: 25668 },
-      ],
+        { component: "Crawl Space",         description: "Owner installed crawl space lighting",            labor: 0,    material: 243,  turnkey: 0,     total: 243   },
+        { component: "Exterior Walls",      description: "Owner supplied exterior lighting fixtures",       labor: 0,    material: 388,  turnkey: 0,     total: 388   },
+        { component: "Kitchen",             description: "Owner supplied kitchen lighting fixtures",        labor: 0,    material: 607,  turnkey: 0,     total: 607   },
+        { component: "Subcontractor",       description: "Kenney & Gray — wiring, devices and panel work",  labor: 16005,material: 9513, turnkey: 0,      total: 25668 },
+        { component: "Subcontractor",       description: "permit",                                          labor: 0,     material: 0,    other: 150, total: 150 },
+      ],  
     },
     {
       system: "HVAC & Ventilation",
@@ -131,7 +132,7 @@ export const projectCostData = {
       turnkey: 0,
       total: 34782,
       items: [
-        { component: "Crawl Spaces — Dehumidifiers", description: "Crawl space dehumidifiers",       labor: 0,     material: 842,  turnkey: 0, total: 842   },
+        { component: "Crawl Spaces — Dehumidifiers", description: "Crawlspaces dehumidifiers",       labor: 0,     material: 842,  turnkey: 0, total: 842   },
         { component: "Exhaust",                      description: "Kitchen and bath exhaust systems", labor: 0,     material: 1373, turnkey: 0, total: 1373  },
         { component: "Heating and Cooling",          description: "Mitsubishi heat pump equipment",  labor: 0,     material: 11504,turnkey: 0, total: 11504 },
         { component: "Heating, Cooling — Sub",       description: "Dave's Heat Pumps — installation",labor: 12467, material: 0,    turnkey: 0, total: 12467 },

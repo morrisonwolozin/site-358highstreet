@@ -23,8 +23,8 @@ export default function ExteriorWallsPage() {
             ]}}
             >
         <p>The roof retrofit for the above-grade wall was 2" of exterior polyiso insulation onto the existing 2x6 wall including its cavity fiberglass insulation, then resheathed.</p>
-        <p>The roof retrofit placed 4" of exterior polyiso onto the existing roof deck. Then, 5" of closed cell spray foam (ccSPF) was sprayed into the interior roof rafter cavities. Pre-retrofit, the attic floor was insulated and attic vented. The retrofit incorporated the attic into ventilated conditioned space.</p>
-        <p>Lastly, 3" of ccSPF was sprayed onto the attic end walls.</p>
+        <p>The roof retrofit placed 4" of exterior polyiso onto the existing roof deck. Then, 5" of closed cell spray foam (ccSPF) was sprayed into the interior roof rafter cavities. Pre-retrofit, the attic floor was insulated and attic vented. The retrofitted attic was incorporated into the conditioned space.</p>
+
       </PageIntro>
 
       {/* <MarkdownPage content={content} /> */}
