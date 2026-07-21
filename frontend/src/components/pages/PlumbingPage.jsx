@@ -4,7 +4,7 @@ import PageIntro from "../../components/PageIntro";
 // import MarkdownPage from "./MarkdownPage";
 import Gallery from "../../components/Gallery";
 import { galleryIndex } from "../../data/galleryIndex";
-import pageImage from "/images/placeholders/coming-soon.jpg";
+import pageImage from "/images/image-page-plumbing.webp";
 
 export default function PlumbingPage() {
   return (
@@ -12,10 +12,10 @@ export default function PlumbingPage() {
       <PageIntro
         imgName={pageImage}
         altImageName="Plumbing"
-        capText="[Placeholder caption]"
+        capText="heat pump domestic hot water heater"
         h1Text="Plumbing"
       >
-        <p className="text-gray-600">
+        <p className="text-base text-gray-700">
           [Placeholder — describe domestic hot water and plumbing upgrades here.]
         </p>
       </PageIntro>

@@ -71,7 +71,7 @@ export default function PageIntro({ imgName, altImageName, capText, h1Text, tabl
         <img
           src={imgName}
           alt={altImageName}
-          className="sm:w-96 rounded shadow-sm flex-shrink-0 flex-col items-center"
+          className="sm:w-96 rounded flex-shrink-0 flex-col items-center"
         />
         <figcaption className="text-base italic text-gray-700 mt-2 text-center">
           {capText}
