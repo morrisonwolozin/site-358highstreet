@@ -1,7 +1,6 @@
 // src/pages/PlumbingPage.jsx
 
 import PageIntro from "../../components/PageIntro";
-// import MarkdownPage from "./MarkdownPage";
 import Gallery from "../../components/Gallery";
 import { galleryIndex } from "../../data/galleryIndex";
 import pageImage from "/images/image-page-plumbing.webp";
