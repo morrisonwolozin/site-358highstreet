@@ -4,7 +4,7 @@ import PageIntro from "../../components/PageIntro";
 // import MarkdownPage from "./MarkdownPage";
 import Gallery from "../../components/Gallery";
 import { galleryIndex } from "../../data/galleryIndex";
-import pageImage from "/images/img-1-foundation.webp";
+import pageImage from "/images/image-page-foundation.webp";
 
 export default function FoundationPage() {
   return (
@@ -12,11 +12,17 @@ export default function FoundationPage() {
       <PageIntro
         imgName={pageImage}
         altImageName="Foundation"
-        capText="Perimeter excavation and waterproofing, 2024."
+        capText="Tremco spray waterproofing product"
         h1Text="Foundation"
       >
-        <p className="text-gray-600">
-          Eliminating bulk water intrusion was a primary goal of the project. The building perimeter was excavated, new foundation drains installed, and polymer-enhanced asphalt waterproofing applied to the original foundation walls — which had no original damp-proofing.
+        <p className="text-base text-gray-700">
+          Eliminating bulk water intrusion was a primary goal of the project. The original foundation walls had no damp-proofing. The perimeter drain was disfunctional.
+        </p>
+        <p className="text-base  text-gray-700">
+        The original building perimeter was excavated, new foundation drains installed, and polymer-enhanced asphalt waterproofing was applied to the foundation walls.
+        </p>
+        <p className="text-base  text-gray-700">
+        The new foundation walls were waterproofed with Protecto Wrap membrane.
         </p>
       </PageIntro>
 

@@ -30,6 +30,12 @@ export const designData = {
         remarks: "3\" ccSPF: 2\" continuous, 1\" cavity.",
       },
       {
+        element: "Windows",
+        pre: 1.5,
+        post: 5.0,
+        remarks: "triple-pane, vinyl windows",
+      },
+      {
         element: "Roof / Attic",
         pre: 36.0,
         post: 54.1,

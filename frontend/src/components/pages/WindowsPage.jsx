@@ -12,11 +12,18 @@ export default function WindowsPage() {
       <PageIntro
         imgName={pageImage}
         altImageName="Windows"
-        capText="Triple-pane windows"
+        capText="Sandford Hills triple-pane window section"
         h1Text="Windows"
+        tableData={{
+            caption: "Thermal R-values",
+            headers: ["Element", "Pre-Construction", "Retrofit","Note"],
+            rows: [
+              ["Windows", "R-1.5", "R-5","2-pane, alumimum to 3-pane, vinyl"],
+            ]}}
       >
-        <p className="text-gray-600">The original double-pane, aluminum, windows were replaced with triple pane vinyl frame, 'Sanford Hills', manufactured by Matthews Brothers of Belfast, ME.</p>
-        <p className="text-gray-600">Framing was extended outward to align the new windows with the plane of the exterior insulation, and flashing tape was applied for continuous air sealing at each rough opening. </p>
+        <p className="text-gray-600">The original double-pane, aluminum, windows were replaced with triple-pane vinyl windows, the Sanford Hills product manufactured by Matthews Brothers, Belfast, ME.</p>
+        <p className="text-gray-600">Framing was extended outward to align the new windows with the plane of the exterior insulation. </p>
+        <p className="text-gray-600">Flashing tape was applied over the window frame's nailing flange for continuous air sealing. </p>
         
       </PageIntro>
 

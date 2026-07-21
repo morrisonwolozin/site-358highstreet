@@ -67,7 +67,7 @@ export const siteMap = [
     type: "section",
     children: [
       {
-        label: "Retrofitted Envelope",
+        label: "Retrofit Thermal Envelope",
         type: "section",
         children: [
           {
@@ -83,17 +83,11 @@ export const siteMap = [
             summary: "Triple-pane window installation",
           },
           {
-            label: "Crawlspace Walls and Floors",
+            label: "Below Grade Walls and Floors",
             path: "/crawlspace-walls-floors",
             type: "page",
             summary: "Below-grade wall insulation and air sealing",
           },
-          // {
-          //   label: "Crawlspace Floors",
-          //   path: "/crawlspace-floors",
-          //   type: "page",
-          //   summary: "Below-grade floor insulation",
-          // },
         ],
       },
       {

@@ -15,9 +15,11 @@ export default function AdditionsPage() {
         capText="North and west addition foundations, summer 2024."
         h1Text="Additions"
       >
-        <p className="text-gray-600">
-          Two additions were constructed: a north addition providing new entries for each unit, and a west addition housing mechanical equipment and storage. Each addition has a concrete slab floor with a sump pump drain.
-        </p>
+      <p className="text base text-gray-700"> Two new spaces were added to the original building.   </p>
+      <p  className="text base text-gray-700"> The north addition provided new entries for each unit. The entries include a mudroom and laundry alcove. </p>
+      <p  className="text base text-gray-700">The west addition provides space for the domestic hot water heaters and conditioned storage. </p>
+      <p  className="text base text-gray-700">Each addition has a concrete slab floor with a subslab drains to a sump pump.</p>
+
       </PageIntro>
 
       {/* <MarkdownPage content={content} /> */}

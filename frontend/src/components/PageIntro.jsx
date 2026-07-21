@@ -18,10 +18,10 @@ function IntroTable({ tableData }) {
   if (!tableData) return null;
   const { caption, headers, rows } = tableData;
   return (
-    <div classname="mt-3">    
+    <div classname="mt-6">    
         <table className="w-full text-sm border border-gray-200 rounded-lg overflow-hidden mt-3">
           {caption && (
-            <caption className="caption-bottom text-xs uppercase tracking-widest text-gray-700 text-left">
+            <caption className="caption-bottom text-xs uppercase tracking-widest text-gray-700 text-left mt-1">
               {caption}
             </caption>
           )}
@@ -66,7 +66,7 @@ function IntroTable({ tableData }) {
 
 export default function PageIntro({ imgName, altImageName, capText, h1Text, tableData, children }) {
   return (
-    <div className="flex flex-col sm:flex-row gap-4 items-start justify-center my-3">
+    <div className="flex flex-col sm:flex-row gap-4 items-start justify-center my-4">
       <figure className="w-full sm:w-auto flex-shrink-0">
         <img
           src={imgName}

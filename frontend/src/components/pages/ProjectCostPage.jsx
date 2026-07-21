@@ -94,7 +94,7 @@ export default function ProjectCostPage() {
       <PageIntro
         imgName={costingPageImage}
         altImageName="framing photo"
-        capText="deep energy retrofit of exterior"
+        capText="energy retrofit of exterior"
         h1Text="Project Costs"
       >
         {/* <p className="text-base text-gray-700 py-1">
@@ -106,7 +106,7 @@ export default function ProjectCostPage() {
       </PageIntro>
 
       {/* Total badge */}
-      <div className="rounded-lg border border-green-200 bg-green-50 p-6 space-y-4">
+      <div className="rounded-lg border border-green-200 bg-green-50 p-4 space-y-4">
 
         <div  className="border-b border-green-200">
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
@@ -125,7 +125,7 @@ export default function ProjectCostPage() {
 
             </div>
               <div className="text-sm text-gray-500 max-w-sm text-right">
-                Purchased: November, 2023. Partial occupancy.
+                Purchased: November, 2023. Partial occupancy at time of the purchase. Air quality poor: example: excessive humidity in Apartment 2 resulted in mold on furniture.
               </div>
 
           </div>

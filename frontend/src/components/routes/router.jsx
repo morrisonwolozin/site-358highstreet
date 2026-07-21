@@ -29,10 +29,8 @@ import AdditionsPage       from "../pages/AdditionsPage";
 import PartyWallsPage      from "../pages/PartyWallsPage";
 import PlumbingPage        from "../pages/PlumbingPage";
 import RetrofitWallRoofPage   from "../pages/RetrofitWallRoofPage";
-// import RoofPage            from "../pages/RoofPage";
 import WindowsPage         from "../pages/WindowsPage";
-import CrawlspaceWallsFloorsPage from "../pages/CrawlspaceWallsFloorsPage";
-// import CrawlspaceFloorsPage from "../pages/CrawlspaceFloorsPage";
+import BelowGradeWallsFloorsPage from "../pages/BelowGradeWallsFloorsPage";
 import DemolitionPage      from "../pages/DemolitionPage";
 import VentilationPage     from "../pages/VentilationPage";
 import HeatPumpsPage       from "../pages/HeatPumpsPage";
@@ -62,10 +60,8 @@ export const router = createBrowserRouter([
 
       // ─── construction: envelope ─────────────────────────────────────────────
       { path: "retrofit-wall-roof",   element: <RetrofitWallRoofPage /> },
-      // { path: "roof",                 element: <RoofPage /> },
       { path: "windows",              element: <WindowsPage /> },
-      { path: "crawlspace-walls-floors",     element: <CrawlspaceWallsFloorsPage /> },
-      // { path: "crawlspace-floors",    element: <CrawlspaceFloorsPage /> },
+      { path: "crawlspace-walls-floors",element:<BelowGradeWallsFloorsPage /> },
 
       // ─── construction: structure ────────────────────────────────────────────
       { path: "foundation",           element: <FoundationPage /> },

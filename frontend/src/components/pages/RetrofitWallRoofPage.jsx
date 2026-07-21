@@ -1,10 +1,10 @@
-// src/pages/ExteriorWallsPage.jsx
+// src/pages/RetrofitWallRoofPage.jsx
 
 import PageIntro from "../PageIntro";
 // import MarkdownPage from "./MarkdownPage";
 import Gallery from "../Gallery";
 import { galleryIndex } from "../../data/galleryIndex";
-import pageImage from "/images/img-0-envelope.webp";
+import pageImage from "/images/image-page-exteriorWallRoof.webp";
 
 export default function ExteriorWallsPage() {
   return (
@@ -12,18 +12,19 @@ export default function ExteriorWallsPage() {
       <PageIntro
         imgName={pageImage}
         altImageName="Exterior Walls and Roof"
-        capText="Original north elevation"
-        h1Text="Exterior Walls and Roof Retrofit"
+        capText="exterior wall and roof insulation"
+        h1Text="Wall and Roof Retrofit"
         tableData={{
             caption: "Thermal R-values",
-            headers: ["Element", "Pre-Construction", "After Retrofit","Note"],
+            headers: ["Element", "Pre-Construction", "Retrofit","Note"],
             rows: [
               ["Above-grade walls", "R-17.5", "R-32.3","polyiso, fiberglass"],
-              ["Roof", "R-38.0", "R-54.1","ccSPF, exterior polyiso"],
+              ["Roof", "R-38.0", "R-54.1","interior ccSPF, exterior polyiso"],
             ]}}
             >
-        <p>The roof retrofit for the above-grade wall was 2" of exterior polyiso insulation onto the existing 2x6 wall including its cavity fiberglass insulation, then resheathed.</p>
-        <p>The roof retrofit placed 4" of exterior polyiso onto the existing roof deck. Then, 5" of closed cell spray foam (ccSPF) was sprayed into the interior roof rafter cavities. Pre-retrofit, the attic floor was insulated and attic vented. The retrofitted attic was incorporated into the conditioned space.</p>
+        <p>The above-grade existng 2x6 wall's siding was removed, and 2" polyiso insulation retrofitted onto its exterior. The existing cavity insulation was retained. New sheathing was installed over the polyiso.</p>
+        <p>The existing roofing was removed and 4" polyiso was retrofitted onto the existing roof deck. Then flat 2x4s were screwed through the insulation into the rafters to create a vent channel, then new sheathing and roofing with ridge and soffit vents.</p>
+        <p> 5" of closed cell spray foam (ccSPF) was sprayed into the interior roof rafter cavities. Pre-retrofit, the attic floor was insulated and attic vented. The retrofitted attic was incorporated into the conditioned space.</p> 
 
       </PageIntro>
 
