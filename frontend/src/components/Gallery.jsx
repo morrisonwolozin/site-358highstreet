@@ -41,7 +41,7 @@ export default function Gallery({ images }) {
   return (
     <>
       <div className="py-4 max-h-[80vh] overflow-y-auto">
-        <p className="text-sm italic pb-1">Select a photo below for more details.</p>
+        <p className="text-sm italic pb-2">Select a photo for more details.</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
           {images.map((item, index) => (
             <div
