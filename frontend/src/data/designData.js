@@ -7,26 +7,26 @@ export const designData = {
     rows: [
       {
         element: "Wall, Above Grade (Original)",
-        pre: 17.5,
-        post: 32.3,
+        pre: 18,
+        post: 32,
         remarks: "Added 2\" exterior polyiso, taped seams, and Zip sheathing.",
       },
       {
         element: "Wall, Above Grade (New Addition)",
         pre: null,
-        post: 27.3,
+        post: 27,
         remarks: "2\" closed-cell SPF cavity insulation, 2\" exterior polyiso.",
       },
       {
         element: "Wall, Below Grade (Original)",
-        pre: 4.0,
-        post: 18.9,
+        pre: 4,
+        post: 19,
         remarks: "Added 2\" continuous ccSPF to original 1\" deteriorated XPS rigid board",
       },
       {
         element: "Wall, Below Grade (New Addition)",
         pre: null,
-        post: 20.4,
+        post: 20,
         remarks: "3\" ccSPF: 2\" continuous, 1\" cavity.",
       },
       {
@@ -37,8 +37,8 @@ export const designData = {
       },
       {
         element: "Roof / Attic",
-        pre: 36.0,
-        post: 54.1,
+        pre: 30,
+        post: 53,
         remarks: "Original: vented attic, 12\" fiberglass batt. Retrofit: sealed attic, 4\" ccSPF rafter cavities, 4\" exterior polyiso, 1.5\" soffit-to-ridge vent space.",
       },
       {

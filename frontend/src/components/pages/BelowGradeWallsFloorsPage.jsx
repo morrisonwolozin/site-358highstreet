@@ -18,7 +18,7 @@ export default function CrawlspaceWallsFloorsPage() {
             caption: "Thermal R-values",
             headers: ["Element", "Pre-Construction", "Retrofit","Note"],
             rows: [
-              ["Crawlspace walls", "R-4", "R-20.4","3\" foam"],
+              ["Crawlspace walls", "R-4", "R-20","3\" foam"],
               ["Crawlspace floors", "R-1", "R-6","dimple mat, 1\" XPS, subfloor"],
             ]}}
       >

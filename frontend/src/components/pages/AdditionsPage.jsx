@@ -15,7 +15,7 @@ export default function AdditionsPage() {
         capText="New entry, mudroom and laundry alcove"
         h1Text="Additions"
       >
-      <p className="text base text-gray-700"> Two additions were constructed.</p>
+      <p className="text base text-gray-700"> Two additions to the original building were constructed.</p>
       <p className="text base text-gray-700"> The north addition provided a new entry  for each unit. The entries include a mudroom and laundry alcove. </p>
       <p className="text base text-gray-700">The west addition provides space for the domestic hot water heaters and conditioned storage. </p>
       <p className="text base text-gray-700">Each addition has a concrete slab floor with a subslab drains to a sump pump.</p>

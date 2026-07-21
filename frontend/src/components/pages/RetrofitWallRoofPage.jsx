@@ -18,13 +18,13 @@ export default function ExteriorWallsPage() {
             caption: "Thermal R-values",
             headers: ["Element", "Pre-Construction", "Retrofit","Note"],
             rows: [
-              ["Above-grade walls", "R-17.5", "R-32.3","polyiso, fiberglass"],
-              ["Roof", "R-38.0", "R-54.1","interior ccSPF, exterior polyiso"],
+              ["Above-grade walls", "R-18", "R-32","polyiso, fiberglass"],
+              ["Roof", "R-30", "R-53","interior ccSPF, exterior polyiso"],
             ]}}
             >
         <p>The above-grade existng 2x6 wall's siding was removed, and 2" polyiso insulation retrofitted onto its exterior. The existing cavity insulation was retained. New sheathing was installed over the polyiso.</p>
         <p>The existing roofing was removed and 4" polyiso was retrofitted onto the existing roof deck. Then flat 2x4s were screwed through the insulation into the rafters to create a vent channel, then new sheathing and roofing with ridge and soffit vents.</p>
-        <p> 5" of closed cell spray foam (ccSPF) was sprayed into the interior roof rafter cavities. Pre-retrofit, the attic floor was insulated and attic vented. The retrofitted attic was incorporated into the conditioned space.</p> 
+        <p>4" of closed cell spray foam (ccSPF) was sprayed into the roof truss cavities. Pre-retrofit, the attic floor was insulated and attic vented. The retrofitted attic was incorporated into the conditioned space.</p> 
 
       </PageIntro>
 
