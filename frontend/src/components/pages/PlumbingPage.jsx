@@ -10,9 +10,9 @@ export default function PlumbingPage() {
     <div className="max-w-5xl mx-auto gap-y-4">
       <PageIntro
         imgName={pageImage}
-        altImageName="Plumbing"
+        altImageName="Plumbing, Kitchens and Bathrooms"
         capText="heat pump domestic hot water heater"
-        h1Text="Plumbing"
+        h1Text="Plumbing, Kitchens and Bathrooms"
       >
         <p className="text-base text-gray-700">The "lowboy" electric domestic hot water heaters were replaced by heat pump domestic hot water heaters, one per apartment.</p>
         <p className="text-base text-gray-700">A half-bath was added for each apartment. Space from the eliminated common laundry room and a closet from each apartment was repurposed to create the bathrooms.</p>

@@ -109,10 +109,10 @@ export const siteMap = [
         summary: "Fire and sound separation between units",
       },
       {
-        label: "Plumbing",
+        label: "Kitchens and Bathrooms",
         path: "/plumbing",
         type: "page",
-        summary: "Domestic hot water and plumbing upgrades",
+        summary: "Kitchens and Bathrooms, Domestic hot water and plumbing upgrades",
       },
       {
         label: "HVAC",
