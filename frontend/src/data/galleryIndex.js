@@ -170,6 +170,10 @@ export const galleryIndex = {
 
   "plumbing": [
     { id: "img01", imageUrl: "/images/img-01-plumbing.webp", title: "heat pump domestic hot water heater", shortAnnotation: "", fullAnnotation: "heat pump domestic hot water heating in Storage 1. Ruud PROH59, 50 gallon wotj an energy factor of 3.5" },
-
+    { id: "img05", imageUrl: "/images/img-05-plumbing.webp", title: "Apartment 1 Kitchen", shortAnnotation: "", fullAnnotation: "Apartment 1 Kitchen" },
+    { id: "img06", imageUrl: "/images/img-06-plumbing.webp", title: "Apartment 1 Kitchen", shortAnnotation: "", fullAnnotation: "Apartment 1 Kitchen" },
+    { id: "img04", imageUrl: "/images/img-04-plumbing.webp", title: "Apartment 1 Bath 1", shortAnnotation: "", fullAnnotation: "Apartment 1 Bath 1" },
+    { id: "img03", imageUrl: "/images/img-03-plumbing.webp", title: "Apartment 1 Bath 1", shortAnnotation: "", fullAnnotation: "Apartment 1 Bath 1" },
+    { id: "img02", imageUrl: "/images/img-02-plumbing.webp", title: "Apartment 1 Bath 2", shortAnnotation: "", fullAnnotation: "Apartment 1 Bath 2" },
   ],
 };

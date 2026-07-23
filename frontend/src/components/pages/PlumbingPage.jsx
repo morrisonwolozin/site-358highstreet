@@ -14,9 +14,10 @@ export default function PlumbingPage() {
         capText="heat pump domestic hot water heater"
         h1Text="Plumbing"
       >
-        <p className="text-base text-gray-700">
-          [Placeholder — describe domestic hot water and plumbing upgrades here.]
-        </p>
+        <p className="text-base text-gray-700">The "lowboy" electric domestic hot water heaters were replaced by heat pump domestic hot water heaters, one per apartment.</p>
+        <p className="text-base text-gray-700">A half-bath was added for each apartment. Space from the eliminated common laundry room and a closet from each apartment was repurposed to create the bathrooms.</p>
+        <p className="text-base text-gray-700">Stacked washer/ dryer appliances were added for each apartment, replacing the common laundry.</p>
+        <p className="text-base text-gray-700">The kitchen sinks and existing batrooms were completely renovated.</p>
       </PageIntro>
 
       {/* <MarkdownPage content={content} /> */}
