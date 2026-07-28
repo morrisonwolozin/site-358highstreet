@@ -64,7 +64,7 @@ export default function EnergyPage() {
           h1Text = "Energy Performance"
           >
           <p className="text-base py-1 text-gray-700">Whole-building energy use is listed before and after the energy retrofit and electrification. </p>
-          <p className="text-base py-1 text-gray-700">Pre-retrofit baseline is the calendar year 2023; post-retrofit consumption is based on a year of near-full occupancy, July 2025 through June, 2026. The summary below is up to date as of June, 2026.</p>
+          <p className="text-base py-1 text-gray-700">Pre-retrofit baseline is the calendar year 2023; post-retrofit consumption is based on a year of near-full occupancy, July, 2025 through June, 2026. The summary below is up to date as of June, 2026.</p>
 
         </PageIntro>
 

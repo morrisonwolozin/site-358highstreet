@@ -4,7 +4,7 @@ import PageIntro from "../../components/PageIntro";
 // import MarkdownPage from "./MarkdownPage";
 import Gallery from "../../components/Gallery";
 import { galleryIndex } from "../../data/galleryIndex";
-import pageImage from "/images/img-1-HVAC-ERV.webp";
+import pageImage from "/images/image-page-ERV.webp";
 
 export default function VentilationPage() {
   return (
@@ -12,12 +12,12 @@ export default function VentilationPage() {
       <PageIntro
         imgName={pageImage}
         altImageName="Ventilation"
-        capText="Energy recovery ventilation units in each crawlspace."
-        h1Text="Ventilation"
+        capText="Energy recovery ventilators in each crawlspace."
+        h1Text="Ventilation Systems"
       >
-        <p className="text-gray-600">
-          Each unit is served by a dedicated energy recovery ventilator (ERV): a FanTech Atmo 150E for Unit 1 and a Renewaire Premium S for Unit 2. Each system provides continuous balanced ventilation with boost capability, recovering heat and moisture from exhaust air to pre-condition incoming fresh air.
-        </p>
+        <p className="text-base text-gray-700"> Each apartment is served by a dedicated energy recovery ventilator (ERV): a FanTech Atmo 150E for Unit 1 and a Renewaire Premium S for Unit 2. </p>
+        <p className="text-base text-gray-700"> Each system provides continuous balanced ventilation with boost capability, recovering heat and moisture from exhaust air to pre-condition incoming fresh air. </p>
+       
       </PageIntro>
 
       {/* <MarkdownPage content={content} /> */}

@@ -54,7 +54,6 @@ export const galleryIndex = {
   ],
 
   "retrofit-wall-roof": [
-    
     { id: "img001", imageUrl: "/images/img-1-envelope.webp", title: "initial view - northwest", shortAnnotation: "", fullAnnotation: "original envelope wall : 2x6 with fiberglass cavity insulation." },
     { id: "img002", imageUrl: "/images/img-2-envelope.webp", title: "'chain saw retrofit'", shortAnnotation: "", fullAnnotation: "a section of removed eave overhang. the 'chain saw retrofit' removes overhangs flush to the wall to allow a continuous air barrier and insulation between walls and roof." },
     { id: "img003", imageUrl: "/images/img-3-envelope.webp", title: "remove vinyl siding", shortAnnotation: "", fullAnnotation: "vinyl siding and north overhang removed." },
@@ -112,20 +111,20 @@ export const galleryIndex = {
   "mechanical-demolition": [
     { id: "img001", imageUrl: "/images/img-1-HVAC-demo.webp", title: "Original heating system in crawl space", shortAnnotation: "", fullAnnotation: "Original oil-fired, forced hot water, heating system including fuel oil tank, induced draft fan - which discharged at grade-, boiler, piping and domestic hot water heaters. (after new lighing installed!). The electric hot water heaters were 30 gallon capacity." },
     { id: "img002", imageUrl: "/images/img-2-HVAC-demo.webp", title: "original hot water boiler", shortAnnotation: "", fullAnnotation: "The hot water boiler WM-3, a cast iron sectional, 125 MBH input, served both units, one zone each. Each unit had a thermostat that controlled its circulation pump." },
-    { id: "img003", imageUrl: "/images/img-3-HVAC-demo.webp", title: "rigging boiler from crawl space", shortAnnotation: "", fullAnnotation: "The boiler was was rolled accross the crawl space into the bulkhead access and rigged out with a chain hoist from a make shift scaffolded frame." },
-    { id: "img004", imageUrl: "/images/img-4-HVAC-demo.webp", title: "fuel oil tank and domestic hot water heaters removed", shortAnnotation: "", fullAnnotation: "The water heaters: once drained (pumped out) were removed by two guys. The fuel oil tank was a tight fit. A portion of the concrete wall had been chipped off to allow it to be placed into the space, and its removal clearance required the same orientation." },
+    { id: "img003", imageUrl: "/images/img-3-HVAC-demo.webp", title: "draft inducer discharge, fill and vent pipes", shortAnnotation: "", fullAnnotation: "the draft inducer discharge pipe, fill and vent pipes were removed. " },
+    { id: "img004", imageUrl: "/images/img-4-HVAC-demo.webp", title: "fuel oil tank and domestic hot water heaters removed", shortAnnotation: "", fullAnnotation: "The boiler was was rolled accross the crawl space into the bulkhead access and rigged out with a chain hoist from a make shift scaffolded frame. The water heaters: once pumped out were removed by two guys. The fuel oil tank was a tight fit. A portion of the concrete wall had been chipped off to allow it to be placed into the space, and its removal clearance required the same orientation." },
     { id: "img005", imageUrl: "/images/img-5-HVAC-demo.webp", title: "finned tube radiation removal", shortAnnotation: "", fullAnnotation: "The deteriorated finned tube radiation and cover was removed throughout, e.g., the Apartment 1 bathroom." },
     { id: "img006", imageUrl: "/images/img-6-HVAC-demo.webp", title: "removed hydronic tubing and parts", shortAnnotation: "", fullAnnotation: "The distribution tubing that had been in the crawl space and various hydronic parts were salvaged for a reported $260." },
   ],
 
   "erv": [
-    { id: "img001", imageUrl: "/images/img-1-HVAC-ERV.webp", title: "ERV-2 in Crawl Space 2", shortAnnotation: "ERV-2 in Crawl Space 2", fullAnnotation: "ERV-2: Renewaire Premium S with PBT override timer and one PBL" },
-    { id: "img002", imageUrl: "/images/img-2-HVAC-ERV.webp", title: "ERV-1 in Crawl Space 1", shortAnnotation: "ERV-1 in Crawl Space 1", fullAnnotation: "ERV-1: FanTech Atmo 150E with ECO-Touch and two RTS-W boost timer" },
+    { id: "img002", imageUrl: "/images/img-2-HVAC-ERV.webp", title: "ERV-1 in Crawl Space 1", shortAnnotation: "", fullAnnotation: "ERV-1: FanTech Atmo 150E with ECO-Touch and two RTS-W boost timer" },
+    { id: "img001", imageUrl: "/images/img-1-HVAC-ERV.webp", title: "ERV-2 in Crawl Space 2", shortAnnotation: "", fullAnnotation: "ERV-2: Renewaire Premium S with PBT override timer and one PBL" },
     { id: "img003", imageUrl: "/images/img-3-HVAC-ERV.webp", title: "ERV-2 supply and return ductwork", shortAnnotation: "", fullAnnotation: "Supply and return mains are 6 in. diameter; 10 CFM take-offs are 4 in." },
     { id: "img004", imageUrl: "/images/img-4-HVAC-ERV.webp", title: "ERV-2 ducts in Attic 2", shortAnnotation: "", fullAnnotation: "" },
     { id: "img005", imageUrl: "/images/img-5-HVAC-ERV.webp", title: "ERV-2 outside air and exhaust air ducts", shortAnnotation: "", fullAnnotation: "" },
     { id: "img006", imageUrl: "/images/img-6-HVAC-ERV.webp", title: "ERV-1 return duct in Attic-1", shortAnnotation: "", fullAnnotation: "" },
-    { id: "img007", imageUrl: "/images/img-7-HVAC-ERV.webp", title: "ERV-1 outside air intake duct", shortAnnotation: "ERV-1 outside air intake duct", fullAnnotation: "ERV-1 6 in. outside air intake duct; the duct to its left is for future kitchen exhaust make-up air, if needed" },
+    { id: "img007", imageUrl: "/images/img-7-HVAC-ERV.webp", title: "ERV-1 outside air intake duct", shortAnnotation: "", fullAnnotation: "ERV-1 6 in. outside air intake duct; the duct to its left is for future kitchen exhaust make-up air, if needed" },
     { id: "img008", imageUrl: "/images/img-8-HVAC-ERV.webp", title: "ERV-1 outside air and exhaust air exterior vents", shortAnnotation: "", fullAnnotation: "" },
   ],
 
