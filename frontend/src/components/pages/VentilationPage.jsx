@@ -12,11 +12,13 @@ export default function VentilationPage() {
       <PageIntro
         imgName={pageImage}
         altImageName="Ventilation"
-        capText="Energy recovery ventilators in each crawlspace."
-        h1Text="Ventilation Systems"
+        capText="Energy recovery ventilators serve each apartment."
+        h1Text="Energy Recovery Ventilation Systems"
       >
-        <p className="text-base text-gray-700"> Each apartment is served by a dedicated energy recovery ventilator (ERV): a FanTech Atmo 150E for Unit 1 and a Renewaire Premium S for Unit 2. </p>
-        <p className="text-base text-gray-700"> Each system provides continuous balanced ventilation with boost capability, recovering heat and moisture from exhaust air to pre-condition incoming fresh air. </p>
+        <p className="text-base text-gray-700"> Each apartment is served by a dedicated energy recovery ventilator (ERV) with boost switches in bathrooms. </p>
+        <p className="text-base text-gray-700"> Apartment 1 has a FanTech Atmo 150E in its crawlspace. It's controlled with a central interface and wireless bathroom boost switches. </p>
+        <p className="text-base text-gray-700"> Apartment 2 is served by a Renewaire Premium Small ERV located in its crawlspace. It's controlled by wired booster switches.</p>
+        <p className="text-base text-gray-700"> Each system provides continuous, balanced fresh air supply while recovering heat and moisture from the exhaust air. </p>
        
       </PageIntro>
 

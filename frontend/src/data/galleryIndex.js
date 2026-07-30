@@ -129,12 +129,12 @@ export const galleryIndex = {
   ],
 
   "heat-pumps": [
-    { id: "img001", imageUrl: "/images/img-1-HVAC-heat-pumps.webp", title: "heat pump outdoor units", shortAnnotation: "heat pump outdoor units 1", fullAnnotation: "heat pump outdoor units, left is Apartment 2's, right, Unit-1's. Mitsubishi SUZ-KA18NAHZ.TH with surge suppressor disconnects" },
-    { id: "img002", imageUrl: "/images/img-02-HVAC-heat-pumps.webp", title: "heat pump outdoor units", shortAnnotation: "heat pump outdoor units 2", fullAnnotation: "heat pump unit side view showing protective roof overhang." },
-    { id: "img003", imageUrl: "/images/img-3-HVAC-heat-pumps.webp", title: "heat pump indoor unit for Apartment 2", shortAnnotation: "heat pump indoor unit for Apartment 2", fullAnnotation: "in Apartment 2 crawlspace, Mitsubishi SVZ-KP18NA. MHK-2 thermostat and kumo Cloud connectivity." },
-    { id: "img004", imageUrl: "/images/img-4-HVAC-heat-pumps.webp", title: "HPIU-2 discharge ductwork 1", shortAnnotation: "HPIU-2 discharge ductwork 1", fullAnnotation: "in Apartment 2 crawlspace, custom discharge plenum to 10 in. round discharge trunk duct with 6 in. round take-offs" },
-    { id: "img005", imageUrl: "/images/img-5-HVAC-heat-pumps.webp", title: "HPIU-2 discharge ductwork 2", shortAnnotation: "HPIU-2 discharge ductwork 2", fullAnnotation: "" },
-    { id: "img006", imageUrl: "/images/img-6-HVAC-heat-pumps.webp", title: "HPIU-2 discharge ductwork 3", shortAnnotation: "HPIU-2 discharge ductwork 3", fullAnnotation: "in Apartment 2 crawlspace, discharge trunk duct terminates with an 8 in x 6 in x 6 in. tee fitting" },
+    { id: "img001", imageUrl: "/images/img-1-HVAC-heat-pumps.webp", title: "heat pump outdoor units", shortAnnotation: "", fullAnnotation: "heat pump outdoor units, left is Apartment 2's, right, Unit-1's. Mitsubishi SUZ-KA18NAHZ.TH with surge suppressor disconnects" },
+    { id: "img002", imageUrl: "/images/img-02-HVAC-heat-pumps.webp", title: "heat pump outdoor units", shortAnnotation: "", fullAnnotation: "heat pump unit side view showing protective roof overhang." },
+    { id: "img003", imageUrl: "/images/img-3-HVAC-heat-pumps.webp", title: "heat pump indoor unit for Apartment 2", shortAnnotation: "", fullAnnotation: "in Apartment 2 crawlspace, Mitsubishi SVZ-KP18NA. MHK-2 thermostat and kumo Cloud connectivity." },
+    { id: "img004", imageUrl: "/images/img-4-HVAC-heat-pumps.webp", title: "HPIU-2 discharge ductwork 1", shortAnnotation: "", fullAnnotation: "in Apartment 2 crawlspace, custom discharge plenum to 10 in. round discharge trunk duct with 6 in. round take-offs" },
+    { id: "img005", imageUrl: "/images/img-5-HVAC-heat-pumps.webp", title: "HPIU-2 discharge ductwork 2", shortAnnotation: "", fullAnnotation: "" },
+    { id: "img006", imageUrl: "/images/img-6-HVAC-heat-pumps.webp", title: "HPIU-2 discharge ductwork 3", shortAnnotation: "", fullAnnotation: "in Apartment 2 crawlspace, discharge trunk duct terminates with an 8 in x 6 in x 6 in. tee fitting" },
   ],
 
   "range-hood": [
