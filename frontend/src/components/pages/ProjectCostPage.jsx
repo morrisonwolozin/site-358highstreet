@@ -101,7 +101,7 @@ export default function ProjectCostPage() {
           Purchase 
         </p> */}
         <p className="text-base py-1 text-gray-700">
-          Purchase and construction costs for the energy retrofit and electricificaton, organized by building system.
+          This page includes the purchase of the building and construction costs for the energy retrofit and electricification.
         </p>
       </PageIntro>
 
