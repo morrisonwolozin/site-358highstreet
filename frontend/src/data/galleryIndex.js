@@ -118,19 +118,20 @@ export const galleryIndex = {
   ],
 
   "erv": [
-    { id: "img002", imageUrl: "/images/img-2-HVAC-ERV.webp", title: "ERV-1 in Crawl Space 1", shortAnnotation: "", fullAnnotation: "ERV-1: FanTech Atmo 150E with ECO-Touch and two RTS-W boost timer" },
+    { id: "img002", imageUrl: "/images/img-2-HVAC-ERV.webp", title: "ERV-1 in Crawl Space 1", shortAnnotation: "", fullAnnotation: "ERV-1: FanTech Atmo 150E being installed. Its controls include an ECO-Touch and two RTS-W boost timers. " },
     { id: "img001", imageUrl: "/images/img-1-HVAC-ERV.webp", title: "ERV-2 in Crawl Space 2", shortAnnotation: "", fullAnnotation: "ERV-2: Renewaire Premium S with PBT override timer and one PBL" },
     { id: "img003", imageUrl: "/images/img-3-HVAC-ERV.webp", title: "ERV-2 supply and return ductwork", shortAnnotation: "", fullAnnotation: "Supply and return mains are 6 in. diameter; 10 CFM take-offs are 4 in." },
     { id: "img004", imageUrl: "/images/img-4-HVAC-ERV.webp", title: "ERV-2 ducts in Attic 2", shortAnnotation: "", fullAnnotation: "" },
     { id: "img005", imageUrl: "/images/img-5-HVAC-ERV.webp", title: "ERV-2 outside air and exhaust air ducts", shortAnnotation: "", fullAnnotation: "" },
     { id: "img006", imageUrl: "/images/img-6-HVAC-ERV.webp", title: "ERV-1 return duct in Attic-1", shortAnnotation: "", fullAnnotation: "" },
     { id: "img007", imageUrl: "/images/img-7-HVAC-ERV.webp", title: "ERV-1 outside air intake duct", shortAnnotation: "", fullAnnotation: "ERV-1 6 in. outside air intake duct; the duct to its left is for future kitchen exhaust make-up air, if needed" },
-    { id: "img008", imageUrl: "/images/img-8-HVAC-ERV.webp", title: "ERV-1 outside air and exhaust air exterior vents", shortAnnotation: "", fullAnnotation: "" },
+    { id: "img008", imageUrl: "/images/img-8-HVAC-ERV.webp", title: "ERV-1 outside air and exhaust air exterior vents", shortAnnotation: "", fullAnnotation: "ERV-1 outside air and exhaust air exterior vents" },
+    { id: "img009", imageUrl: "/images/img-9-HVAC-ERV.webp", title: "ERV-1 flow rate measurement", shortAnnotation: "", fullAnnotation: "ERV-1 flow rate measurement - a digital manometer is used to measure pressure across the core for each flow stream, intake-supply and return-exhaust. The table label on the unit lists flow rates at pressure differences. At the measured difference of 0.31 in. WG, the intake-supply air flow rate is about 110 CFM." },
   ],
 
   "heat-pumps": [
     { id: "img001", imageUrl: "/images/img-1-HVAC-heat-pumps.webp", title: "heat pump outdoor units", shortAnnotation: "", fullAnnotation: "heat pump outdoor units, left is Apartment 2's, right, Unit-1's. Mitsubishi SUZ-KA18NAHZ.TH with surge suppressor disconnects" },
-    { id: "img002", imageUrl: "/images/img-02-HVAC-heat-pumps.webp", title: "heat pump outdoor units", shortAnnotation: "", fullAnnotation: "heat pump unit side view showing protective roof overhang." },
+    { id: "img002", imageUrl: "/images/img-02-HVAC-heat-pumps.webp",title: "heat pump outdoor units", shortAnnotation: "", fullAnnotation: "heat pump unit side view showing protective roof overhang." },
     { id: "img003", imageUrl: "/images/img-3-HVAC-heat-pumps.webp", title: "heat pump indoor unit for Apartment 2", shortAnnotation: "", fullAnnotation: "in Apartment 2 crawlspace, Mitsubishi SVZ-KP18NA. MHK-2 thermostat and kumo Cloud connectivity." },
     { id: "img004", imageUrl: "/images/img-4-HVAC-heat-pumps.webp", title: "HPIU-2 discharge ductwork 1", shortAnnotation: "", fullAnnotation: "in Apartment 2 crawlspace, custom discharge plenum to 10 in. round discharge trunk duct with 6 in. round take-offs" },
     { id: "img005", imageUrl: "/images/img-5-HVAC-heat-pumps.webp", title: "HPIU-2 discharge ductwork 2", shortAnnotation: "", fullAnnotation: "" },
@@ -138,15 +139,16 @@ export const galleryIndex = {
   ],
 
   "range-hood": [
-    { id: "img001", imageUrl: "/images/img-1-HVAC-kitchen-exhaust.webp", title: "Apartment 1 range hood", shortAnnotation: "Apartment 1 range hood", fullAnnotation: "Range hood: Broan MTT130SS with its fan removed and controls modified to add a variable speed switch, Fantech WC15. See Drawing H-6 for schematic." },
-    { id: "img002", imageUrl: "/images/img-2-HVAC-kitchen-exhaust.webp", title: "Apartment 1 exterior exhaust fan", shortAnnotation: "Apartment 1 exterior exhaust fan", fullAnnotation: "Exhaust fan: Fantech RVF 6XL from the range hood via a 7 in. duct. See drawing H-4, HVAC Attic Plan." },
-    { id: "img003", imageUrl: "/images/img-3-HVAC-kitchen-exhaust.webp", title: "Apartment 2 range hood", shortAnnotation: "Apartment 2 range hood", fullAnnotation: "Range hood: Broan MTT130SS with its fan removed and controls modified to add a variable speed switch, Fantech WC15. See Drawing H-6 for schematic." },
-    { id: "img004", imageUrl: "/images/img-4-HVAC-kitchen-exhaust.webp", title: "Apartment 2 exterior exhaust fan", shortAnnotation: "Apartment 2 exterior exhaust fan and ERV exhaust", fullAnnotation: "Exhaust fan: Fantech RVF 6XL from the range hood via a 7 in. duct. See drawing H-4, HVAC Attic Plan." },
+    { id: "img005", imageUrl: "/images/img-05-HVAC-kitchen-exhaust.webp", title: "System Wiring Schematic", shortAnnotation: "", fullAnnotation: "Range hood: Broan MTT130SS with its fan removed and controls modified to add a variable speed switch, Fantech WC15. The off-the-shelf fan had insuffient power to support a duct system. Also, a remote fan reduces noise. The relay in the schematic allows the hood's switch to be used with the retrofit system. See Drawing H-6 for a larger view of this schematic." },
+    { id: "img001", imageUrl: "/images/img-1-HVAC-kitchen-exhaust.webp", title: "Apartment 1 range hood", shortAnnotation: "", fullAnnotation: "Range hood: Broan MTT130SS with its fan removed and controls modified to add a variable speed switch, Fantech WC15. See Drawing H-6 for schematic." },
+    { id: "img003", imageUrl: "/images/img-3-HVAC-kitchen-exhaust.webp", title: "Apartment 2 range hood", shortAnnotation: "", fullAnnotation: "Range hood: Broan MTT130SS with its fan removed and controls modified to add a variable speed switch, Fantech WC15. See Drawing H-6 for schematic." },
+    { id: "img002", imageUrl: "/images/img-2-HVAC-kitchen-exhaust.webp", title: "Apartment 1 exterior exhaust fan", shortAnnotation: "", fullAnnotation: "Exhaust fan: Fantech RVF 6XL from the range hood via a 7 in. duct. See drawing H-4, HVAC Attic Plan." },
+    { id: "img004", imageUrl: "/images/img-4-HVAC-kitchen-exhaust.webp", title: "Apartment 2 exterior exhaust fan", shortAnnotation: "", fullAnnotation: "Exhaust fan: Fantech RVF 6XL from the range hood via a 7 in. duct. See drawing H-4, HVAC Attic Plan." },
   ],
 
   "ice-dams": [
     { id: "img001", imageUrl: "/images/img-01-ice-dams.webp", title: "northwest valley 1", shortAnnotation: "", fullAnnotation: "Dramatic melting above the northwest valley of the north addition" },
-    { id: "img002", imageUrl: "/images/img-02-ice-dams.webp", title: "northeast valley 1", shortAnnotation: "", fullAnnotation: "similar pattern at the northeast valley of the north addition" },
+    { id: "img002", imageUrl: "/images/img-02-ice-dams.webp", title: "northwast valley 2", shortAnnotation: "", fullAnnotation: "similar pattern at the northeast valley of the north addition" },
     { id: "img003", imageUrl: "/images/img-03-ice-dams.webp", title: "northeast valley 1", shortAnnotation: "", fullAnnotation: "6 in. of ice buildup at eave" },
     { id: "img004", imageUrl: "/images/img-04-ice-dams.webp", title: "northeast valley 2", shortAnnotation: "", fullAnnotation: "6 in. of ice buildup at eave" },
     { id: "img005", imageUrl: "/images/img-05-ice-dams.webp", title: "roof section", shortAnnotation: "", fullAnnotation: "The pre-existing roof was retrofitted to vent above the deck insulation through flat 2x4 'channels' from the soffit to the ridge." },

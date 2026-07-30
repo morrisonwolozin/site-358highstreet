@@ -147,7 +147,7 @@ export const siteMap = [
     ],
   },
   {
-    label: "Ice Dams",
+    label: "Ice Dams! What?",
     path: "/ice-dams",
     type: "page",
     summary: "An unexpected first-winter challenge — diagnosed and resolved",

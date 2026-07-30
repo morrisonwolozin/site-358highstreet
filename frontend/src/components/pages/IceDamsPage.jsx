@@ -6,7 +6,7 @@ import PageIntro from "../../components/PageIntro";
 import Gallery from "../../components/Gallery";
 import { galleryIndex } from "../../data/galleryIndex";
 import narrative from "../../content/ice-dams-narrative.md?raw";
-import imgPageIntro from "/images/img-ice-dams-pageIntro.webp"
+import imgPageIntro from "/images/image-page-ice-dams.webp"
 
 function normalize(pathname) {
   return pathname
@@ -25,20 +25,17 @@ export default function IceDamsPage() {
         imgName={imgPageIntro}
         altImageName="ice dams"
         capText="Ice Dams"
-        h1Text="Ice Dams!"
+        h1Text="Ice Dams! An Unexpected Challenge"
       >
-        <p className="text-gray-600">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae hic consectetur eligendi maiores molestiae numquam error eaque ducimus sapiente quaerat repellat ipsam quis, facere itaque. Quae necessitatibus fugit eveniet commodi.
-        </p>
-        <p className="text-gray-600">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod enim mollitia doloremque a illum deserunt, voluptatum voluptas sunt dolorem nihil illo id iste sed maxime voluptatem exercitationem, ad, porro facilis.
-      
-        </p>
+        <p className="text-base text-gray-700 pb-1">  Ice dams formed in at the eave of the north addition during the first winter. </p>
+        <p className="text-base text-gray-700 pb-1"> But, why?: This roof is designed to vent above the roof deck and cavity insulation. </p>
+        <p className="text-base text-gray-700"> Read below the photo gallery for the details. </p>
       </PageIntro>
+
+      <Gallery images={galleryIndex["ice-dams"]} />
 
       <MarkdownPage content={narrative} />
 
-      <Gallery images={galleryIndex["ice-dams"]} />
     </div>
   );
 }

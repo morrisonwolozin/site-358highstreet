@@ -32,7 +32,7 @@ function IntroTable({ tableData }) {
                   <th
                     key={i}
                     className={`font-medium text-gray-700 ${
-                      i === 0 ? "text-left" : "text-right"
+                      i === 0 ? "text-left" : "text-center"
                     }`}
                   >
                     {h}
@@ -50,7 +50,7 @@ function IntroTable({ tableData }) {
                     className={`py-1 ${
                       ci === 0
                         ? "text-gray-800"
-                        : "text-right text-gray-800"
+                        : "text-center text-gray-800"
                     }`}
                   >
                     {cell}

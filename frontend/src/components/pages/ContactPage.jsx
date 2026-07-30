@@ -57,8 +57,11 @@ export default function ContactPage() {
         />
         <div className="space-y-2">
           <h1 className="text-3xl font-semibold text-gray-900">Contact Me</h1>
-          <p className="text-gray-600">
-            Questions about the project or rental availability? Send a message.
+          <p className="text-base text-gray-700">
+            Comments or questions about the project or rental availability?
+          </p>
+          <p className="text-base text-gray-700">
+            Use the from below to send a message.
           </p>
         </div>
       </div>

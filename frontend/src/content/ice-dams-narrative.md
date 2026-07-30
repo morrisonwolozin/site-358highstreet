@@ -14,6 +14,6 @@ Warm indoor air was rising through those channels and venting to the ridge — h
 
 ## The Fix
 
-The remedy was straightforward once the cause was understood: seal the channels. In both the Unit 1 and Unit 2 addition attics, the intake openings were blocked, transforming the active vent channels into sealed, still-air spaces. This eliminated the warm air pathway to the ridge.
+The remedy was straightforward: seal the channels. In both the Unit 1 and Unit 2 North Addition attics, the vent intake openings were spray foamed, transforming the active vent channels into sealed, still-air spaces. This eliminated the warm air pathway to the ridge.
 
 The result after mitigation is shown in photo 9.
