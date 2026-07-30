@@ -14,7 +14,7 @@ export default function AboutPage() {
         />
         <div className="space-y-4">
           <h1 className="text-3xl font-semibold text-gray-900">Project Particpants</h1>
-          <p className="text-gray-600">
+          <p className="text-base text-gray-700">
             The following companies and individuals participated in the construction of this project.
           </p>
         </div>

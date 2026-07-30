@@ -61,8 +61,12 @@ export default function ContactPage() {
             Comments or questions about the project or rental availability?
           </p>
           <p className="text-base text-gray-700">
-            Use the from below to send a message.
+            Use the form below to send a message. Note that sending via form risks the message being routed to Spam.
           </p>
+          <p className="text-base text-gray-700">
+            For a quicker or more assured response, select the link in the footer and send an email directly.
+          </p>
+
         </div>
       </div>
 

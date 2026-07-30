@@ -43,7 +43,7 @@ export default function HomePage() {
       {/* Introduction */}
       <section className="max-w-5xl mx-auto text-gray-700 leading-relaxed text-base sm:text-lg md:text-xl columns-1 md:columns-2 gap-8 space-y-2">
         <p>
-          <strong>358 High Street</strong> is an all-electric duplex. Its original construction was built in 2004 as conventional rental housing. In 2025, the original stucture was "deep energy retrofited" and two new portions were added. The project's energy improvements included exterior and interior insulation, air-sealing, electrified HVAC, ventilation systems and expanded tenant space. First year energy performance data is available via the button below or the navigation menu.
+          <strong>358 High Street</strong> is a modern, high performance all-electric duplex. Its original construction was in 2004 as conventional rental housing. In 2025, the original stucture was "deep energy retrofited" and two new portions were added. The project's energy improvements included exterior and interior insulation, air-sealing, electrified HVAC, ventilation systems and expanded tenant space. First year energy performance data is available via the button below.
         </p>
         <div className="text-center">
           {rentalAvailable ? (
@@ -64,7 +64,7 @@ export default function HomePage() {
         </div>
 
         <p>
-          Design considerations, construction photo galleries, performance data, and project downloads are accessible from the navigation menu. The retrofit scope included a high-performance thermal envelope, new living spaces, updated finishes, rebuilt party wall sound isolation, and fully electrified heating, cooling, and domestic hot water systems. Solar PV was installed in June, 2026 to offset Unit-2's consumption. Unit-1 is supported by and off-site solar system. Click the button below for details and for the solar system's current status.
+          Design considerations, construction photo galleries, performance data, and project downloads are accessible from the navigation menu. The retrofit scope included a high-performance thermal envelope, new living spaces, updated finishes, rebuilt party wall sound isolation, and fully electrified heating, cooling, and domestic hot water systems. Solar PV was installed in June, 2026 to offset Unit-2's consumption.  Click the button below for construction details and the system's current status.
         </p>
         <div className="text-center">
           <button

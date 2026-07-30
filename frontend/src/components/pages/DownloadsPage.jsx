@@ -54,7 +54,7 @@ export default function DownloadsPage() {
     <div className="max-w-6xl mx-auto space-y-6">
       <div>
         <h1 className="text-3xl font-semibold text-gray-900 mb-2">Downloads</h1>
-        <p className="text-gray-600 text-sm">
+        <p className="text-gray-700 text-sm">
           Project documents available for download. Files open in a new tab.
         </p>
       </div>
