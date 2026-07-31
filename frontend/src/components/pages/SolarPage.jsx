@@ -375,6 +375,7 @@ function HistoricalSection() {
 function SystemSection() {
   const specs = [
     { label: "System capacity",   value: "8.36 kW DC" },
+    { label: "Derate factor",     value: "0.91" },
     { label: "Solar modules",     value: "19 × Silfab SIL-440QD — 440 W each" },
     { label: "Inverter",          value: "SolarEdge Home Hub" },
     { label: "DC optimizers",     value: "19 × SolarEdge U650B" },
@@ -384,12 +385,13 @@ function SystemSection() {
   ];
 
   const layout = [
-    { plane: "Addition roof",        panels: 6 },
-    { plane: "Main roof, west half", panels: 13 },
+    { plane: "Addition roof; array:  tilt, 25 deg.; azimuth, 145 deg.",        panels: 6 },
+    { plane: "Main roof, west half, array:  tilt, 25 deg.; azimuth, 145 deg.", panels: 13 },
   ];
 
   const economics = [
-    { label: "Estimated annual production",  value: "8,100 kWh", note: "Revision Energy projection" },
+    { label: "Estimated annual production",  value: "8,740 kWh", note: "Revision Energy projection" },
+    { label: "Expected annual degradation",  value: "0.5%",     note: "Revision Energy projection" }, 
     { label: "Unit 2 annual consumption",    value: "8,300 kWh", note: "pre-solar baseline" },
     { label: "System turnkey cost",          value: "$26,375",   note: "includes enhanced 10 year warranty" },
     { label: "Federal ITC (Section 48E)",    value: "30%",       note: "commercial investment tax credit" },
@@ -489,10 +491,18 @@ function ApproachSection() {
             Unit 1 — offsite generation source located in Palermo, ME.
           </h3>
           <p>
-            A 14.7 kW rooftop system located in Palermo, Maine, offsets Unit 1's electric consumption with net-metered energy. That system 
+            A 14.7 kW rooftop system located in Palermo, Maine, designed and installed by {" "}
+            <a
+              href="https://revisionenergy.com"
+              target="_blank"
+              rel="noreferrer"
+              className="text-emerald-700 underline underline-offset-2 hover:text-emerald-900"
+            >
+              Revision Energy Inc.
+            </a> in 2019 offsets Unit 1's electric consumption with net-metered energy. That system 
             generates excess production; the surplus is applied to Unit 1's consumption
             through CMP's net metering program. Under normal conditions the offsite array
-            produces sufficient surplus to cover Unit 1's annual consumption. A seasonal
+            produces sufficient surplus to offset Unit 1's annual consumption. A seasonal
             shortfall occured during two winter months during winter, 2026.
           </p>
         </div>
@@ -511,7 +521,7 @@ function ApproachSection() {
             >
               Revision Energy Inc.
             </a>
-            , a Maine-headquartered, employee-owned, solar contractor operating since 2003. The system came online on June 24, 2026 and is interconnected with CMP under net metering. It's intended to offset Unit 2's consumption. A cedar treeline on the south side of the property and a willow tree on the adjacent property were trimmed to improve solar access.
+            , a Maine-headquartered, employee-owned, B-company operating since 2003. The system came online on June 24, 2026 and is interconnected with CMP under net metering. It's intended to offset Unit 2's consumption. A cedar treeline on the south side of the property was trimmed and a willow tree on the adjacent property removed to improve solar access.
           </p>
         </div>
 
