@@ -501,7 +501,7 @@ function ApproachSection() {
               Revision Energy Inc.
             </a> in 2019 offsets Unit 1's electric consumption with net-metered energy. That system 
             generates excess production; the surplus is applied to Unit 1's consumption
-            through CMP's net metering program. Under normal conditions the offsite array
+            through CMP's net metering allocation rules. Under normal conditions the offsite array
             produces sufficient surplus to offset Unit 1's annual consumption. A seasonal
             shortfall occured during two winter months during winter, 2026.
           </p>
