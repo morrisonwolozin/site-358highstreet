@@ -225,7 +225,7 @@ function TodaySection() {
                     tickLine={false}
                     axisLine={false}
                     width={36}
-                    unit=" W"
+                    Apartment=" W"
                   />
                   <Tooltip content={<PowerTooltip />} />
                   <Area
@@ -392,7 +392,7 @@ function SystemSection() {
   const economics = [
     { label: "Estimated annual production",  value: "8,740 kWh", note: "Revision Energy projection" },
     { label: "Expected annual degradation",  value: "0.5%",     note: "Revision Energy projection" }, 
-    { label: "Unit 2 annual consumption",    value: "8,300 kWh", note: "pre-solar baseline" },
+    { label: "Apartment 2 annual consumption",    value: "8,300 kWh", note: "pre-solar baseline" },
     { label: "System turnkey cost",          value: "$26,375",   note: "includes enhanced 10 year warranty" },
     { label: "Federal ITC (Section 48E)",    value: "30%",       note: "commercial investment tax credit" },
     { label: "Domestic content adder",       value: "+10%",      note: "pending qualification" },
@@ -483,12 +483,12 @@ function ApproachSection() {
       <div className="space-y-5 text-sm text-gray-600 leading-relaxed">
 
         <p>
-          Reduced cost electricity for the apartments is supplied from solar photovoltaic (PV) generation from two sources: an offsite PV system that serves Unit 1, and an onsite rooftop system installed in June, 2026, for Unit 2. Tenants are billed for their electric consumption at 50% of CMP's retail energy rate.
+          Reduced cost electricity for the apartments is supplied from solar photovoltaic (PV) generation from two sources: an offsite PV system that serves Apartment 1, and an onsite rooftop system installed in June, 2026, for Apartment 2. Tenants are billed for their electric consumption at 50% of CMP's retail energy rate.
         </p>
 
         <div>
           <h3 className="text-base font-semibold text-gray-700 mb-1">
-            Unit 1 — offsite generation source located in Palermo, ME.
+            Apartment 1 — offsite generation source located in Palermo, ME.
           </h3>
           <p>
             A 14.7 kW rooftop system located in Palermo, Maine, designed and installed by {" "}
@@ -499,17 +499,17 @@ function ApproachSection() {
               className="text-emerald-700 underline underline-offset-2 hover:text-emerald-900"
             >
               Revision Energy Inc.
-            </a> in 2019 offsets Unit 1's electric consumption with net-metered energy. That system 
-            generates excess production; the surplus is applied to Unit 1's consumption
+            </a> in 2019 offsets Apartment 1's electric consumption with net-metered energy. That system 
+            generates excess production; the surplus is applied to Apartment 1's consumption
             through CMP's net metering allocation rules. Under normal conditions the offsite array
-            produces sufficient surplus to offset Unit 1's annual consumption. A seasonal
+            produces sufficient surplus to offset Apartment 1's annual consumption. A seasonal
             shortfall occured during two winter months during winter, 2026.
           </p>
         </div>
 
         <div>
           <h3 className="text-base font-semibold text-gray-700 mb-1">
-            Unit 2 — onsite generation, 358 High Street
+            Apartment 2 — onsite generation, 358 High Street
           </h3>
           <p>
             The 8.36 kW rooftop system was designed and installed by{" "}
@@ -521,7 +521,7 @@ function ApproachSection() {
             >
               Revision Energy Inc.
             </a>
-            , a Maine-headquartered, employee-owned, B-company operating since 2003. The system came online on June 24, 2026 and is interconnected with CMP under net metering. It's intended to offset Unit 2's consumption. A cedar treeline on the south side of the property was trimmed and a willow tree on the adjacent property removed to improve solar access.
+            , a Maine-headquartered, employee-owned, B-company operating since 2003. The system came online on June 24, 2026 and is interconnected with CMP under net metering. It's intended to offset Apartment 2's consumption. A cedar treeline on the south side of the property was trimmed and a willow tree on the adjacent property removed to improve solar access.
           </p>
         </div>
 
