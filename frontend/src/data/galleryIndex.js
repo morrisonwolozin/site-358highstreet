@@ -68,8 +68,8 @@ export const galleryIndex = {
     { id: "img012", imageUrl: "/images/img-12-envelope.webp", title: "wall insulation and sheathing", shortAnnotation: "", fullAnnotation: "install eave and rake facia (Azek). the shed was later relocated on the site." },
     { id: "img013", imageUrl: "/images/img-13-envelope.webp", title: "section of exterior wall insulation and sheathing", shortAnnotation: "", fullAnnotation: "the exterior wall insulation (2 in. polyiso) was installed then covered with sheathing." },
     { id: "img014", imageUrl: "/images/img-01-attic.webp", title: "attic before roof cavity and end wall ccSPF", shortAnnotation: "", fullAnnotation: "" },
-    { id: "img015", imageUrl: "/images/img-02-attic.webp", title: "5\" ccSPF added in roof cavities", shortAnnotation: "", fullAnnotation: "" },
-    { id: "img016", imageUrl: "/images/img-03-attic.webp", title: "5\" ccSPF added in cavities", shortAnnotation: "", fullAnnotation: "" },
+    { id: "img015", imageUrl: "/images/img-02-attic.webp", title: "4\" ccSPF added in roof cavities", shortAnnotation: "", fullAnnotation: "" },
+    { id: "img016", imageUrl: "/images/img-03-attic.webp", title: "4\" ccSPF added in cavities", shortAnnotation: "", fullAnnotation: "" },
   ],
 
   "windows": [
