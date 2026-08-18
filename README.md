@@ -1,1 +1,1 @@
-This site, https://358highstreet.com, describes the "deep energy retrofit" / renovation of a residential duplex in Belfast, ME. Check out the solar PV page to see what's generating.
+This SPA site, https://358highstreet.com, describes the "deep energy retrofit" / renovation of a residential duplex in Belfast, ME. Check out the solar PV page to see what's generating.
