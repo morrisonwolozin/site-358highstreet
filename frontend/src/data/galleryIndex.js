@@ -58,9 +58,9 @@ export const galleryIndex = {
     { id: "img002", imageUrl: "/images/img-2-envelope.webp", title: "'chain saw retrofit'", shortAnnotation: "", fullAnnotation: "a section of removed eave overhang. the 'chain saw retrofit' removes overhangs flush to the wall to allow a continuous air barrier and insulation between walls and roof." },
     { id: "img003", imageUrl: "/images/img-3-envelope.webp", title: "remove vinyl siding", shortAnnotation: "", fullAnnotation: "vinyl siding and north overhang removed." },
     { id: "img004", imageUrl: "/images/img-4-envelope.webp", title: "roofing removal", shortAnnotation: "", fullAnnotation: "siding and roofing were removed exposing the existing sheathing; then underlayment (Roof Guard II) was added for water protection and air sealing of the wall-roof joint." },
-    { id: "img005", imageUrl: "/images/img-5-envelope.webp", title: "insulation", shortAnnotation: "insulation", fullAnnotation: "two layers of 2 in. polyiso insulation (Tuff R Enerfoil, R=6.5 per inch), were placed onto the roof deck, staggering the joints" },
-    { id: "img006", imageUrl: "/images/img-6-envelope.webp", title: "flat 2x4s over roof insulation", shortAnnotation: "", fullAnnotation: "flat 2x4s were screwed through the insulation (8 in. screws, Simpson SDWS) into the roof truss to secure the insulation and create an air vent path from eave to ridge. The 2x4s extend past the roof edge and will support a new overhang." },
-    { id: "img007", imageUrl: "/images/img-7-envelope.webp", title: "flat 2x4s", shortAnnotation: "", fullAnnotation: "the 2x4s were placed 16\" on center." },
+    { id: "img005", imageUrl: "/images/img-5-envelope.webp", title: "exterior insulation", shortAnnotation: "", fullAnnotation: "two layers of 2 in. polyiso insulation (Tuff R Enerfoil, R=6.5 per inch), were placed onto the roof deck, staggering the joints" },
+    { id: "img006", imageUrl: "/images/img-6-envelope.webp", title: "flat 2x4s over roof deck insulation", shortAnnotation: "", fullAnnotation: "flat 2x4s were screwed through the insulation (8 in. screws, Simpson SDWS) into the roof truss to secure the insulation and create an air vent path from eave to ridge. The 2x4s extend past the roof edge and will support a new overhang." },
+    { id: "img007", imageUrl: "/images/img-7-envelope.webp", title: "flat 2x4s create a vent path from eave to ridge", shortAnnotation: "", fullAnnotation: "the 2x4s create vent path from eave to ridge and were placed 16\" on center." },
     { id: "img008", imageUrl: "/images/img-8-envelope.webp", title: "roof decking onto 2x4s", shortAnnotation: "", fullAnnotation: "new roof decking (5/8 in. Advantech) were placed onto the flat 2x4s." },
     { id: "img009", imageUrl: "/images/img-9-envelope.webp", title: "deck completed", shortAnnotation: "", fullAnnotation: "roof decking completed." },
     { id: "img010", imageUrl: "/images/img-10-envelope.webp", title: "new eave overhangs", shortAnnotation: "", fullAnnotation: "new eave and rage overhangs." },
@@ -68,8 +68,8 @@ export const galleryIndex = {
     { id: "img012", imageUrl: "/images/img-12-envelope.webp", title: "wall insulation and sheathing", shortAnnotation: "", fullAnnotation: "install eave and rake facia (Azek). the shed was later relocated on the site." },
     { id: "img013", imageUrl: "/images/img-13-envelope.webp", title: "section of exterior wall insulation and sheathing", shortAnnotation: "", fullAnnotation: "the exterior wall insulation (2 in. polyiso) was installed then covered with sheathing." },
     { id: "img014", imageUrl: "/images/img-01-attic.webp", title: "attic before roof cavity and end wall ccSPF", shortAnnotation: "", fullAnnotation: "" },
-    { id: "img015", imageUrl: "/images/img-02-attic.webp", title: "5\" ccSPF added in roof cavities", shortAnnotation: "", fullAnnotation: "" },
-    { id: "img016", imageUrl: "/images/img-03-attic.webp", title: "5\" ccSPF added in cavities", shortAnnotation: "", fullAnnotation: "" },
+    { id: "img015", imageUrl: "/images/img-02-attic.webp", title: "4\" ccSPF added in roof cavities", shortAnnotation: "", fullAnnotation: "" },
+    { id: "img016", imageUrl: "/images/img-03-attic.webp", title: "4\" ccSPF added in cavities", shortAnnotation: "", fullAnnotation: "" },
   ],
 
   "windows": [
