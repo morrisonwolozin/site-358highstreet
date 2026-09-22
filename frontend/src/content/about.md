@@ -17,7 +17,7 @@
 | Macleod's Furniture Inc     |                       | Appliances                                   | Belfast, ME    | [macleodsfurniture.com](https://www.macleodsfurniture.com)                         |
 | GoodDeeds                   | Clark Staples, P.E.   | Surveying                                    | Belfast, ME    | [wemapit.com](https://www.wemapit.com/)                                            |
 | Maine Blower Door Testing   | Svea Tullberg         | Air Leakage Testing                          | Belfast, ME    | [maineblowerdoortest.com](https://maineblowerdoortest.com/)                        |
-| Niess Tile                  | Jeff Niess            | Bathroom Tile                                | Dixmont, ME    | —                                                                                  |
+| Niess Tile                  | Jeff Niess            | Bathroom Tile                                | Dixmont, ME    | [niesstile.com]—                                                                                  |
 | Manson Wall                 | Donny Manson          | Drywall                                      | Washington, ME | —                                                                                  |
 | Rainwater Solutions         | Chris Maguire         | Roof Gutters                                 | Orland, ME     | [rwsgutters.com](https://rwsgutters.com/)                                          |
 | Breakwater Inspections      | John Howard           | Radon Testing                                | Rockland, ME   | [breakwaterinspections.com](https://breakwaterinspections.com/)                    |
