@@ -17,9 +17,10 @@
 | Macleod's Furniture Inc     |                       | Appliances                                   | Belfast, ME    | [macleodsfurniture.com](https://www.macleodsfurniture.com)                         |
 | GoodDeeds                   | Clark Staples, P.E.   | Surveying                                    | Belfast, ME    | [wemapit.com](https://www.wemapit.com/)                                            |
 | Maine Blower Door Testing   | Svea Tullberg         | Air Leakage Testing                          | Belfast, ME    | [maineblowerdoortest.com](https://maineblowerdoortest.com/)                        |
-| Niess Tile                  | Jeff Niess            | Bathroom Tile                                | Dixmont, ME    | [niesstile.com]—                                                                                  |
+| Niess Tile                  | Jeff Niess            | Bathroom Tile                                | Dixmont, ME    | [niesstile.com](https://niesstile.com/)                                                                                   |
 | Manson Wall                 | Donny Manson          | Drywall                                      | Washington, ME | —                                                                                  |
 | Rainwater Solutions         | Chris Maguire         | Roof Gutters                                 | Orland, ME     | [rwsgutters.com](https://rwsgutters.com/)                                          |
 | Breakwater Inspections      | John Howard           | Radon Testing                                | Rockland, ME   | [breakwaterinspections.com](https://breakwaterinspections.com/)                    |
 | Maine Raised Gardens        | Steve Rodrique        | Raised Garden Beds                           | Northport, ME  | [maineraisedgardens.com](https://www.maineraisedgardens.com/)                      |
 | Revision Energy Inc         | Will Field            | Solar PV system                              | Liberty, ME  | [revisionenergy.com](https://www.revisionenergy.com/)                                |
+| Green's Tree Service        | Matt Green           | Tree Trimming and Removal                    | Lincolnville, ME  | -                            |
