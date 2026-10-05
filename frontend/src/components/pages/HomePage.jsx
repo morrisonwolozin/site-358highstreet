@@ -6,11 +6,11 @@ const seasonalHero = () => {
   const month = new Date().getMonth(); // 0 = January
   if (month <= 1 || month === 11) return { src: "images/img-hero-winter.webp", label: "Winter" };
   if (month <= 4)                 return { src: "images/img-hero-spring.webp", label: "Late Spring, 2026" };
-  if (month < 6)                 return { src: "images/img-hero-spring-2.webp", label: "Late Spring, 2026" };
+  if (month < 6)                  return { src: "images/img-hero-spring-2.webp", label: "Late Spring, 2026" };
   if (month === 6)                return { src: "images/img-hero-summer-1.webp", label: "Early Summer, 2026" };
-  if (month === 7)                 return { src: "images/img-hero-summer-1.webp",   label:"Early Summer, 2026"};
-  if (month === 8)                 return { src: "images/img-hero-summer-1.webp",   label:"Summer, 2026"};
-  if (month <= 11)                          return { src: "images/img-hero-winter.webp", label: "Winter" };
+  if (month === 7)                return { src: "images/img-hero-summer-1.webp",   label:"Early Summer, 2026"};
+  if (month <= 10)                return { src: "images/img-hero-summer-1.webp",   label:"Summer, 2026"};
+  if (month <= 11)                return { src: "images/img-hero-winter.webp", label: "Winter" };
 };
 
 export default function HomePage() {
