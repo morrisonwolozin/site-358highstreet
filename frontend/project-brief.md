@@ -3,7 +3,6 @@
 \_Last updated: 2026-04-23, 2026-09-17
 
 ---
-
 ## Site Purpose
 
 A multi-audience website for a rented duplex construction/retrofit project:
@@ -17,7 +16,6 @@ Live site: https://358highstreet.com
 ---
 
 ## Tech Stack
-
 ### Frontend
 
 - React + React Router (createBrowserRouter)
@@ -31,7 +29,6 @@ Live site: https://358highstreet.com
 - MongoDB (time-series sensor readings)
 - Hosted on DigitalOcean droplet (Apache2 as reverse proxy)
 - Reference pattern: brenda-henriques.com Express server on same droplet
-
 ---
 
 ## Infrastructure
@@ -203,8 +200,7 @@ AirThings API → node-cron poller (every 15-30 min) → MongoDB → Express /ap
 
 ---
 
-## Viking Lumber Invoice Extraction (in progress)
-
+## Viking Lumber Invoice Extraction
 Extracting material cost data from Viking Lumber PDF invoices (Northridge Construction account).
 CSV format: `InvoiceNo, InvoiceDate, SalesOrder, YourRef, ProductCode, Description, Qty, Unit, UnitPrice, LineTotal, TaxAmount, InvoiceTotal`
 
@@ -240,7 +236,6 @@ CSV format: `InvoiceNo, InvoiceDate, SalesOrder, YourRef, ProductCode, Descripti
 14. Monitoring & Controls
 
 Spreadsheet fields: System, Component (physical location), Element, Contractor, Unit (Building/Unit1/Unit2/Common), Type (Material/Labor/Other), Amount, Notes
-
 ---
 
 ## Current Tasks (9-17-2026)
