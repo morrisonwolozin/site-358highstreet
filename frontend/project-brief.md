@@ -15,6 +15,26 @@ Live site: https://358highstreet.com
 
 ---
 
+
+## Git Workflow and Build
+0. the 
+1. edit code locally and test using `npm run dev`
+2. SSH into the droplet's 358highstreet.com-src folder and `git pull`
+3. `npm run build` to build on the droplet
+4. the dist folder is linked to the 358highstreet.com/html
+5. check that live site is updated
+
+```bash
+# Start session:
+git pull
+
+# End session:
+git add .
+git commit -m "description"
+git push
+```
+
+
 ## Tech Stack
 ### Frontend
 
@@ -200,22 +220,6 @@ AirThings API → node-cron poller (every 15-30 min) → MongoDB → Express /ap
 
 ---
 
-## Viking Lumber Invoice Extraction
-Extracting material cost data from Viking Lumber PDF invoices (Northridge Construction account).
-CSV format: `InvoiceNo, InvoiceDate, SalesOrder, YourRef, ProductCode, Description, Qty, Unit, UnitPrice, LineTotal, TaxAmount, InvoiceTotal`
-
-| Month            | Status      | Invoices | Notes                                       |
-| ---------------- | ----------- | -------- | ------------------------------------------- |
-| April 2024       | ✅ Complete | 2        |                                             |
-| May 2024         | ✅ Complete | 29       | Windows invoice 5465639 spans 2 pages       |
-| June 2024        | ✅ Complete | 8        | "bob" YourRef = owner pickup                |
-| July 2024        | ✅ Complete | 24       | ZIP/Advantech swap noted on 5550427/5551141 |
-| August 2024      | ✅ Complete | 34       | LP SmartSide siding, Jeld-Wen doors         |
-| October 2024     | ⬜ Next     | —        | No September invoices                       |
-| Remaining months | ⬜ Pending  | —        |                                             |
-
-**Credit notes** — handle manually outside CSV extraction.
-
 ### Cost taxonomy (for projectCostData.js pivot table)
 
 14 top-level Systems:
@@ -238,20 +242,9 @@ CSV format: `InvoiceNo, InvoiceDate, SalesOrder, YourRef, ProductCode, Descripti
 Spreadsheet fields: System, Component (physical location), Element, Contractor, Unit (Building/Unit1/Unit2/Common), Type (Material/Labor/Other), Amount, Notes
 ---
 
-## Current Tasks (9-17-2026)
+## Current Tasks (9-17-2026, 10-5/2026)
 
 - [ ] Write About page narrative section
 - [ ] Begin backend development (AirThings poller → MongoDB)
 - [ ] Tenant dashboard (RestrictedPage backend)
 
-## Git Workflow
-
-```bash
-# Start session:
-git pull
-
-# End session:
-git add .
-git commit -m "description"
-git push
-```
