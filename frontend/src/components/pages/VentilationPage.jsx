@@ -12,7 +12,7 @@ export default function VentilationPage() {
       <PageIntro
         imgName={pageImage}
         altImageName="Ventilation"
-        capText="Energy recovery ventilators serve each apartment."
+        capText="An energy recovery ventilator serves each apartment."
         h1Text="Energy Recovery Ventilation Systems"
       >
         <p className="text-base text-gray-700"> Each apartment is served by a dedicated energy recovery ventilator (ERV) with boost switches in bathrooms. </p>
