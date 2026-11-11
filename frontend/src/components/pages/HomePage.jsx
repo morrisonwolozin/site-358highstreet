@@ -47,8 +47,19 @@ export default function HomePage() {
       {/* Introduction */}
       <section className="max-w-5xl mx-auto text-gray-700 leading-relaxed text-base sm:text-lg md:text-xl columns-1 md:columns-2 gap-8 space-y-2">
         <p>
-          <strong>358 High Street</strong> is a modern, high performance all-electric duplex. Its original construction was in 2004 as conventional rental housing. In 2025, the original stucture was "deep energy retrofited" and two new portions were added. The project's energy improvements included exterior and interior insulation, air-sealing, electrified HVAC, ventilation systems and expanded tenant space. First year energy performance data is available via the button below.
-        </p>
+          <strong>358 High Street</strong> is a high-performance, all-electric duplex. The original structure underwent a deep energy retrofit, and two
+                  new additions were built in 2025. The energy improvements included exterior and interior insulation, air sealing, electrified HVAC, ventilation systems, and
+                  expanded tenant space. First-year energy performance data is available via the button below. The project won the{" "}
+                  <a
+                    href="https://greenmainehomes.com/2026-awards-residential-duplex-energy-retrofit"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-green-600 hover:text-green-800"
+                  >
+                    2026 Merit Award for Addition, Remodel or Adaptive Reuse
+                  </a>{" "}
+                  from Green &amp; Healthy Maine Homes.
+                  </p>
         <div className="text-center">
           {rentalAvailable ? (
             <button
