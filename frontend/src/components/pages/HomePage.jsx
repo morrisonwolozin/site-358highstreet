@@ -39,7 +39,7 @@ export default function HomePage() {
             358 High Street
           </h1>
           <p className="text-base sm:text-lg text-gray-600">
-            Belfast, Maine — {hero.label}
+            {hero.label}
           </p>
         </div>
       </div>
